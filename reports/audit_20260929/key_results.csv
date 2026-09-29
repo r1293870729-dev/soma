@@ -1,0 +1,5 @@
+dataset,n_runs,legacy_psi_auroc,mse_auroc,negative_entropy_auroc_posthoc,legacy_psi_average_precision,mse_average_precision,legacy_label_prevalence,inference_scope
+controlled,3,0.824971,0.882382,0.838351,0.404668,0.429604,0.138614,descriptive-only
+dsprites,9,0.724442,0.899086,0.835067,0.263502,0.440914,0.138614,descriptive-only
+shapes3d,9,0.646567,0.878368,0.643161,0.265760,0.464858,0.138614,descriptive-only
+cifar,9,0.884470,0.362241,0.857771,0.551110,0.104097,0.138614,descriptive-only

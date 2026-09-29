@@ -1,0 +1,10 @@
+# Preserve exact exported bytes across platforms; diff remains automatic.
+* -text
+archive/uploads/** -text
+legacy/** -text
+experiments/** -text
+results/imported/** -text
+*.pdf binary
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+results/imported/interventions/**/*.csv filter=lfs diff=lfs merge=lfs -text

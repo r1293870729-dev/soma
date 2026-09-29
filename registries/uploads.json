@@ -1,0 +1,8 @@
+[
+  {"original_name":"soma.pdf","bytes":450605,"sha256":"847be564ec368b4d9154e61039d796036d03eb0f24cac9c7ab393151dc4123ef","repository_path":"archive/uploads/soma.pdf","remote_status":"pending-local-lfs-transfer","license_status":"author-confirmation-needed"},
+  {"original_name":"Nature_SOMA(1).pdf","bytes":648252,"sha256":"a8193904b805b5d6e36be6f9095367a68287929325762c1be74096d06064da8b","repository_path":"archive/uploads/Nature_SOMA(1).pdf","remote_status":"pending-local-lfs-transfer","license_status":"author-confirmation-needed"},
+  {"original_name":"experiment_manual.pdf","bytes":456957,"sha256":"c1fe3dcac386dfe993a88f7f76bfc9cdb9280297a0ee5e5d5b7d28b07497654c","repository_path":"archive/uploads/experiment_manual.pdf","remote_status":"pending-local-lfs-transfer","license_status":"author-confirmation-needed"},
+  {"original_name":"soma_psi_code_handoff_20260903(1)(1).zip","bytes":17075245,"sha256":"e90378a9b689149f90860a5047fcffdf11454ca60c2f9b7de95ea10f5db20423","repository_path":"archive/uploads/soma_psi_code_handoff_20260903(1)(1).zip","remote_status":"pending-local-lfs-transfer","license_status":"author-confirmation-needed"},
+  {"original_name":"四个数据集检测器效果.zip","bytes":166770241,"sha256":"32f775814205e9289fa77838282f02e9899fb300d08b719c3b8a5f3ceb29619a","repository_path":"archive/uploads/四个数据集检测器效果.zip","remote_status":"pending-local-lfs-transfer","license_status":"author-confirmation-needed"},
+  {"original_name":"psi_xib_unified_20260824_spectral.zip","bytes":25316,"sha256":"52c9e93b7f103e774efa6adfdbf675921ccedceee30a7c98bbd3ef4366b46d63","repository_path":"archive/uploads/psi_xib_unified_20260824_spectral.zip","remote_status":"pending-local-lfs-transfer","license_status":"author-confirmation-needed"}
+]

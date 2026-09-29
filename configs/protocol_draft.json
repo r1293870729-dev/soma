@@ -1,0 +1,16 @@
+{
+  "protocol_version": "manual-v0.1-alignment-draft-20260929",
+  "status": "draft",
+  "final_test_unlocked": false,
+  "target_question": null,
+  "scope_decisions_approved": false,
+  "approved_by": null,
+  "frozen_at": null,
+  "data_role_manifest_sha256": null,
+  "code_commit": null,
+  "environment_sha256": null,
+  "signal": {"definition":"fixed-white-empirical-edge-mass","W":null,"alpha":null,"beta":null,"energy_floor":null,"edge_windows":null,"numeric_tolerance":null,"readout_sha256":null},
+  "statistics": {"highest_unit_definition":null,"planned_highest_units":null,"nested_seeds":null,"stopping_rule":null,"failure_rerun_policy":null,"endpoints":null,"comparisons":null,"families":null,"bootstrap_draws":null,"sign_flip_draws":null,"equivalence_margin":null},
+  "gates": {"A0":"blocked","A":"blocked","B":"blocked"},
+  "author_inputs": ["F01","F02","F03","F04","F05","F06","F07","F08","F09","F10","F11","F12","F13","F14","F15"]
+}
