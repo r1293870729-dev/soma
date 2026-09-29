@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+runs/
+!results/imported/**
+results/generated/
+reports/local/
+data/raw/
+data/cache/
+publish_worktree/

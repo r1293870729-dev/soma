@@ -1,0 +1,15 @@
+{
+  "scope":"local engineering and descriptive audit, not accepted scientific results",
+  "cpu_unit_tests":31,
+  "cpu_unit_tests_passed":31,
+  "gpu_tests":"not-measured",
+  "legacy_smoke_processes":2,
+  "legacy_smoke_steps_per_process":36,
+  "legacy_train_histories_byte_identical":true,
+  "legacy_history_sha256":"67ebfc3c4ba9e9a2fcb5ec605ad5814aae5604faa7c8e28ab927c9d755a8faa5",
+  "descriptive_recomputation_invocations":2,
+  "descriptive_outputs_byte_identical":true,
+  "draft_preflight_expected_exit":2,
+  "full_training_transaction_validation":"not-performed",
+  "scientific_tasks_marked_accepted":0
+}
