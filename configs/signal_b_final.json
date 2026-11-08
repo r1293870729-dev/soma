@@ -1,0 +1,33 @@
+{
+  "protocol_version": "SOMA-B-main-v1-20261024",
+  "selection": {
+    "status": "author-selected",
+    "source": "User message: 使用b信号作为最终的信号",
+    "selected_at": "2026-10-24T14:18:50Z"
+  },
+  "signal": {
+    "signal_id": "B_mass_fixed_white_empirical_v1",
+    "family": "B",
+    "readout": "mass",
+    "reference_policy": "fixed",
+    "edge_policy": "empirical_order_statistic",
+    "normalize_by_mode_count": false,
+    "backpropagate_signal": false
+  },
+  "numeric_parameters": {
+    "window": null,
+    "alpha": null,
+    "beta": null,
+    "energy_floor": null,
+    "negative_tolerance": null,
+    "diagnostic_stride": null,
+    "edge_windows": null,
+    "readout_id": null
+  },
+  "main_trigger": "B_mass",
+  "control_only": ["A_edge","C_gap","entropy","lambda_max","fixed","magnitude","random","oracle"],
+  "gates": {"A0":"not-accepted","A":"not-accepted","B":"not-accepted"},
+  "statistics": {"highest_unit_plan":null,"endpoints":null,"stopping_rule":null},
+  "formal_test_unlocked": false,
+  "note": "B family is settled. Remaining numeric/data/statistical fields are not implicitly approved."
+}
