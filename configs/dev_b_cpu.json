@@ -1,0 +1,7 @@
+{
+  "status":"development-only","formal_test_unlocked":false,
+  "signal":{"signal_id":"B_mass_fixed_white_empirical_v1","family":"B","readout":"mass","reference_policy":"fixed","edge_policy":"empirical_order_statistic","normalize_by_mode_count":false,"backpropagate_signal":false},
+  "numeric_parameters":{"window":64,"alpha":0.1,"beta":0.05,"energy_floor":1e-12,"negative_tolerance":1e-10,"backend":"covariance"},
+  "dimension":8,"latent_dimension":2,"seed":20261024,"warmup_steps":120,"stage_steps":[200,200,200],"batch_size":32,"white_samples":1024,"edge_windows":24,"learning_rate":0.001,"beta_kl":0.001,
+  "note":"Engineering fixture, not an author-frozen generator or Q1 outcome experiment."
+}
