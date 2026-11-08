@@ -1,12 +1,14 @@
 # SOMA 上传清单（2026-11-08）
 
-本目录记录本轮整理资料。注意：本轮通过 GitHub API 创建的是 UTF-8 文档；PDF/ZIP/DOCX 原始二进制没有被伪装成已上传。reports/source_reports 下的 .txt 是从用户上传 PDF 提取的可检索文本副本，不是原 PDF。
+本目录记录本轮整理资料。注意：本轮通过 GitHub API 创建的是 UTF-8 文档；PDF/ZIP/DOCX 原始二进制没有被伪装成已上传。reports/source_reports 下的 .txt 是从用户上传 PDF 提取并整理的可检索文本摘要，不是原 PDF 完整二进制。
 
 ## 本轮实际写入仓库
 - docs/review_20261108/SOMA_实验手册逐项核对与通俗待办清单.md：手册逐项核对、历史数据矛盾、通俗解释和下一步顺序。
-- docs/review_20261108/README.md：入口。
+- docs/review_20261108/FINAL_B_SIGNAL_SPEC_20261024.md：最终 B/mass 信号定义与历史版本边界。
+- docs/review_20261108/TASK_STATUS_B_FINAL_20261024.md：2026-10-24 最新 38 项任务状态快照。
+- docs/review_20261108/README.md：目录入口。
 - docs/review_20261108/UPLOAD_MANIFEST.md：本清单。
-- reports/source_reports/ 下的四份历史报告文本摘要。
+- reports/source_reports/ 下的五份历史报告文本摘要：Xi-B、detector comparison、hyperparameter validation、I1-I4、controlled SOMA pilot。
 
 ## 当前对话中存在、但尚未上传为原始二进制的文件
 - experiment_manual.pdf（手册 v0.1）
