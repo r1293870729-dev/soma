@@ -24,3 +24,17 @@
 Q1固定拓扑研究诊断增量；Q2只更换第二结构门研究恢复负担；Q3在CLEAR/CLOC独立主动流审计长期表现、保留与资源。未经作者冻结的AUTHOR INPUT、最高单位数量、终点、阈值、基线和停止规则不得自动补值。工程测试通过不等于论文任务accepted。
 
 仓库保持私有。大型原始包需在许可检查后通过Git LFS或外部数据存储迁移；本轮没有声称原始PDF、DOCX和大型ZIP已作为二进制文件上传。
+
+
+## Final B code (2026-10-24)
+
+The browsable final-B reference implementation is under `src/soma_b/`:
+- `src/soma_b/signal.py`
+- `src/soma_b/replay.py`
+- `scripts/run_b_development.py`
+- `scripts/check_b_contract.py`
+- `tests/test_final_b.py`
+- `configs/signal_b_final.json`
+- `configs/dev_b_cpu.json`
+
+See [B-final code notes](docs/B_FINAL_CODE_README.md) and [code upload status](docs/CODE_UPLOAD_STATUS_20261108.md). Historical A/B/C, I1-I4 and active SOMA source snapshots are catalogued in the code upload status; they have not yet been migrated as browsable source files into this repository.
