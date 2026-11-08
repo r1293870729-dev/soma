@@ -1,0 +1,5 @@
+Xi-B 残差谱信号实验报告（2026-08-26）
+报告汇总 step 3000 的 Xi-B/Psi、MSE、KL、spike_rank 和 probe。
+controlled z=4/8/16/32：Xi-B约18.4/19.3/18.8/18.0；dSprites z=8/16约0、z=32约0.00753；CIFAR z=16/32/64约0.0706/0.0597/0.058；3D Shapes z=16/32/64约5.06/1.92/1.38。3D Shapes z=16 KL约2.72e4，报告提醒训练不稳定。
+关键限制：这些是信号幅度，不是 AUROC；controlled 使用 d=64、W=1024、经验 tau_null，其余组使用 d=256、W=512、MP edge，绝对数值不可跨组直接排名。
+数量矛盾：表格按每配置3 seeds推算为39个配置-seed组合；2026-09-29审计资产只登记30个run且controlled只有z=4三个run。必须用原始manifest、seed、DONE、hash逐一核对。
