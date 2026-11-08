@@ -1,0 +1,3 @@
+受控流形 SOMA Psi 触发协议报告
+比较Psi-trigger、Fixed、Random各3 seeds。审计汇总：Signal/Psi final eval MSE 0.007024、旧TAEF 0.289683；Fixed 0.011446、0.055556；Random 0.009899、0.150794。Signal在该pilot有积极描述性趋势。
+限制：旧MP/EMA信号不是最终B；未来候选池访问时序有漏洞；缺magnitude/oracle；独立audit/shadow和null日志不完整；旧RRB是MSE超额面积，不是手册定义的恢复时长；旧TAEF贪心匹配不保证最大匹配；旧BWT为MSE差而非probe准确率BWT。必须修复后用新B从头重跑。
