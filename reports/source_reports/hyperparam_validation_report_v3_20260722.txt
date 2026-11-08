@@ -1,0 +1,4 @@
+Hyperparameter Validation Report v3（2026-07-21至22）
+记录96/96 runs完成。扫描batch=128；窗口W=128/256/512/1024；EMA gamma=0.05/0.025/0.0125/0.00625；latent z=1/2/4/8/16/32；edge(A)/mass(B)；loss_only/loss_plus_xi。
+报告观察：x=4（W=512，gamma=0.0125）在probe相近时peak Xi较高；z=4的probe约0.98；mass峰值高于edge。
+限制：这是旧EMA测量链的开发期网格，包含loss_plus_xi；与最终固定white+独立经验edge、Q1信号不反馈训练的协议不一致。96/96完成不等于新版B校准完成，参数需在独立角色上重新冻结。
