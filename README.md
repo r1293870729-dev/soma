@@ -38,3 +38,11 @@ The browsable final-B reference implementation is under `src/soma_b/`:
 - `configs/dev_b_cpu.json`
 
 See [B-final code notes](docs/B_FINAL_CODE_README.md) and [code upload status](docs/CODE_UPLOAD_STATUS_20261108.md). Historical A/B/C, I1-I4 and active SOMA source snapshots are catalogued in the code upload status; they have not yet been migrated as browsable source files into this repository.
+
+
+## 多损失函数自动权重优化实验（计划阶段）
+
+- [多损失自动权重实验任务书](docs/multi_loss/experiment_protocol.md)：定义 E0–E4 对照、旧版 B 监测约束、日志、统计和停止规则。
+- [本地 Agent 执行提示词](prompts/multi_loss_agent.md)：当前只允许执行 Phase 0 只读资产盘点；未完成损失与旧版 B 审计前不得启动正式训练。
+
+本实验为独立扩展方向，尚无实验结果，不得将计划或 smoke test 描述为正式结论。
