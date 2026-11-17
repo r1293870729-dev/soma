@@ -42,7 +42,8 @@ def metadata_verify(repo,env,work):
         p=subprocess.run(['curl','--config','-'],input=config,capture_output=True,text=True,env=env,timeout=135)
         if p.returncode:raise RuntimeError('Remote LFS presence check failed; sensitive response not logged')
         response=json.loads(p.stdout);found=response.get('objects',[])
-        if len(found)!=len(items[start:start+100]) or any(o.get('error') or 'download' not in o.get('actions',{}) for o in found):raise RuntimeError('Remote LFS object missing')
+        expected={o['oid']:o['size'] for o in items[start:start+100]}
+        if len(found)!=len(expected) or {o['oid'] for o in found}!=set(expected) or any(o.get('error') or 'download' not in o.get('actions',{}) or int(o['size'])!=expected[o['oid']] for o in found):raise RuntimeError('Remote LFS object missing or metadata differs')
         checked+=len(found);report(work,'verifying_remote',f'已确认远端LFS对象 {checked}/{len(items)}',remote_lfs_objects_verified=checked,remote_lfs_objects_planned=len(items))
     return dict(lfs_paths=len(files),unique_lfs_objects=len(items),all_remote_lfs_objects_present=True,lfs_bytes=sum(f['size'] for f in files))
 def main(args):
@@ -62,7 +63,9 @@ def main(args):
         run(['git','lfs','fsck'],repo,env,work/'lfs_fsck.log')
         artifact=run(['git','rev-parse','HEAD'],repo,env);remote=run(['git','ls-remote','origin','HEAD','refs/heads/'+BRANCH],repo,env);heads={line.split()[1]:line.split()[0] for line in remote.splitlines() if line.split()}
         target=heads.get('refs/heads/'+BRANCH)
-        if target and target!=artifact:raise RuntimeError('Target branch changed; refusing overwrite or force push')
+        if target and target!=artifact:
+            ancestor=subprocess.run(['git','merge-base','--is-ancestor',target,artifact],cwd=repo,env=env,capture_output=True)
+            if ancestor.returncode:raise RuntimeError('Target branch changed; refusing overwrite or force push')
         summary=repo/TASK/'publication_summary.json';v=json.loads(summary.read_text());v.update(status='publication_payload_verified',upload_status='LFS_objects_uploaded_and_checked',lfs_upload_exit_code=0,artifact_commit=artifact,observed_default_head_before_push=heads.get('HEAD'));write(summary,v)
         run(['git','add',TASK+'/publication_summary.json'],repo,env);run(['git','commit','--quiet','-m','Record successful full LFS asset transfer'],repo,env)
         local=run(['git','rev-parse','HEAD'],repo,env);report(work,'pushing_git','全部LFS对象已上传，正在发布实验分支')
@@ -72,7 +75,9 @@ def main(args):
         presence=metadata_verify(repo,env,work)
         # Independently download three representative binary artifacts to a fresh LFS store.
         verification=work/('remote_sample_checkout_'+str(int(time.time())));sample_env=dict(env,GIT_LFS_SKIP_SMUDGE='1')
-        run(['git','clone','--no-checkout','--filter=blob:none','--single-branch','--branch',BRANCH,REPOSITORY,str(verification)],repo,sample_env,work/'remote_clone.log')
+        # A full Git object clone avoids Apple Git promisor/commit-graph failures.
+        # Skip LFS smudging, then download only the three selected binary samples.
+        run(['git','clone','--no-checkout','--single-branch','--branch',BRANCH,REPOSITORY,str(verification)],repo,sample_env,work/'remote_clone.log')
         manifest=json.loads((repo/'results/generated/soma_3000_multidim_20261117/asset_manifest.json').read_text());byname={r['path']:r for r in manifest['files']};base='results/generated/soma_3000_multidim_20261117/workspace/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/'
         names=[base+'dsprites_z8_seed10/changing/checkpoint_final.pt',base+'controlled_z8_seed1/native/last.pt',base+'controlled_z8_seed1/ref1000/calibration_residuals.npz']
         run(['git','config','--local','credential.https://github.com.helper',''],verification,env);run(['git','config','--local','--add','credential.https://github.com.helper','!gh auth git-credential'],verification,env)
