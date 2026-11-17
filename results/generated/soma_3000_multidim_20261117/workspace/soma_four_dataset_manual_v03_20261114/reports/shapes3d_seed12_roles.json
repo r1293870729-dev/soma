@@ -1,0 +1,149 @@
+{
+  "dataset": "shapes3d",
+  "seed": 12,
+  "S1_original_rows": 8000,
+  "S1_distinct_pixel_sources": 8000,
+  "S1_exact_role_counts": {
+    "white": 512,
+    "edge": 2048,
+    "edge-cover": 2048,
+    "train": 768,
+    "validation": 256,
+    "probe-train": 1024,
+    "probe-val": 256,
+    "probe-test": 1024
+  },
+  "role_assignment_sha256": "79d57b3502755eee08de400fdae800801a44b8b0f1810f7ce399309073625366",
+  "S1_class_support_rejection_attempt": 0,
+  "stage_rows": [
+    8000,
+    32000,
+    480000
+  ],
+  "cross_role_physical_image_overlap": 0,
+  "stage_role_counts": [
+    {
+      "stage": 1,
+      "counts": {
+        "unused": {
+          "rows": 64,
+          "unique_pixel_sources": 64
+        },
+        "white": {
+          "rows": 512,
+          "unique_pixel_sources": 512
+        },
+        "edge": {
+          "rows": 2048,
+          "unique_pixel_sources": 2048
+        },
+        "edge-cover": {
+          "rows": 2048,
+          "unique_pixel_sources": 2048
+        },
+        "train": {
+          "rows": 768,
+          "unique_pixel_sources": 768
+        },
+        "validation": {
+          "rows": 256,
+          "unique_pixel_sources": 256
+        },
+        "probe-train": {
+          "rows": 1024,
+          "unique_pixel_sources": 1024
+        },
+        "probe-val": {
+          "rows": 256,
+          "unique_pixel_sources": 256
+        },
+        "probe-test": {
+          "rows": 1024,
+          "unique_pixel_sources": 1024
+        }
+      }
+    },
+    {
+      "stage": 2,
+      "counts": {
+        "unused": {
+          "rows": 64,
+          "unique_pixel_sources": 64
+        },
+        "white": {
+          "rows": 512,
+          "unique_pixel_sources": 512
+        },
+        "edge": {
+          "rows": 2048,
+          "unique_pixel_sources": 2048
+        },
+        "edge-cover": {
+          "rows": 2048,
+          "unique_pixel_sources": 2048
+        },
+        "train": {
+          "rows": 12670,
+          "unique_pixel_sources": 12670
+        },
+        "validation": {
+          "rows": 3238,
+          "unique_pixel_sources": 3238
+        },
+        "probe-train": {
+          "rows": 5564,
+          "unique_pixel_sources": 5564
+        },
+        "probe-val": {
+          "rows": 2541,
+          "unique_pixel_sources": 2541
+        },
+        "probe-test": {
+          "rows": 3315,
+          "unique_pixel_sources": 3315
+        }
+      }
+    },
+    {
+      "stage": 3,
+      "counts": {
+        "unused": {
+          "rows": 64,
+          "unique_pixel_sources": 64
+        },
+        "white": {
+          "rows": 512,
+          "unique_pixel_sources": 512
+        },
+        "edge": {
+          "rows": 2048,
+          "unique_pixel_sources": 2048
+        },
+        "edge-cover": {
+          "rows": 2048,
+          "unique_pixel_sources": 2048
+        },
+        "train": {
+          "rows": 236651,
+          "unique_pixel_sources": 236651
+        },
+        "validation": {
+          "rows": 58814,
+          "unique_pixel_sources": 58814
+        },
+        "probe-train": {
+          "rows": 89349,
+          "unique_pixel_sources": 89349
+        },
+        "probe-val": {
+          "rows": 44777,
+          "unique_pixel_sources": 44777
+        },
+        "probe-test": {
+          "rows": 45737,
+          "unique_pixel_sources": 45737
+        }
+      }
+    }
+  ]
+}

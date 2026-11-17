@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "dataset": "controlled",
+  "latent_dim": 8,
+  "dimension": 8,
+  "seed": 1,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z8_seed1",
+  "reuse": false,
+  "formal_updates": 3000,
+  "separate_calibration_updates": 3000,
+  "initial_model_sha256": "6ff9ca5e67129e028d5849fcc602f1b21a18e5658f676465112b79eff9172a66",
+  "final_model_sha256": "36b1eae936b67ca0ec5a273f3f1d67f91b4e585295d39d42f47ceda103f42915",
+  "seed0_exact_replay": false,
+  "original_training_logs_exact": 0,
+  "original_probe_rows_exact": 0,
+  "checkpoint_count": 15,
+  "manual_points": {
+    "0": 303,
+    "1000": 202
+  },
+  "manual_observer_changes_model": false,
+  "legacy_xi_enters_loss": true,
+  "original_primary_theta_preserved": true,
+  "wall_seconds": 138.17779837502167
+}

@@ -1,0 +1,120 @@
+{
+  "image_prefix_fixtures": {
+    "dsprites": {
+      "status": "fixture_complete",
+      "cases": [
+        {
+          "status": "fixture_complete",
+          "unit": "dsprites_z32_seed10",
+          "dataset": "dsprites",
+          "latent_dim": 32,
+          "seed": 10,
+          "stage_steps": [
+            1000,
+            1000,
+            1000
+          ],
+          "changing_curve_end": 3000,
+          "stable_curve_end": 3000,
+          "prefix_exact_checks": 100,
+          "reference0_causal": true,
+          "reference1000_model_exact": true,
+          "actual_optimizer_updates": 100,
+          "branches": [
+            {
+              "status": "fixture_complete",
+              "branch": "changing",
+              "start": 1,
+              "end": 100,
+              "actual_optimizer_updates": 100,
+              "final_model_sha256": "0399ec5d196ea7ccb5b9f6cb15ae13f69eb16c4235227a708148cb699fa33f39",
+              "max_observed_logvar_clip": 0.0
+            }
+          ],
+          "signal_enters_loss": false,
+          "all_planned_seeds_retained": true,
+          "wall_seconds": 20.319472917122766
+        }
+      ],
+      "failures": []
+    },
+    "shapes3d": {
+      "status": "fixture_complete",
+      "cases": [
+        {
+          "status": "fixture_complete",
+          "unit": "shapes3d_z16_seed10",
+          "dataset": "shapes3d",
+          "latent_dim": 16,
+          "seed": 10,
+          "stage_steps": [
+            1000,
+            1000,
+            1000
+          ],
+          "changing_curve_end": 3000,
+          "stable_curve_end": 3000,
+          "prefix_exact_checks": 100,
+          "reference0_causal": true,
+          "reference1000_model_exact": true,
+          "actual_optimizer_updates": 100,
+          "branches": [
+            {
+              "status": "fixture_complete",
+              "branch": "changing",
+              "start": 1,
+              "end": 100,
+              "actual_optimizer_updates": 100,
+              "final_model_sha256": "9172c8e8ff8d7786a89e4c3ee858af02e6fa22528b5b42e8372d21fb52fb44a3",
+              "max_observed_logvar_clip": 0.0
+            }
+          ],
+          "signal_enters_loss": false,
+          "all_planned_seeds_retained": true,
+          "wall_seconds": 26.94591175019741
+        }
+      ],
+      "failures": []
+    },
+    "cifar": {
+      "status": "fixture_complete",
+      "cases": [
+        {
+          "status": "fixture_complete",
+          "unit": "cifar_z64_seed10",
+          "dataset": "cifar",
+          "latent_dim": 64,
+          "seed": 10,
+          "stage_steps": [
+            1000,
+            1000,
+            1000
+          ],
+          "changing_curve_end": 3000,
+          "stable_curve_end": 3000,
+          "prefix_exact_checks": 100,
+          "reference0_causal": true,
+          "reference1000_model_exact": true,
+          "actual_optimizer_updates": 100,
+          "branches": [
+            {
+              "status": "fixture_complete",
+              "branch": "changing",
+              "start": 1,
+              "end": 100,
+              "actual_optimizer_updates": 100,
+              "final_model_sha256": "dda09720601bced738e7ecfda3a1ac270ce472acade52a83ce29b9851bd98da1",
+              "max_observed_logvar_clip": 0.0
+            }
+          ],
+          "signal_enters_loss": false,
+          "all_planned_seeds_retained": true,
+          "wall_seconds": 22.157267125090584
+        }
+      ],
+      "failures": []
+    }
+  },
+  "stage_boundary_checks": "pass",
+  "image_fixture_updates": 300
+}

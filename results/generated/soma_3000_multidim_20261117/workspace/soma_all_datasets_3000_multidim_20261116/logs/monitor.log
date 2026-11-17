@@ -1,0 +1,18 @@
+mkdir -p failed for path /Users/rosyun/.matplotlib: [Errno 1] Operation not permitted: '/Users/rosyun/.matplotlib'
+Matplotlib created a temporary cache directory at /var/folders/h9/_dvlr32s3xq_5s5y7yktzdyr0000gn/T/matplotlib-yq2hp5vm because there was an issue with the default path (/Users/rosyun/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/tools/render.py:170: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  for j in range(2):decorate(axes[i,j],j==1);axes[i,j].legend(ncol=3,fontsize=8)
+{"rendered": 4, "pngs": 13}
+{"status": "running", "completed_parents": 4, "planned_parents": 42, "new_optimizer_updates": 18201, "planned_new_optimizer_updates": 213000, "entries": [{"dataset": "controlled", "complete": 4, "planned": 15, "status": "running", "active": ["z32/seed0 formal step700"]}, {"dataset": "dsprites", "complete": 0, "planned": 9, "status": "running", "active": ["z8/seed10 changing step1001"]}, {"dataset": "shapes3d", "complete": 0, "planned": 9, "status": "running", "active": ["z16/seed10 changing step600"]}, {"dataset": "cifar", "complete": 0, "planned": 9, "status": "running", "active": ["z16/seed10 changing step900"]}], "failures": [], "updated_at": 1794845053.367867}
+{"rendered": 5, "pngs": 13}
+{"status": "running", "completed_parents": 5, "planned_parents": 42, "new_optimizer_updates": 23500, "planned_new_optimizer_updates": 213000, "entries": [{"dataset": "controlled", "complete": 5, "planned": 15, "status": "running", "active": ["z2/seed1 separate_calibration step0"]}, {"dataset": "dsprites", "complete": 0, "planned": 9, "status": "running", "active": ["z8/seed10 changing step1300"]}, {"dataset": "shapes3d", "complete": 0, "planned": 9, "status": "running", "active": ["z16/seed10 changing step800"]}, {"dataset": "cifar", "complete": 0, "planned": 9, "status": "running", "active": ["z16/seed10 changing step1100"]}], "failures": [], "updated_at": 1794845159.511497}
+{"rendered": 6, "pngs": 13}
+{"status": "running", "completed_parents": 6, "planned_parents": 42, "new_optimizer_updates": 30201, "planned_new_optimizer_updates": 213000, "entries": [{"dataset": "controlled", "complete": 6, "planned": 15, "status": "running", "active": ["z4/seed1 separate_calibration step0"]}, {"dataset": "dsprites", "complete": 0, "planned": 9, "status": "running", "active": ["z8/seed10 changing step1700"]}, {"dataset": "shapes3d", "complete": 0, "planned": 9, "status": "running", "active": ["z16/seed10 changing step1001"]}, {"dataset": "cifar", "complete": 0, "planned": 9, "status": "running", "active": ["z16/seed10 changing step1500"]}], "failures": [], "updated_at": 1794845285.523618}
+Traceback (most recent call last):
+  File "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/tools/monitor.py", line 53, in <module>
+    try:main()
+        ^^^^^^
+  File "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/tools/monitor.py", line 51, in main
+    time.sleep(20)
+KeyboardInterrupt

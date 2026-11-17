@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "rows": [
+    {
+      "step": 900,
+      "view": "fixed_S1",
+      "actual_input_stage": "s1",
+      "accuracy": 0.9682926535606384,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 900,
+      "view": "current_stage",
+      "actual_input_stage": "s1",
+      "accuracy": 0.9682926535606384,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 1100,
+      "view": "fixed_S1",
+      "actual_input_stage": "s1",
+      "accuracy": 0.9756097793579102,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 1100,
+      "view": "current_stage",
+      "actual_input_stage": "t2",
+      "accuracy": 0.9146341681480408,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 1900,
+      "view": "fixed_S1",
+      "actual_input_stage": "s1",
+      "accuracy": 0.9756097793579102,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 1900,
+      "view": "current_stage",
+      "actual_input_stage": "t2",
+      "accuracy": 0.9048780202865601,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 2100,
+      "view": "fixed_S1",
+      "actual_input_stage": "s1",
+      "accuracy": 0.9756097793579102,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 2100,
+      "view": "current_stage",
+      "actual_input_stage": "local_split",
+      "accuracy": 0.8073170781135559,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 2900,
+      "view": "fixed_S1",
+      "actual_input_stage": "s1",
+      "accuracy": 0.9682926535606384,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    },
+    {
+      "step": 2900,
+      "view": "current_stage",
+      "actual_input_stage": "local_split",
+      "accuracy": 0.6463414430618286,
+      "fixed_head_seed": 10900,
+      "samples": 2048,
+      "epochs": 1000,
+      "evaluation": "historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+    }
+  ],
+  "anchor_roundtrip_passed": true,
+  "offline_only": true,
+  "same_classifier_and_seed_between_views": true,
+  "untouched_test": false,
+  "wall_seconds": 96.65801149979234
+}

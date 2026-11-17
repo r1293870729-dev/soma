@@ -1,0 +1,23 @@
+{
+  "schema": "soma03_weight_sensitivity_formal_v1",
+  "authorization": "User approved preparation of the four-dataset paired-seed plan, disjoint image IDs and final validation reconstruction metric in this chat on 2026-11-11.",
+  "datasets": {"controlled": [4], "dsprites": [8, 16, 32], "shapes3d": [16, 32, 64], "cifar": [16, 32, 64]},
+  "seeds": [0, 1, 2],
+  "stage_steps": [1000, 1000, 1000],
+  "batch_size": 64,
+  "train_samples_per_stage": 4096,
+  "validation_samples_per_stage": 4096,
+  "learning_rate": 0.001,
+  "controller_learning_rate": 0.001,
+  "manual_kl_grid": [0.0001, 0.001, 0.01],
+  "calibration_batches": 8,
+  "gradnorm_alpha": 1.5,
+  "weight_limits": [1e-8, 1e8],
+  "split_policy": "approved_global_source_id_70_30_v1",
+  "metric": "final_validation_reconstruction_loss_mean_over_3_stages",
+  "checkpoint_selection": "fixed_final_step_3000",
+  "final_probe": true,
+  "pcgrad": false,
+  "final_test_unlocked": false,
+  "implementation_choices": "Source-default latent dimensions, beta grid around 0.001, eight stage-1 training calibration batches, controller AdamW lr=0.001 weight_decay=0. These are declared new experiment choices, not recovered historical run settings."
+}

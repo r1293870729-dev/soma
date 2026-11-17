@@ -1,0 +1,34 @@
+{
+  "kind": "resnet18",
+  "weights_enum": "ResNet18_Weights.IMAGENET1K_V1",
+  "weights_path": "assets/readouts/resnet18-f37072fd.pth",
+  "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "pretraining": "ImageNet-1K",
+  "supervision": "supervised classification",
+  "license": "Torchvision implementation BSD-3-Clause; pretrained-weight/dataset terms tracked separately, not asserted BSD by inheritance",
+  "license_source": "https://docs.pytorch.org/vision/0.21/models.html#general-information-on-pre-trained-weights",
+  "implementation_license_source": "https://github.com/pytorch/vision/blob/v0.21.0/LICENSE",
+  "resize": [
+    256
+  ],
+  "crop_size": [
+    224
+  ],
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "output_layer": "avgpool",
+  "dimension": 512,
+  "transform_id": "torchvision_0.21_IMAGENET1K_V1",
+  "official_docs": "https://docs.pytorch.org/vision/0.21/models/generated/torchvision.models.resnet18.html",
+  "image_experiment_status": "prepared_only_deferred_pending_stable_data",
+  "torchvision_version": "0.21.0",
+  "online_training": false
+}

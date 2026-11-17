@@ -1,0 +1,4 @@
+{
+  "error": "KeyboardInterrupt()",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/tools/monitor.py\", line 53, in <module>\n    try:main()\n        ^^^^^^\n  File \"/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/tools/monitor.py\", line 51, in main\n    time.sleep(20)\nKeyboardInterrupt\n"
+}

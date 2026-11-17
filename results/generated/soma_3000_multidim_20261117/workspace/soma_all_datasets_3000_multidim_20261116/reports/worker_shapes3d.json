@@ -1,0 +1,375 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "status": "complete",
+      "unit": "shapes3d_z16_seed10",
+      "dataset": "shapes3d",
+      "latent_dim": 16,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "fe646a6166d470d87ae65c75d3cc012d6a08ca825d21a14a4f610b210a1935aa",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "d2f1172cf5df1e4258c677bdbb1c6035d94bdc3757ef1c8300780174cc81aa84",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 3296.0076100409497
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z32_seed10",
+      "dataset": "shapes3d",
+      "latent_dim": 32,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "11f851b134dd8dbf7251ac3920b09e51a920f4d7450d281a48ff12016d2adabd",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "227f6006f06e56ad8ced542273848e6f8ca45328295d52ca326c76815c6156b4",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 3320.6397587079555
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z64_seed10",
+      "dataset": "shapes3d",
+      "latent_dim": 64,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "d6266acbb6e6416f4e591c875315ffdf4d82261a3b3f4b20b4d5a370d14e8c55",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "82229ec9f0f9b6dca0b33fc20c3f8a90a391221b72aa7899485ca7d9814115df",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 3370.289396499982
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z16_seed11",
+      "dataset": "shapes3d",
+      "latent_dim": 16,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "e103ad58806f5da3417aeb303df521ea4ff267fb543ac1eeb67a2fc4e3af7c63",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "812e52623c78d88842efc6c1b761fe34b1655dc0cc928cabe5f0cbd91b3d3c29",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 3278.1309505000245
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z32_seed11",
+      "dataset": "shapes3d",
+      "latent_dim": 32,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "52e00cc3f1905353fafae72d864670d32e9123193f4069b9b214184a7127bd80",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "f2b6a3ff46ec91e0905906403a76b001a1d7a2ae36d37aadfd98fafef240798b",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 3247.340119458968
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z64_seed11",
+      "dataset": "shapes3d",
+      "latent_dim": 64,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "d35c5fac093ab1fc22ad22b55dc7bd0421b906613558e01e4db07d4aea855d1a",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "15945f6681620b984343ce313e7ff5f54ae1d3be2cbb4c2333da1cd64958d0e4",
+          "max_observed_logvar_clip": 1.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1983.9358274580445
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z16_seed12",
+      "dataset": "shapes3d",
+      "latent_dim": 16,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "9a870db963b10ad47f7e3d72b91ae596b764800c54584109901162841ab164d5",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "fa114d5b2a4fc3e9f05efec830fd7bb852c1e9214573d35189113860ab2c94a5",
+          "max_observed_logvar_clip": 1.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1421.2821885419544
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z32_seed12",
+      "dataset": "shapes3d",
+      "latent_dim": 32,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "88a32e3f20665419f597b82454bb877a3a3052396ee5a5e9e9b6977256f20373",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "27369e5e505889a9d66a8e005f7a0b44cdfb2a407a3d393ee442904bf47bf1da",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1434.0249169999734
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z64_seed12",
+      "dataset": "shapes3d",
+      "latent_dim": 64,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "13f8870a246e2d2c3464964cce23a3e24c807f945b2a7c15fbb31dc3d2bb00fc",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "825e1fadc8a474d3cfd563a149d1d45d9380d589507df99e2e8aa136b75a1e33",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1461.6678802499082
+    }
+  ],
+  "failures": []
+}

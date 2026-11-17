@@ -1,0 +1,36 @@
+{
+  "source_of_truth": "resolved historical SOMA config; do not copy defaults blindly",
+  "signal": {
+    "legacy_source": "03_psi_xib_unified/signals_xib.py",
+    "feature_dim": 32,
+    "window_samples": 128,
+    "gamma": 0.05,
+    "alpha": 0.1,
+    "warmup_batches": 10,
+    "seed": 0,
+    "epsilon": 1e-5
+  },
+  "arms": [
+    {"name": "historical_fixed", "controller": "fixed"},
+    {"name": "initial_scale", "controller": "initial_scale"},
+    {"name": "uncertainty", "controller": "uncertainty"},
+    {"name": "gradnorm", "controller": "gradnorm"},
+    {"name": "pcgrad", "controller": "conditional_only"}
+  ],
+  "design": {
+    "paired_seeds": [11, 22, 33],
+    "same_initialization_within_seed": true,
+    "same_data_order_within_seed": true,
+    "same_training_budget": true,
+    "same_optimizer_and_schedule": true,
+    "same_structure_edit_settings": true,
+    "reset_b_signal_state_each_run": true,
+    "validation_only_for_selection": true,
+    "test_set_for_final_locked_evaluation_only": true
+  },
+  "event_labels": {
+    "positive": "known structural intervention or accepted SOMA structural edit",
+    "negative": "matched no-edit / no-factor-change interval",
+    "caution": "dataset stage transition is not automatically a structural ground-truth event"
+  }
+}

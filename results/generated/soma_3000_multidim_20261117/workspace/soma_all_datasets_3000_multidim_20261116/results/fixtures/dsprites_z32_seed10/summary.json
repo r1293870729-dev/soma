@@ -1,0 +1,32 @@
+{
+  "status": "fixture_complete",
+  "unit": "dsprites_z32_seed10",
+  "dataset": "dsprites",
+  "latent_dim": 32,
+  "seed": 10,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "changing_curve_end": 3000,
+  "stable_curve_end": 3000,
+  "prefix_exact_checks": 100,
+  "reference0_causal": true,
+  "reference1000_model_exact": true,
+  "actual_optimizer_updates": 100,
+  "branches": [
+    {
+      "status": "fixture_complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 100,
+      "actual_optimizer_updates": 100,
+      "final_model_sha256": "0399ec5d196ea7ccb5b9f6cb15ae13f69eb16c4235227a708148cb699fa33f39",
+      "max_observed_logvar_clip": 0.0
+    }
+  ],
+  "signal_enters_loss": false,
+  "all_planned_seeds_retained": true,
+  "wall_seconds": 20.319472917122766
+}

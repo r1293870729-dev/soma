@@ -1,0 +1,293 @@
+{
+  "version": "four_dataset_manual_v03_independent_stable_dev_v1",
+  "scope": "new development protocol, no final-test unlock or Q1 acceptance",
+  "authorization": "User approved new S1 support, S1=2000/reference1000/S2=S3=1000 on this chat; best fixed KL weight requested",
+  "seeds": [
+    10,
+    11,
+    12
+  ],
+  "beta_kl": 0.0001,
+  "stage_steps": [
+    2000,
+    1000,
+    1000
+  ],
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "primary_latent_dims": {
+    "controlled": 4,
+    "dsprites": 32,
+    "shapes3d": 16,
+    "cifar": 64
+  },
+  "controlled_families": [
+    "product_fourier",
+    "mixed_harmonics"
+  ],
+  "controlled_dims": [
+    2,
+    4,
+    8
+  ],
+  "controlled_generator": {
+    "dimension": 64,
+    "feature_dimension": 8,
+    "noise_std": 0.02,
+    "v0": 0.0,
+    "local_center": [
+      3.141592653589793,
+      0.0
+    ],
+    "local_halfwidth": 1.5707963267948966,
+    "moment_fit_grid": 512,
+    "moment_check_grid": 768,
+    "mean_error_limit": 0.0001,
+    "covariance_relative_error_limit": 0.001,
+    "raw_branch_balanced_accuracy_interval": [
+      0.5,
+      1.0
+    ],
+    "branch_strength": "m=1/lambda_max(Q.T S^-1 R S^-1 Q), maximizing minimum branch covariance transfer subject to exact moment compensation; no search against model/probe/Psi",
+    "branch_directions": "three largest eigenvectors of generator weighted moment S",
+    "branch_labels": "uniform tetrahedron vertex independent of u,v inside fixed Omega; g=0 outside",
+    "bump": "flat interior with C1 cosine-squared joining band; angular band=3*observation_noise_std / min(renderer tangent norm); no model outcome input",
+    "tangent_check_delta": 1e-05,
+    "tangent_rank_floor": 0.0001
+  },
+  "model": "unchanged pinned historical 03 MLPVAE/ConvVAE, including original logvar clamp [-12,12]; saturation always logged",
+  "training_rows_per_stage": 4096,
+  "validation_rows_per_stage": 4096,
+  "readout": {
+    "kind": "resnet18",
+    "weights_path": "assets/readouts/resnet18-f37072fd.pth",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "pretraining": "ImageNet-1K",
+    "supervision": "supervised classification",
+    "license": "Torchvision implementation BSD-3-Clause; no inherited license claim for pretrained weights",
+    "resize": [
+      256
+    ],
+    "crop_size": [
+      224
+    ],
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "output_layer": "avgpool",
+    "dimension": 512,
+    "transform_id": "torchvision_0.21_IMAGENET1K_V1",
+    "microbatch": 4,
+    "note": "Same official transform and weights as prepared reader; microbatch chosen only by engineering timing; no outcome-based readout selection"
+  },
+  "signal": {
+    "window": 64,
+    "alpha": 0.1,
+    "beta": 0.05,
+    "energy_floor": 1e-12,
+    "negative_tolerance": 1e-10,
+    "backend": "auto"
+  },
+  "reference_updates": 1000,
+  "white_rows": 512,
+  "edge_windows": 32,
+  "edge_cover_windows": 32,
+  "signal_every": 50,
+  "probe_every": 50,
+  "diagnostic_extra_steps": [
+    1,
+    1001,
+    2001,
+    3001
+  ],
+  "image_probe_head": {
+    "kind": "multinomial linear softmax",
+    "dtype": "float64",
+    "standardization": "probe-train only, std floor 1e-6",
+    "l2_grid": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "selection": "probe-val cross entropy",
+    "max_iter": 100,
+    "tolerance_grad": 1e-07,
+    "tolerance_change": 1e-10
+  },
+  "controlled_probe_head": {
+    "kind": "multinomial linear softmax",
+    "feature": "deterministic posterior mean mu",
+    "dtype": "float64",
+    "standardization": "probe-train mean and population std only; floor 1e-6",
+    "l2_grid": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "selection": "minimum probe-val cross entropy; ties choose earlier listed lambda; probe-test never selects",
+    "optimizer": "LBFGS strong_wolfe, zero initialization",
+    "max_iter": 100,
+    "tolerance_grad": 1e-07,
+    "tolerance_change": 1e-10,
+    "metric": "balanced_accuracy",
+    "refit_each_snapshot": true
+  },
+  "S1_source_roles": {
+    "dsprites": {
+      "white": 512,
+      "edge": 2048,
+      "edge-cover": 2048,
+      "train": 384,
+      "validation": 192,
+      "probe-train": 384,
+      "probe-val": 192,
+      "probe-test": 384
+    },
+    "shapes3d": {
+      "white": 512,
+      "edge": 2048,
+      "edge-cover": 2048,
+      "train": 768,
+      "validation": 256,
+      "probe-train": 1024,
+      "probe-val": 256,
+      "probe-test": 1024
+    },
+    "cifar": {
+      "white": 512,
+      "edge": 2048,
+      "edge-cover": 2048,
+      "probe-train": 1024,
+      "probe-val": 512,
+      "probe-test": 1024,
+      "remaining_train_fraction": 0.7
+    }
+  },
+  "new_image_roles_fractions": {
+    "train": 0.5,
+    "validation": 0.125,
+    "probe-train": 0.1875,
+    "probe-val": 0.09375,
+    "probe-test": 0.09375
+  },
+  "image_probe_rows": {
+    "dsprites": [
+      384,
+      192,
+      384
+    ],
+    "shapes3d": [
+      512,
+      256,
+      512
+    ],
+    "cifar": [
+      512,
+      256,
+      512
+    ]
+  },
+  "controlled_probe_rows": [
+    2048,
+    1024,
+    1024
+  ],
+  "stage_definitions": {
+    "dsprites": [
+      "all six scales, shape0 orientation0, x/y vary",
+      "all scales, all shapes, orientation0",
+      "all scales/shapes/orientations"
+    ],
+    "shapes3d": [
+      "all three colors and scale, shape0 orientation0",
+      "all colors/scale/shape, orientation0",
+      "all factors"
+    ],
+    "cifar": [
+      "CIFAR10 train-origin clean",
+      "CIFAR-C test-origin motion_blur severity3",
+      "CIFAR-C test-origin frost severity3"
+    ],
+    "controlled": [
+      "v fixed, u varies",
+      "u/v independent",
+      "moment-matched independent local four-branch variation"
+    ]
+  },
+  "orientation_tasks": {
+    "dsprites_primary": "shape2 only; numeric orientation modulo 2pi, eight bins; raw40 all-shape supporting always retained",
+    "shapes3d_primary": "shape0 only, original15 orientations; raw15 all-shape supporting always retained"
+  },
+  "probe_readouts": [
+    "mu",
+    "sampled_z"
+  ],
+  "probe_noise": "independent fixed per data-role namespace, shared over time and paired branches/capacities",
+  "probe_baselines": {
+    "S1": [
+      1200,
+      1500
+    ],
+    "S2": [
+      2200,
+      2500
+    ]
+  },
+  "normal_guard_steps": 500,
+  "event_drop_absolute": 0.05,
+  "event_persistence_checks": 3,
+  "Q1b_horizon": 150,
+  "Q1a_positive_windows": [
+    [
+      2001,
+      2200
+    ],
+    [
+      3001,
+      3200
+    ]
+  ],
+  "stable_control": {
+    "fork_after_updates": 2000,
+    "continue_steps": 2000,
+    "training_support": "S1 only",
+    "common_random_noise_and_order_indices": true,
+    "signal_reference": "same frozen reference as changing branch",
+    "future_probe_tasks_forbidden": true
+  },
+  "source_identity_policy": "pixel-equivalence-aware global roles; CIFAR original-image identity preserved across corruptions; no cross-role same physical source",
+  "probe_role_sampling": "primary probe images without replacement and with all declared classes; raw orientation auxiliaries retain original label limitations",
+  "calibration_sampling": "distinct physical source images, no within-role replacement, all three S1 roles mutually exclusive",
+  "models_selected_by": "previous development reconstruction means, not signal/probe outcome; uncontrolled dimension effects not called strict compute matching",
+  "variance_matching": {
+    "stable": [
+      2701,
+      3000
+    ],
+    "post": [
+      3001,
+      3300
+    ],
+    "relative_band": 0.05,
+    "selection_uses": "mean_total_variance only, no Psi or probes"
+  },
+  "planned_parent_trajectories": 27,
+  "planned_branch_endpoints": 54,
+  "planned_model_updates": 162000,
+  "workers": 4,
+  "torch_threads_per_worker": 2,
+  "device": "cpu",
+  "final_test_unlocked": false,
+  "formal_author_inputs_frozen": false,
+  "alarms_enabled": false,
+  "matched_FAR_claim": false,
+  "positive_results_required": false
+}

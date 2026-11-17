@@ -1,0 +1,21 @@
+{
+  "author": "Project owner (user in this chat)",
+  "timestamp": "2026-11-12T13:56:33.949364+08:00",
+  "decision_evidence": {
+    "weights": "不用重新跑权重数据，还是按照之前的人工设定权重来设计实验",
+    "signal_numeric": "采用草案做开发验证（推荐）",
+    "data_scope": "先跑 controlled，图像待补充稳定数据（推荐）",
+    "image_readout_preparation": "由你准备官方 ResNet18 读出器（推荐）"
+  },
+  "scope_development_runs": true,
+  "approved_planned_run_count": 3,
+  "signal_numeric_parameters": true,
+  "controlled_independent_role_namespaces": true,
+  "resource_and_failure_policy": true,
+  "resource_policy_evidence": "Continue the previously authorized local CPU development execution, now reduced to fixed-weight controlled only; preserve all failed/incomplete assets, no final tests.",
+  "signal_config_sha256": "37d16ac2b60248ee01780c283441787362865dd110001b8310ab343a61584126",
+  "training_config_sha256": "7ac9fdad95996ec8cb8fc7d7a3a270aa333865d5858eeacc6432cbfee18db137",
+  "image_calibration_split_approved": false,
+  "image_training_approved": false,
+  "Q1_Q3_final_test_unlocked": false
+}

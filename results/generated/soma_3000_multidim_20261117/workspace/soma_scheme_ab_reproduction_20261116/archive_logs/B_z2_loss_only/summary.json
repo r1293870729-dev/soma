@@ -1,0 +1,15 @@
+{
+  "steps": 3000,
+  "phase_boundaries": [
+    1000,
+    2000
+  ],
+  "calibration": {
+    "tau_s1": 7.149932074546814,
+    "tau_t2": 1.8971783280372616,
+    "tau_local_split": 1.9321552336215972
+  },
+  "history": "/root/v4_soma_nature/exp1_scheme_b_current/code/runs/scheme_b_state_conditioned/controlled/loss_only_z2/controlled/loss_only_seed0_20260701_095418/train_history.csv",
+  "probe_history": "/root/v4_soma_nature/exp1_scheme_b_current/code/runs/scheme_b_state_conditioned/controlled/loss_only_z2/controlled/loss_only_seed0_20260701_095418/probe_history.csv",
+  "probe_loss_history": "/root/v4_soma_nature/exp1_scheme_b_current/code/runs/scheme_b_state_conditioned/controlled/loss_only_z2/controlled/loss_only_seed0_20260701_095418/probe_loss_history.csv"
+}

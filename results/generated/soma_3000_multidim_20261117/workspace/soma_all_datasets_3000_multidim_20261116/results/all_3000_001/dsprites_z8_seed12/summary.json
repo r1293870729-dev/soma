@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "unit": "dsprites_z8_seed12",
+  "dataset": "dsprites",
+  "latent_dim": 8,
+  "seed": 12,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "changing_curve_end": 3000,
+  "stable_curve_end": 3000,
+  "prefix_exact_checks": 1000,
+  "reference0_causal": true,
+  "reference1000_model_exact": true,
+  "actual_optimizer_updates": 5000,
+  "branches": [
+    {
+      "status": "complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 3000,
+      "actual_optimizer_updates": 3000,
+      "final_model_sha256": "e764e73040a137bcab4822dee9c80bcf58faa037898e1a3dce2a8c558cd082b0",
+      "max_observed_logvar_clip": 0.0
+    },
+    {
+      "status": "complete",
+      "branch": "stable",
+      "start": 1001,
+      "end": 3000,
+      "actual_optimizer_updates": 2000,
+      "final_model_sha256": "cd2e5d25c67b1e949ca9053fc05ecb11756d8593a1d37da1ea1c46dbc6cd7242",
+      "max_observed_logvar_clip": 0.0
+    }
+  ],
+  "signal_enters_loss": false,
+  "all_planned_seeds_retained": true,
+  "wall_seconds": 1763.8695384589955
+}

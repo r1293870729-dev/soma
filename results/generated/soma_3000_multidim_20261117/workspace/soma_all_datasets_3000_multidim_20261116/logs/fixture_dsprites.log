@@ -1,0 +1,2 @@
+{"status": "running", "unit": "dsprites_z32_seed10", "branch": "changing", "step": 1, "updates": 1, "planned": 100, "prefix_exact_checks": 1, "wall_seconds": 2.0428306250832975, "updated_at": 1794844411.319633}
+{"status": "running", "unit": "dsprites_z32_seed10", "branch": "changing", "step": 100, "updates": 100, "planned": 100, "prefix_exact_checks": 100, "wall_seconds": 19.493908625096083, "updated_at": 1794844428.770678}

@@ -1,0 +1,4 @@
+step,accuracy,task,view,origin
+0,0.9317073225975037,theta,original_online_rules_current_stage,offline_extension_original_fitter_seed_rule
+1,0.9512194991111755,theta,original_online_rules_current_stage,offline_extension_original_fitter_seed_rule
+3000,0.9536585211753845,theta,original_online_rules_current_stage,offline_extension_original_fitter_seed_rule

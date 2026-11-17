@@ -1,0 +1,15 @@
+{
+  "status": "engineering-only",
+  "formal_test_unlocked": false,
+  "arm": "engineering_fixed",
+  "seed": 0,
+  "dataset": "controlled",
+  "stage_steps": [32, 24, 24],
+  "batch_size": 64,
+  "max_model_updates": 80,
+  "source_argument_policy": "Unmodified 03 CLI defaults except shortened step budget and output location; not a recovered historical resolved config.",
+  "coefficients": {"reconstruction": 1.0, "kl": 0.001},
+  "residual_convention": "historical_reconstruction_minus_observation",
+  "user_decisions": {"entrypoint": "03 rec+KL", "residual_sign": "preserve historical xhat-x"},
+  "later_phases": {"paired_training_requires_owner_approval": true, "pcgrad_enabled": false, "detection_threshold": null}
+}

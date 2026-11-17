@@ -1,0 +1,6 @@
+{
+  "run_dir": "/root/v4_soma_nature/exp1_scheme_b_current/code/runs/scheme_b_state_conditioned/controlled/loss_plus_xi_z2/controlled/loss_plus_xi_seed0_20260701_111502",
+  "dataset": "controlled",
+  "probe_mean_accuracy": 0.902359664440155,
+  "theta_accuracy": 0.902359664440155
+}

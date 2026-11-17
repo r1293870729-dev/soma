@@ -1,0 +1,483 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "status": "complete",
+      "dimension": 2,
+      "seed": 0,
+      "formal_replay_updates": 3000,
+      "calibration_replay_updates": 3000,
+      "new_treatment_updates": 0,
+      "initial_model_exact": true,
+      "final_model_exact": true,
+      "original_checkpoint_hashes_verified": 15,
+      "original_training_logs_exact": 303,
+      "original_probe_rows_exact": 30,
+      "original_primary_theta_preserved": true,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "independent_calibration_roles": true,
+      "reference_model_and_rng_unchanged": true,
+      "new_signal_enters_loss": false,
+      "reference_audits": [
+        {
+          "age": 0,
+          "model": "170611b2d5d07a14ac4d1dc73b92880468c42f56d3d7834edabb3b86ecc5e22c",
+          "reference": "a34edbf927616c49c8157fb3ef078d8a5c3ea8faed5f84f35188659825af31bc"
+        },
+        {
+          "age": 1000,
+          "model": "64e39ed2cda72e90d3a80d51d7cf1fa5ee6cd09e6bbbfb5755fcb8c11f553d87",
+          "reference": "5d1d249dda7a5c5d93d87da0ccb0a9d62bd7b341c27064a23bbd0b222ef637fe"
+        }
+      ],
+      "wall_seconds": 83.11181020806544,
+      "dataset": "controlled",
+      "latent_dim": 2,
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2",
+      "reuse": true,
+      "actual_new_updates": 0,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ]
+    },
+    {
+      "status": "complete",
+      "dimension": 4,
+      "seed": 0,
+      "formal_replay_updates": 3000,
+      "calibration_replay_updates": 3000,
+      "new_treatment_updates": 0,
+      "initial_model_exact": true,
+      "final_model_exact": true,
+      "original_checkpoint_hashes_verified": 15,
+      "original_training_logs_exact": 303,
+      "original_probe_rows_exact": 30,
+      "original_primary_theta_preserved": true,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "independent_calibration_roles": true,
+      "reference_model_and_rng_unchanged": true,
+      "new_signal_enters_loss": false,
+      "reference_audits": [
+        {
+          "age": 0,
+          "model": "cd24981b9892822e6c8e44fc8d538b812fbe46add8c4a885e58a9380aed6ca07",
+          "reference": "4981b2f29c0d7838995194638c6b9f83bb39af9aaddcd9fd14300eea1ec60898"
+        },
+        {
+          "age": 1000,
+          "model": "ae0b3294386d0041f5d6c8afbf4d3d26b366b76cca6e8686dc7438246dda6356",
+          "reference": "cc72b3e8cddf1a078f53549482cbd1abf9a17769a71759794fe55a1d5958c420"
+        }
+      ],
+      "wall_seconds": 84.29581620800309,
+      "dataset": "controlled",
+      "latent_dim": 4,
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z4",
+      "reuse": true,
+      "actual_new_updates": 0,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ]
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 8,
+      "dimension": 8,
+      "seed": 0,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z8_seed0",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "473f423774c7c7508293e7595bff529bad70826516d9f9d069ccbbbabf0d5a90",
+      "final_model_sha256": "d02ff1c8e09673952429131f4110ddeda6bd0cf808b505bad719c8b263b8d172",
+      "seed0_exact_replay": true,
+      "original_training_logs_exact": 303,
+      "original_probe_rows_exact": 30,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 124.05557341687381
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 16,
+      "dimension": 16,
+      "seed": 0,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z16_seed0",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "bf142f0ce95e0dea8afd69beee07bfafe3dd1765f677c0be6504a14503210bdf",
+      "final_model_sha256": "4d13751eb8406ab7f65b0a7e18e32ca94ddeac05dff6f55cb53348ab72718394",
+      "seed0_exact_replay": true,
+      "original_training_logs_exact": 303,
+      "original_probe_rows_exact": 30,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 133.76296654203907
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 32,
+      "dimension": 32,
+      "seed": 0,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z32_seed0",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "090fc749efbadc03570e8ea16c3620b650af2ec3ebaab9d0921ebeecd5540ed7",
+      "final_model_sha256": "e0617327066a0601f299da6e5a6c51d658c9bbd149a798cf6303e485dee0e60d",
+      "seed0_exact_replay": true,
+      "original_training_logs_exact": 303,
+      "original_probe_rows_exact": 30,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 136.47977795894258
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 2,
+      "dimension": 2,
+      "seed": 1,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z2_seed1",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "9f2a27bdd1f2d1ab022dca9c6a706742b69ffd321eb4afe55a7cd525a1698a70",
+      "final_model_sha256": "1f09120f7e1798a775f7252b4cb478d8b0cc20df878e41cbfef42e60d1effab3",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 129.95002145809121
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 4,
+      "dimension": 4,
+      "seed": 1,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z4_seed1",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "f8701d960fa37606f9d93d23d9fadda065065e73cfc00e0508ccb14c6f1ae7a2",
+      "final_model_sha256": "230a477f308025bfdecb74cbe31953c67d05bd7e3877fdf9d7baec7e080b7bca",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 130.59505991684273
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 8,
+      "dimension": 8,
+      "seed": 1,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z8_seed1",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "6ff9ca5e67129e028d5849fcc602f1b21a18e5658f676465112b79eff9172a66",
+      "final_model_sha256": "36b1eae936b67ca0ec5a273f3f1d67f91b4e585295d39d42f47ceda103f42915",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 138.17779837502167
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 16,
+      "dimension": 16,
+      "seed": 1,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z16_seed1",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "307c08bb8af81dc6003d328ed41887ad62e00ff616cb1d35772deadc6863fac1",
+      "final_model_sha256": "afe28cc6df73e47be9924c74b8f67704f614444775ea0fadf89808817b73c11b",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 142.47356212488376
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 32,
+      "dimension": 32,
+      "seed": 1,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z32_seed1",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "db18d5d4ae71a6ae701870572b23a44359cf191e2c332039a9b0c81ab6d010aa",
+      "final_model_sha256": "6289d3a49e633cb29b793bc7516a7e9780cce0a89404d607573966917195d13c",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 136.8242519579362
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 2,
+      "dimension": 2,
+      "seed": 2,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z2_seed2",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "16dea15f7c638c72481c199c80b30bab8542f4ef30a5cc56e0c764854027e8ae",
+      "final_model_sha256": "c4210628f3f3db941d1cd6dd09f6f99cd8d9231ea0d96bfe42dc73e74fbd2724",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 142.31204770784825
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 4,
+      "dimension": 4,
+      "seed": 2,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z4_seed2",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "dab717acd4355844c51b336a1d91d8618d3c737c9684f583a4ef6fc2c4084ec6",
+      "final_model_sha256": "f1ff2e530a7077712255b795b2b5e1b293da4b2b59984f0f3f991e14c5f7d55b",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 149.6493452079594
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 8,
+      "dimension": 8,
+      "seed": 2,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z8_seed2",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "ce503b45c0a67f0a7d674ac569ae0c1e508f5fa0d8e6a4707aba05e581acf118",
+      "final_model_sha256": "2158a3928ecdaf349c267caa5a29bd7d0ec4fe87d09bc135e3ceeae33db33ae4",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 157.32406749995425
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 16,
+      "dimension": 16,
+      "seed": 2,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z16_seed2",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "f057dc4cdb6209e7dc644bda17b5c293eb067a123181e4bc140bd13448592523",
+      "final_model_sha256": "6386abe846428db9edfc6f155f427c9f7f59e763954198a22e90e8e08174217f",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 161.7497477501165
+    },
+    {
+      "status": "complete",
+      "dataset": "controlled",
+      "latent_dim": 32,
+      "dimension": 32,
+      "seed": 2,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z32_seed2",
+      "reuse": false,
+      "formal_updates": 3000,
+      "separate_calibration_updates": 3000,
+      "initial_model_sha256": "dc7cd7eaf0b4c02bdb2087a68419e2e0961a5ad1db0be1b2e7342c6e15e65d90",
+      "final_model_sha256": "9d949dcc37c5cfdc8ebd145ee99d82df34bd4d6590ec7c01dee65a39088b3c69",
+      "seed0_exact_replay": false,
+      "original_training_logs_exact": 0,
+      "original_probe_rows_exact": 0,
+      "checkpoint_count": 15,
+      "manual_points": {
+        "0": 303,
+        "1000": 202
+      },
+      "manual_observer_changes_model": false,
+      "legacy_xi_enters_loss": true,
+      "original_primary_theta_preserved": true,
+      "wall_seconds": 158.80489666713402
+    }
+  ]
+}

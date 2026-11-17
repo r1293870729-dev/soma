@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "unit": "cifar_z16_seed11",
+  "dataset": "cifar",
+  "latent_dim": 16,
+  "seed": 11,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "changing_curve_end": 3000,
+  "stable_curve_end": 3000,
+  "prefix_exact_checks": 1000,
+  "reference0_causal": true,
+  "reference1000_model_exact": true,
+  "actual_optimizer_updates": 5000,
+  "branches": [
+    {
+      "status": "complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 3000,
+      "actual_optimizer_updates": 3000,
+      "final_model_sha256": "b3b0288f8550d601d54f6ef701c73c35a7d8d4cf09b92c99e2d7d399a592114a",
+      "max_observed_logvar_clip": 0.0
+    },
+    {
+      "status": "complete",
+      "branch": "stable",
+      "start": 1001,
+      "end": 3000,
+      "actual_optimizer_updates": 2000,
+      "final_model_sha256": "7fa0f9114ca3996b4c074f8a76cca9a47c3a3af280d3d5232021514a4455ceae",
+      "max_observed_logvar_clip": 0.0
+    }
+  ],
+  "signal_enters_loss": false,
+  "all_planned_seeds_retained": true,
+  "wall_seconds": 2066.696552041918
+}

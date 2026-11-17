@@ -1,0 +1,24 @@
+{
+  "status": "author_approved_controlled_development",
+  "numeric": {
+    "window": 64,
+    "alpha": 0.1,
+    "beta": 0.05,
+    "energy_floor": 1e-12,
+    "negative_tolerance": 1e-10,
+    "backend": "auto"
+  },
+  "white_samples": 512,
+  "edge_windows": 32,
+  "edge_cover_windows": 32,
+  "allow_within_role_replacement": false,
+  "readouts": {
+    "controlled": {
+      "kind": "identity"
+    }
+  },
+  "alarms_enabled": false,
+  "final_test_unlocked": false,
+  "note": "User approved numeric proposal for development; controlled white/edge/edge-cover use independent generator namespaces. Image calibration split is NOT approved; images are deferred.",
+  "image_experiments": "deferred_pending_stable_data"
+}

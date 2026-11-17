@@ -1,0 +1,65 @@
+{
+  "schema": "frozen_delivery_training_inputs_v1",
+  "files": [
+    {
+      "path": "data/cifar10/cifar-10-batches-py/data_batch_1",
+      "bytes": 31035704,
+      "sha256": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd"
+    },
+    {
+      "path": "data/cifar10/cifar-10-batches-py/data_batch_2",
+      "bytes": 31035320,
+      "sha256": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8"
+    },
+    {
+      "path": "data/cifar10/cifar-10-batches-py/data_batch_3",
+      "bytes": 31035999,
+      "sha256": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9"
+    },
+    {
+      "path": "data/cifar10/cifar-10-batches-py/data_batch_4",
+      "bytes": 31035696,
+      "sha256": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b"
+    },
+    {
+      "path": "data/cifar10/cifar-10-batches-py/data_batch_5",
+      "bytes": 31035623,
+      "sha256": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154"
+    },
+    {
+      "path": "data/cifar10/cifar-10-batches-py/test_batch",
+      "bytes": 31035526,
+      "sha256": "f53d8d457504f7cff4ea9e021afcf0e0ad8e24a91f3fc42091b8adef61157831"
+    },
+    {
+      "path": "data/cifar10/cifar-10-batches-py/batches.meta",
+      "bytes": 158,
+      "sha256": "f962466ef690d46b226450fb9aadc74ba4bc64a76aa526b5827fe4bc5c7125cb"
+    },
+    {
+      "path": "data/CIFAR-C/motion_blur.npy",
+      "bytes": 153600128,
+      "sha256": "34baad18726fabefeb69b5cbedefda41ee7969dbed1562740ef9e1095d5dd954"
+    },
+    {
+      "path": "data/CIFAR-C/frost.npy",
+      "bytes": 153600128,
+      "sha256": "8be9ab8d9095b3fb3ebf4dd60f0a83651be115c3ac77c8adc5b3e0d3add5ad8c"
+    },
+    {
+      "path": "data/CIFAR-C/labels.npy",
+      "bytes": 50128,
+      "sha256": "e6d972b1238665d8ef54aae5affe8e292dda1eb88a6840bf0f5988cdb649da7b"
+    },
+    {
+      "path": "data/dsprites/dsprites_ndarray_co1sh3sc6or40x32y32_64x64.npz",
+      "bytes": 19318135,
+      "sha256": "857dc001287e8efa226e0025fac6b29e5745c621b380b0d3363e4e33f4e28fa2"
+    },
+    {
+      "path": "data/shapes3d/3dshapes.h5",
+      "bytes": 267573662,
+      "sha256": "0a0f6ed98baff276a50f3a081a7434d788da63cb135a98189b2a5b5769be1785"
+    }
+  ]
+}

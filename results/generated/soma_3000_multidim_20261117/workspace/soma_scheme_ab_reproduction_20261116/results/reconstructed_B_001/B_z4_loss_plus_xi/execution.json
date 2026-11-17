@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "dimension": 4,
+  "mode": "loss_plus_xi",
+  "seed": 0,
+  "formal_model_updates": 3000,
+  "separate_calibration_model_updates": 3000,
+  "initial_model_sha256": "cd24981b9892822e6c8e44fc8d538b812fbe46add8c4a885e58a9380aed6ca07",
+  "final_model_sha256": "41c587968cd5a7d5b7f92ec1917af7b11a2d91f3fc7a7942973024d0e2d6c72f",
+  "snapshots": 15,
+  "wall_seconds": 187.50287433410995,
+  "device": "cpu",
+  "threads": 1,
+  "original_environment_unknown": true,
+  "protocol_reconstruction": true,
+  "not_original_source_byte_reproduction": true
+}

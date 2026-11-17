@@ -1,0 +1,269 @@
+{
+  "version": "all_datasets_3000_multidim_v1",
+  "scope": "new development protocol, no final-test unlock or Q1 acceptance",
+  "authorization": "User explicitly requested all datasets return to three1000-step stages and all multiple dimensions",
+  "seeds": [
+    10,
+    11,
+    12
+  ],
+  "beta_kl": 0.0001,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "primary_latent_dims": {
+    "controlled": 4,
+    "dsprites": 32,
+    "shapes3d": 16,
+    "cifar": 64
+  },
+  "model": "unchanged pinned historical 03 MLPVAE/ConvVAE, including original logvar clamp [-12,12]; saturation always logged",
+  "training_rows_per_stage": 4096,
+  "validation_rows_per_stage": 4096,
+  "readout": {
+    "kind": "resnet18",
+    "weights_path": "assets/readouts/resnet18-f37072fd.pth",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "pretraining": "ImageNet-1K",
+    "supervision": "supervised classification",
+    "license": "Torchvision implementation BSD-3-Clause; no inherited license claim for pretrained weights",
+    "resize": [
+      256
+    ],
+    "crop_size": [
+      224
+    ],
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "output_layer": "avgpool",
+    "dimension": 512,
+    "transform_id": "torchvision_0.21_IMAGENET1K_V1",
+    "microbatch": 4,
+    "note": "Same official transform and weights as prepared reader; microbatch chosen only by engineering timing; no outcome-based readout selection"
+  },
+  "signal": {
+    "window": 64,
+    "alpha": 0.1,
+    "beta": 0.05,
+    "energy_floor": 1e-12,
+    "negative_tolerance": 1e-10,
+    "backend": "auto"
+  },
+  "reference_updates": 1000,
+  "white_rows": 512,
+  "edge_windows": 32,
+  "edge_cover_windows": 32,
+  "signal_every": 50,
+  "probe_every": 50,
+  "diagnostic_extra_steps": [
+    1,
+    1001,
+    2001
+  ],
+  "image_probe_head": {
+    "kind": "multinomial linear softmax",
+    "dtype": "float64",
+    "standardization": "probe-train only, std floor 1e-6",
+    "l2_grid": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "selection": "probe-val cross entropy",
+    "max_iter": 100,
+    "tolerance_grad": 1e-07,
+    "tolerance_change": 1e-10
+  },
+  "controlled_probe_head": {
+    "kind": "historical unstandardized linear softmax fitted by native AdamW",
+    "feature": "posterior mean mu",
+    "metric": "ordinary theta accuracy",
+    "data": "current-stage native first2048 synthetic samples, freshly seeded80/20 split; not independent old-task test",
+    "primary_points": "15 native points plus offline0/1/3000; existing seed0 points checked exactly"
+  },
+  "S1_source_roles": {
+    "dsprites": {
+      "white": 512,
+      "edge": 2048,
+      "edge-cover": 2048,
+      "train": 384,
+      "validation": 192,
+      "probe-train": 384,
+      "probe-val": 192,
+      "probe-test": 384
+    },
+    "shapes3d": {
+      "white": 512,
+      "edge": 2048,
+      "edge-cover": 2048,
+      "train": 768,
+      "validation": 256,
+      "probe-train": 1024,
+      "probe-val": 256,
+      "probe-test": 1024
+    },
+    "cifar": {
+      "white": 512,
+      "edge": 2048,
+      "edge-cover": 2048,
+      "probe-train": 1024,
+      "probe-val": 512,
+      "probe-test": 1024,
+      "remaining_train_fraction": 0.7
+    }
+  },
+  "new_image_roles_fractions": {
+    "train": 0.5,
+    "validation": 0.125,
+    "probe-train": 0.1875,
+    "probe-val": 0.09375,
+    "probe-test": 0.09375
+  },
+  "image_probe_rows": {
+    "dsprites": [
+      384,
+      192,
+      384
+    ],
+    "shapes3d": [
+      512,
+      256,
+      512
+    ],
+    "cifar": [
+      512,
+      256,
+      512
+    ]
+  },
+  "controlled_probe_rows": [
+    2048,
+    1024,
+    1024
+  ],
+  "stage_definitions": {
+    "dsprites": [
+      "all six scales, shape0 orientation0, x/y vary",
+      "all scales, all shapes, orientation0",
+      "all scales/shapes/orientations"
+    ],
+    "shapes3d": [
+      "all three colors and scale, shape0 orientation0",
+      "all colors/scale/shape, orientation0",
+      "all factors"
+    ],
+    "cifar": [
+      "CIFAR10 train-origin clean",
+      "CIFAR-C test-origin motion_blur severity3",
+      "CIFAR-C test-origin frost severity3"
+    ],
+    "controlled": [
+      "original circle S1",
+      "original two-factor torus T2",
+      "original local four-branch split"
+    ]
+  },
+  "orientation_tasks": {
+    "dsprites_primary": "shape2 only; numeric orientation modulo 2pi, eight bins; raw40 all-shape supporting always retained",
+    "shapes3d_primary": "shape0 only, original15 orientations; raw15 all-shape supporting always retained"
+  },
+  "probe_readouts": [
+    "mu",
+    "sampled_z"
+  ],
+  "probe_noise": "independent fixed per data-role namespace, shared over time and paired branches/capacities",
+  "stable_control": {
+    "fork_after_updates": 1000,
+    "continue_steps": 2000,
+    "training_support": "S1 only",
+    "same_parent_optimizer_state": true
+  },
+  "source_identity_policy": "pixel-equivalence-aware global roles; CIFAR original-image identity preserved across corruptions; no cross-role same physical source",
+  "probe_role_sampling": "primary probe images without replacement and with all declared classes; raw orientation auxiliaries retain original label limitations",
+  "calibration_sampling": "distinct physical source images, no within-role replacement, all three S1 roles mutually exclusive",
+  "planned_parent_trajectories": 42,
+  "planned_branch_endpoints": 69,
+  "planned_model_updates": 213000,
+  "workers": 4,
+  "torch_threads_per_worker": 2,
+  "device": "cpu",
+  "final_test_unlocked": false,
+  "formal_author_inputs_frozen": false,
+  "alarms_enabled": false,
+  "matched_FAR_claim": false,
+  "positive_results_required": false,
+  "run_id": "all_3000_001",
+  "image_dimensions": {
+    "dsprites": [
+      8,
+      16,
+      32
+    ],
+    "shapes3d": [
+      16,
+      32,
+      64
+    ],
+    "cifar": [
+      16,
+      32,
+      64
+    ]
+  },
+  "controlled_dimensions": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "controlled_seeds": [
+    0,
+    1,
+    2
+  ],
+  "image_seeds": [
+    10,
+    11,
+    12
+  ],
+  "image_objective": "unchanged rec+0.0001KL; both signals detached",
+  "controlled_protocol": "unchanged historical circle/torus/local split, rec+0.001KL+0.001legacyXi; native current-stage theta accuracy",
+  "controlled_primary_display": "seed0 unchanged original points, three-seed summaries separate",
+  "reference_snapshots": [
+    0,
+    1000
+  ],
+  "planned_image_parents": 27,
+  "planned_controlled_parents": 15,
+  "planned_parents": 42,
+  "image_updates_per_parent": 5000,
+  "planned_image_updates": 135000,
+  "planned_new_controlled_conditions": 10,
+  "planned_new_controlled_formal_updates": 30000,
+  "planned_new_controlled_calibration_updates": 30000,
+  "controlled_seed0_reuse": "all5 original formal parents, existing manual observers reused for z2/z4; z8/z16/z32 exact replay only for added observations",
+  "fixed_baselines_and_AUROC": "not evaluated in this plotting run; old4000-step event/baseline windows are not reused",
+  "torch_threads_image": 2,
+  "torch_threads_controlled": 1,
+  "no_outcome_retuning": true,
+  "no_4000_curve_truncation": true,
+  "controlled_probe_readouts": [
+    "mu"
+  ],
+  "controlled_calibration_noise": "local namespace normal(N,max(4,dim)), first dim coordinates; preserves old z2/z4 calibration, no all-dimension common-noise claim",
+  "planned_controlled_seed0_observation_replay_updates": 18000
+}

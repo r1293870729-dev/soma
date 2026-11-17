@@ -1,0 +1,2 @@
+{"status": "running", "unit": "shapes3d_z16_seed10", "branch": "changing", "step": 1, "updates": 1, "planned": 100, "prefix_exact_checks": 1, "wall_seconds": 2.122088917065412, "updated_at": 1794844411.407082}
+{"status": "running", "unit": "shapes3d_z16_seed10", "branch": "changing", "step": 100, "updates": 100, "planned": 100, "prefix_exact_checks": 100, "wall_seconds": 26.219549084082246, "updated_at": 1794844435.5044951}

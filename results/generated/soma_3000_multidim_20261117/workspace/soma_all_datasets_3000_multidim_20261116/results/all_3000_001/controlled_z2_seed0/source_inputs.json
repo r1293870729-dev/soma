@@ -1,0 +1,17 @@
+{
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/summary.json": "ca207ba9d85d7de2f6c34b72a72842b52265fdf63212fb68cf800464727527b7",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/progress.json": "e5cf8457a0052b2f93e8902511f4670f3074dc299669fe3b6f5aae660ae5bf0b",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/online_theta_extensions.csv": "53d68e140ab54db09999a87afef21187cf19dca4d5f0df57117c415254fd297a",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/parent_inputs.json": "f8b27090c30bbb95dd72f2554729d75b37d08d4e9fd8e5206c40769d88da6c7b",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/ref1000/calibration.json": "a346019dda7170e1b8a595473def494f8ac19a4594df08028b85603ff8f1d15e",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/ref1000/signals.jsonl": "d32036d97051280841044ab64530058664b206fb073984364a5256d898942e5d",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/native/summary.json": "5c74a5c5374bc8ee75ed54c8e813d651201fe18e7904c43d6e5f663fc11b6da4",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/native/calibration_t2.csv": "9453fa765b85ac2a4e77a133d38b794fbf46202117e848cb366bb2d0a701f301",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/native/probe_loss_history.csv": "784f412091111701b68834444970eb29003b798fcfa8965749e3f3d4467fa994",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/native/calibration_s1.csv": "6b7cee84c356d20a456be6ecd192203653edb99dcd29818f063ab8ff93f3479c",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/native/probe_history.csv": "c0c59f9cbdaa8443b371d0520e09720f4ac571aa546485c97f0ae375da1eb21b",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/native/calibration_local_split.csv": "41e2928738089323bfd6ef6b4fda930dbc6cae9654912efef63aa2fd9dc10f97",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/native/train_history.csv": "efd4bcb5ec5a553aaa8f909dea926d8ffdfa0eaa0be32acf561aa4ac29f0e321",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/ref0/calibration.json": "0104467b972b7a064e820d2502c10392e40a955065a008b781e4460d6b3f3918",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z2/ref0/signals.jsonl": "57aa48022cc8c065c697c9f2736a358509a9b8d5f2476ea11b412053c87e01b4"
+}

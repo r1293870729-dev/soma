@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "parents": 42,
+  "latent_conditions": 14,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "all_recorded_probe_tasks_included": true,
+  "probe_tasks": {
+    "controlled": [
+      "theta"
+    ],
+    "dsprites": [
+      "x",
+      "y",
+      "scale",
+      "shape",
+      "orientation_shape2_bin8",
+      "orientation_raw"
+    ],
+    "shapes3d": [
+      "floor_hue",
+      "wall_hue",
+      "object_hue",
+      "scale",
+      "shape",
+      "orientation_shape0",
+      "orientation_raw"
+    ],
+    "cifar": [
+      "class"
+    ]
+  },
+  "probe_averaging": "three seeds at exact same measured step; raw observations not smoothed",
+  "uncertainty": "min-max over three seeds, not confidence interval",
+  "MSE_axis": "linear, same limits within each dataset",
+  "signals_dual_axes": true,
+  "new_training_updates": 0,
+  "code_sha256": "b9bc06cf94da61cdcd89da916fbf244dddc70672239bdfd8ac8f8de70f2094f6",
+  "source_loader_sha256": "e8f212ecccd1dd5e307d8aea07b2b21a08156ec879da6439c5e10afcd971d2c3",
+  "png_count": 9,
+  "svg_count": 9,
+  "plotted_rows": 135406,
+  "matplotlib": "3.9.4",
+  "numpy": "2.0.2"
+}

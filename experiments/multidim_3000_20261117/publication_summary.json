@@ -1,0 +1,26 @@
+{
+  "status": "publication_payload_verified",
+  "experiment_id": "soma_3000_multidim_20261117",
+  "repository": "r1293870729-dev/soma",
+  "branch": "experiment/3000-multidim-20261117",
+  "base_commit": "5776b67d87e5cd6f951614c490c400013272d057",
+  "current_experiment_complete": true,
+  "planned_parents": 42,
+  "completed_parents": 42,
+  "failed_parents": 0,
+  "unique_latent_conditions": 14,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "new_training_optimizer_updates": 213000,
+  "scientific_acceptance": "development_diagnostics_only_not_Q1_Q3_acceptance",
+  "file_count": 5315,
+  "bytes": 20895923104,
+  "asset_manifest": "results/generated/soma_3000_multidim_20261117/asset_manifest.json",
+  "upload_status": "LFS_objects_uploaded_and_checked",
+  "lfs_upload_exit_code": 0,
+  "artifact_commit": "e85c7e67b5eaffee93b9e8ce7b39f36930a26e81",
+  "observed_default_head_before_push": "5776b67d87e5cd6f951614c490c400013272d057"
+}

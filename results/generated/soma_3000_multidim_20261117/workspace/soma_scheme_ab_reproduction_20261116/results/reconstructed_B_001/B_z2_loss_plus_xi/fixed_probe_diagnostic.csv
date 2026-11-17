@@ -1,0 +1,11 @@
+step,view,actual_input_stage,accuracy,fixed_head_seed,samples,epochs,evaluation
+900,fixed_S1,s1,0.9682926535606384,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+900,current_stage,s1,0.9682926535606384,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+1100,fixed_S1,s1,0.9756097793579102,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+1100,current_stage,t2,0.9146341681480408,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+1900,fixed_S1,s1,0.9756097793579102,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+1900,current_stage,t2,0.9048780202865601,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+2100,fixed_S1,s1,0.9756097793579102,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+2100,current_stage,local_split,0.8073170781135559,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+2900,fixed_S1,s1,0.9682926535606384,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"
+2900,current_stage,local_split,0.6463414430618286,10900,2048,1000,"historical first2048 training-pool rows, fixed random80/20 and historical fitter; not independent final test"

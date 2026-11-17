@@ -1,0 +1,2 @@
+{"status": "running", "unit": "cifar_z64_seed10", "branch": "changing", "step": 1, "updates": 1, "planned": 100, "prefix_exact_checks": 1, "wall_seconds": 1.8473785419482738, "updated_at": 1794844411.481982}
+{"status": "running", "unit": "cifar_z64_seed10", "branch": "changing", "step": 100, "updates": 100, "planned": 100, "prefix_exact_checks": 100, "wall_seconds": 20.649696042062715, "updated_at": 1794844430.284263}

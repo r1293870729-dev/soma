@@ -1,0 +1,10 @@
+{
+  "torch": "2.6.0",
+  "numpy": "2.0.2",
+  "ignite": "0.5.1",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "device": "cpu",
+  "threads": 1,
+  "original_environment_unknown": true
+}

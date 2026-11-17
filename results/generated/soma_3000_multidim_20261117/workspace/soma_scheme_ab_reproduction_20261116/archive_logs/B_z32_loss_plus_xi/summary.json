@@ -1,0 +1,15 @@
+{
+  "steps": 3000,
+  "phase_boundaries": [
+    1000,
+    2000
+  ],
+  "calibration": {
+    "tau_s1": 3.970246195793151,
+    "tau_t2": 1.9162037789821624,
+    "tau_local_split": 2.4524691343307494
+  },
+  "history": "D:\\code\\Machine Memory\\v4_soma_nature\\exp1_new\\runs\\scheme_b_z32_local\\controlled\\loss_plus_xi_z32\\controlled\\loss_plus_xi_seed0_20260701_235237\\train_history.csv",
+  "probe_history": "D:\\code\\Machine Memory\\v4_soma_nature\\exp1_new\\runs\\scheme_b_z32_local\\controlled\\loss_plus_xi_z32\\controlled\\loss_plus_xi_seed0_20260701_235237\\probe_history.csv",
+  "probe_loss_history": "D:\\code\\Machine Memory\\v4_soma_nature\\exp1_new\\runs\\scheme_b_z32_local\\controlled\\loss_plus_xi_z32\\controlled\\loss_plus_xi_seed0_20260701_235237\\probe_loss_history.csv"
+}

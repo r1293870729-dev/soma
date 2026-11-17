@@ -1,0 +1,6 @@
+{
+  "run_dir": "D:\\code\\Machine Memory\\v4_soma_nature\\exp1_new\\runs\\scheme_b_z32_local\\controlled\\loss_plus_xi_z32\\controlled\\loss_plus_xi_seed0_20260701_235237",
+  "dataset": "controlled",
+  "probe_mean_accuracy": 0.9698942303657532,
+  "theta_accuracy": 0.9698942303657532
+}

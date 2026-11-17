@@ -1,0 +1,10 @@
+{
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_manual_v03_20261114/results/generated/four_dev_001/cifar_z64_seed11/checkpoint_initial.pt": "f206ed5ff491a1403f6654c32127e05b67e63f7959d41ec004b871a4e9b4f78c",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_manual_v03_20261114/results/generated/four_dev_001/cifar_z64_seed11/checkpoint_reference.pt": "4c726d1ccd2e2612a8cdd2322987d91f4009cc769bce7618afbf5c575a172842",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_manual_v03_20261114/results/generated/four_dev_001/cifar_z64_seed11/source_ids.npz": "1423cfbc8532898993da50330bbec1524dadff5d7b9cc10d8f8afe9da91ae3c7",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_manual_v03_20261114/results/generated/four_dev_001/cifar_z64_seed11/changing/trajectory.csv": "54173258c9d03d70e5483e7cac576033262325b0ec00f6e058426140352f8ac4",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_manual_v03_20261114/results/generated/four_dev_001/cifar_z64_seed11/calibration.json": "48b108dcdcc02d9ffff0a110a382154d9a65933e3764cde32d8585798991e171",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_manual_v03_20261114/results/generated/four_dev_001/cifar_z64_seed11/calibration_residuals.npz": "1783b15877ebb924cfdd6723e00df920b27260ed7995fdea89c45501a4b99d06",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/observers/cifar_z64_seed11/ref0/calibration.json": "d9de53df602b3b49438cc55c093d7d8fb69229917dd34b18595866828455c2f5",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/observers/cifar_z64_seed11/ref0/calibration_residuals.npz": "f48753a3ea67695529d6b9aa0e9a1a1cce8117a6a4e1e1e5fce58c101a3c829d"
+}

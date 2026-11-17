@@ -1,0 +1,14 @@
+{
+  "archive": "soma_psi_code_handoff_20260903(1).zip",
+  "relative_root": "soma_psi_code_handoff_20260903(1)/03_psi_xib_unified",
+  "entrypoint": "train_xib_unified.py",
+  "signal_entrypoint": "XiBSignal.update_and_measure",
+  "files": {
+    "data.py": "e7b5fa7b8a6a9682d51d58853e30f4adb2d44c893d637b81543f3c01a6984803",
+    "models.py": "28e9d07cfc04368d99ca0b2690a629476e815a239cdfb9ae31379b0d70f0fb0a",
+    "signals_xib.py": "c28159db1116331a5d708062a585b408f8fd1e9a856188b6a3b8578e730e92e0",
+    "train_xib_unified.py": "64f68c7c68a2649d60f977d882f9ac71af0c1e70ab03969b4eea8e52cd7bd495",
+    "utils.py": "3200b154949453a2b79acd005993f514aefac94d89218a0b6489de8f831b28f3"
+  },
+  "provenance_limit": "Source snapshot is verified; old per-run resolved arguments and code commit chain have not been recovered."
+}
