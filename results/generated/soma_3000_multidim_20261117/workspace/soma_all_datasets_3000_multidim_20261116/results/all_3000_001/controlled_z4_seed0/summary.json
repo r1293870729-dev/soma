@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "dimension": 4,
+  "seed": 0,
+  "formal_replay_updates": 3000,
+  "calibration_replay_updates": 3000,
+  "new_treatment_updates": 0,
+  "initial_model_exact": true,
+  "final_model_exact": true,
+  "original_checkpoint_hashes_verified": 15,
+  "original_training_logs_exact": 303,
+  "original_probe_rows_exact": 30,
+  "original_primary_theta_preserved": true,
+  "manual_points": {
+    "0": 303,
+    "1000": 202
+  },
+  "independent_calibration_roles": true,
+  "reference_model_and_rng_unchanged": true,
+  "new_signal_enters_loss": false,
+  "reference_audits": [
+    {
+      "age": 0,
+      "model": "cd24981b9892822e6c8e44fc8d538b812fbe46add8c4a885e58a9380aed6ca07",
+      "reference": "4981b2f29c0d7838995194638c6b9f83bb39af9aaddcd9fd14300eea1ec60898"
+    },
+    {
+      "age": 1000,
+      "model": "ae0b3294386d0041f5d6c8afbf4d3d26b366b76cca6e8686dc7438246dda6356",
+      "reference": "cc72b3e8cddf1a078f53549482cbd1abf9a17769a71759794fe55a1d5958c420"
+    }
+  ],
+  "wall_seconds": 84.29581620800309,
+  "dataset": "controlled",
+  "latent_dim": 4,
+  "source_dir": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_historical_anchor_20261116/results/B_z4",
+  "reuse": true,
+  "actual_new_updates": 0,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ]
+}

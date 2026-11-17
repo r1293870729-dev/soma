@@ -1,0 +1,43 @@
+{
+  "schema": "soma_manual_v03_controlled_fixed_development_v1",
+  "authorization": "User: 不用重新跑权重数据，还是按照之前的人工设定权重来设计实验; 先跑controlled，图像待补充稳定数据; approved numeric proposal.",
+  "datasets": {
+    "controlled": [
+      4
+    ]
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "batch_size": 64,
+  "train_samples_per_stage": 4096,
+  "validation_samples_per_stage": 4096,
+  "learning_rate": 0.001,
+  "controller_learning_rate": 0.001,
+  "manual_kl_grid": [],
+  "calibration_batches": 8,
+  "gradnorm_alpha": 1.5,
+  "weight_limits": [
+    1e-08,
+    100000000.0
+  ],
+  "split_policy": "controlled_independent_calibration_streams_v03",
+  "metric": "final_validation_reconstruction_loss_mean_over_3_stages",
+  "checkpoint_selection": "fixed_final_step_3000",
+  "final_probe": true,
+  "pcgrad": false,
+  "final_test_unlocked": false,
+  "implementation_choices": "Single source-default human fixed weighting, no weighting comparison. Three paired development seeds under one historical generator; no final Q1-Q3 inference.",
+  "weight_policy": "historical_fixed_only",
+  "fixed_coefficients": {
+    "reconstruction": 1.0,
+    "kl": 0.001
+  }
+}

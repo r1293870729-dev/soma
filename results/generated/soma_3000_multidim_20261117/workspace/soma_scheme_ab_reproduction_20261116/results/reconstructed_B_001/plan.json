@@ -1,0 +1,55 @@
+{
+  "version": "scheme_B_report_protocol_reconstruction_v1",
+  "authorization": "User cannot find original code and explicitly requests best-effort restoration",
+  "run_id": "reconstructed_B_001",
+  "scheme": "B state_conditioned plus fallback",
+  "dimensions": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "modes": [
+    "loss_plus_xi",
+    "loss_only"
+  ],
+  "seed": 0,
+  "source_of_hyperparameters": "each archived resolved_args.json, unchanged except output paths and CPU device",
+  "restored_math": [
+    "centered whitened covariance without trace normalization",
+    "Xi=relu(lambda_max-MP_edge)",
+    "MP_edge=(1+sqrt(D/W))^2"
+  ],
+  "known_unknowns": [
+    "original July source bytes unavailable",
+    "original hardware and package versions unavailable",
+    "later candidate inherited EMA/window/probe routing details unverified against original source",
+    "separate heldout_all final-probe entrypoint unavailable"
+  ],
+  "formal_model_updates_per_case": 3000,
+  "separate_calibration_model_updates_per_case": 3000,
+  "planned_cases": 10,
+  "planned_formal_updates": 30000,
+  "planned_calibration_updates": 30000,
+  "post_training_snapshot_steps": [
+    900,
+    1100,
+    1900,
+    2100,
+    2900
+  ],
+  "offline_diagnostic_views": [
+    "fixed original S1 pool",
+    "current stage pool"
+  ],
+  "offline_head_seed": 10900,
+  "offline_classifier": "same historical fitter, fixed80/20; not an untouched independent test",
+  "worker_count": 1,
+  "torch_threads": 1,
+  "new_dependency": "pytorch-ignite==0.5.1 installed only in vendor_deps",
+  "retune_to_match_curves": false,
+  "new_seed_search": false,
+  "claim_original_byte_reproduction": false,
+  "change_parallel_image_training": false
+}

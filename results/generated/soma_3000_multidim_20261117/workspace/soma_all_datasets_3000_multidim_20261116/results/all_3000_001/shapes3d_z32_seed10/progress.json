@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "unit": "shapes3d_z32_seed10",
+  "dataset": "shapes3d",
+  "latent_dim": 32,
+  "seed": 10,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "changing_curve_end": 3000,
+  "stable_curve_end": 3000,
+  "prefix_exact_checks": 1000,
+  "reference0_causal": true,
+  "reference1000_model_exact": true,
+  "actual_optimizer_updates": 5000,
+  "branches": [
+    {
+      "status": "complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 3000,
+      "actual_optimizer_updates": 3000,
+      "final_model_sha256": "11f851b134dd8dbf7251ac3920b09e51a920f4d7450d281a48ff12016d2adabd",
+      "max_observed_logvar_clip": 0.0
+    },
+    {
+      "status": "complete",
+      "branch": "stable",
+      "start": 1001,
+      "end": 3000,
+      "actual_optimizer_updates": 2000,
+      "final_model_sha256": "227f6006f06e56ad8ced542273848e6f8ca45328295d52ca326c76815c6156b4",
+      "max_observed_logvar_clip": 0.0
+    }
+  ],
+  "signal_enters_loss": false,
+  "all_planned_seeds_retained": true,
+  "wall_seconds": 3320.6397587079555
+}

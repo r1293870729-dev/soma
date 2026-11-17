@@ -1,0 +1,15 @@
+{
+  "steps": 3000,
+  "phase_boundaries": [
+    1000,
+    2000
+  ],
+  "calibration": {
+    "tau_s1": 1.7732044219970702,
+    "tau_t2": 1.9341511011123655,
+    "tau_local_split": 2.442531132698059
+  },
+  "history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z32_seed2/native/train_history.csv",
+  "probe_history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z32_seed2/native/probe_history.csv",
+  "probe_loss_history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/controlled_z32_seed2/native/probe_loss_history.csv"
+}

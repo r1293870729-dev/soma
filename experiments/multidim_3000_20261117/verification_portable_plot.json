@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "parents": 42,
+  "pngs": 9,
+  "svgs": 9,
+  "plotted_rows": 135406,
+  "plotted_values_sha256": "23be9e5a4a7b951152909b3f443d5433f8e5d80f91a243842b5315d598d861c0",
+  "plotted_values_byte_identical": true,
+  "new_training_updates": 0,
+  "output": "/Users/rosyun/Documents/Codex/2026-11-10/ze/work/soma_publish_replot_20261117"
+}

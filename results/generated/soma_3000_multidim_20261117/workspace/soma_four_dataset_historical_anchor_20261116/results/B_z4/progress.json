@@ -1,0 +1,8 @@
+{
+  "status": "running",
+  "step": 3000,
+  "dimension": 4,
+  "training_logs_verified": 303,
+  "probes_verified": 30,
+  "wall_seconds": 74.34930183296092
+}

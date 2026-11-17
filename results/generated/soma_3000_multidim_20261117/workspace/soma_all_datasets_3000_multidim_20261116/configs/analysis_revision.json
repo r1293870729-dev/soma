@@ -1,0 +1,11 @@
+{
+  "old": {
+    "tools/monitor.py": "0d1410d38e4afdf1b7252fc8a6b948cafef39022f2a2be8f45e8a7bfe413e236",
+    "tools/render.py": "ef29f51228c63adda35c4a02fd4290326bfddf5de99e50da2e16671b30cf4839"
+  },
+  "new": {
+    "tools/render.py": "e8f212ecccd1dd5e307d8aea07b2b21a08156ec879da6439c5e10afcd971d2c3",
+    "tools/monitor.py": "2871b9df9d3e12b71cc2a5328176de69ce58256e04d90973e8781b4c903e7fba"
+  },
+  "change": "Group orientation probes by numerical stage3, including custom conditional/raw groups; add explicit training reconstruction loss panel. No training or probe values changed."
+}

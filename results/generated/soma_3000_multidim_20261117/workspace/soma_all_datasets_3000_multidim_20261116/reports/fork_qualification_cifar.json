@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "dataset": "cifar",
+  "dimension": 16,
+  "seed": 10,
+  "cloned_actual_fork_age": 1000,
+  "known_S1_batch_losses_equal_external_prefix": true,
+  "after_one_matched_input_update_model_equal_external_prefix": true,
+  "optimizer_age_after_clone_update": 1001,
+  "diagnostic_clone_updates": 1,
+  "live_training_untouched": true
+}

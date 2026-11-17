@@ -46,3 +46,8 @@ See [B-final code notes](docs/B_FINAL_CODE_README.md) and [code upload status](d
 - [本地 Agent 执行提示词](prompts/multi_loss_agent.md)：当前只允许执行 Phase 0 只读资产盘点；未完成损失与旧版 B 审计前不得启动正式训练。
 
 本实验为独立扩展方向，尚无实验结果，不得将计划或 smoke test 描述为正式结论。
+
+
+## 2026-11-17：四数据集3000步多维度实验
+
+[实验代码、全部42条父轨迹、模型快照、信号/MSE/全部探针合图](experiments/multidim_3000_20261117/README.md)。二进制结果使用Git LFS，需完整拉取LFS对象。

@@ -1,0 +1,15 @@
+{
+  "steps": 3000,
+  "phase_boundaries": [
+    1000,
+    2000
+  ],
+  "calibration": {
+    "tau_s1": 1.7574707627296446,
+    "tau_t2": 1.9117541313171387,
+    "tau_local_split": 2.3590491771698
+  },
+  "history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_scheme_ab_reproduction_20261116/results/reconstructed_B_001/B_z32_loss_only/train_history.csv",
+  "probe_history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_scheme_ab_reproduction_20261116/results/reconstructed_B_001/B_z32_loss_only/probe_history.csv",
+  "probe_loss_history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_scheme_ab_reproduction_20261116/results/reconstructed_B_001/B_z32_loss_only/probe_loss_history.csv"
+}

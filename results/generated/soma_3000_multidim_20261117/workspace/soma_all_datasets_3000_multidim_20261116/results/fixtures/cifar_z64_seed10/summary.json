@@ -1,0 +1,32 @@
+{
+  "status": "fixture_complete",
+  "unit": "cifar_z64_seed10",
+  "dataset": "cifar",
+  "latent_dim": 64,
+  "seed": 10,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "changing_curve_end": 3000,
+  "stable_curve_end": 3000,
+  "prefix_exact_checks": 100,
+  "reference0_causal": true,
+  "reference1000_model_exact": true,
+  "actual_optimizer_updates": 100,
+  "branches": [
+    {
+      "status": "fixture_complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 100,
+      "actual_optimizer_updates": 100,
+      "final_model_sha256": "dda09720601bced738e7ecfda3a1ac270ce472acade52a83ce29b9851bd98da1",
+      "max_observed_logvar_clip": 0.0
+    }
+  ],
+  "signal_enters_loss": false,
+  "all_planned_seeds_retained": true,
+  "wall_seconds": 22.157267125090584
+}

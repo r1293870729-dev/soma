@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "completed_parents": 42,
+  "planned_parents": 42,
+  "new_optimizer_updates": 213000,
+  "planned_new_optimizer_updates": 213000,
+  "entries": [
+    {
+      "dataset": "controlled",
+      "complete": 15,
+      "planned": 15,
+      "status": "complete",
+      "active": []
+    },
+    {
+      "dataset": "dsprites",
+      "complete": 9,
+      "planned": 9,
+      "status": "complete",
+      "active": []
+    },
+    {
+      "dataset": "shapes3d",
+      "complete": 9,
+      "planned": 9,
+      "status": "complete",
+      "active": []
+    },
+    {
+      "dataset": "cifar",
+      "complete": 9,
+      "planned": 9,
+      "status": "complete",
+      "active": []
+    }
+  ],
+  "failures": [],
+  "updated_at": 1794867579.430123
+}

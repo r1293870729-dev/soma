@@ -1,0 +1,10 @@
+{
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/cifar_z16_seed11/checkpoint_initial.pt": "5a214f1efe24650d965a4772172f8481d04ef8ff2cacb0bdf745c7b3a47effc7",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/cifar_z16_seed11/checkpoint_reference.pt": "e5dacfc4bcf76bd85f200308ed15494971542a8ad8ee83ff4efc6d67d998398e",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/cifar_z16_seed11/source_ids.npz": "1423cfbc8532898993da50330bbec1524dadff5d7b9cc10d8f8afe9da91ae3c7",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/cifar_z16_seed11/changing/trajectory.csv": "1140ea39d8a134f3e00c1ba2274d8d52684746901ca69057f74fdf874bad476c",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/cifar_z16_seed11/calibration.json": "c170d42d42caea00e8aa5de7411ad303527be0e16e6eeb61b50fc45745646ddf",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/cifar_z16_seed11/calibration_residuals.npz": "700286c0fa86522ef0b20bde4043ea7362d10cd942a360da50cdc8e57004797a",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/observers/cifar_z16_seed11/ref0/calibration.json": "4881244559435c0400a3bac048f32b284e884c80f7a7b44440736d15b92da085",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_image_dimensions_ref0_ref1000_20261116/results/generated/image_dims_refs_001/observers/cifar_z16_seed11/ref0/calibration_residuals.npz": "158995ac27b5c9d792782f4c26fd982279cea6b4167ae85db60418980563f00c"
+}

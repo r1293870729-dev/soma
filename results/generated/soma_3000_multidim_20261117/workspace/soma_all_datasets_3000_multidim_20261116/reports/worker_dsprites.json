@@ -1,0 +1,375 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "status": "complete",
+      "unit": "dsprites_z8_seed10",
+      "dataset": "dsprites",
+      "latent_dim": 8,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "549959edbe9fdb7508a8478dc8261d31b003a2b736af2b39ffe373fe16e85864",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "8aedfd5b73108a4faab186f7d63eb27a50297eb01c3a6c15deecc9a9db47c733",
+          "max_observed_logvar_clip": 0.001953125
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1811.525542709045
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z16_seed10",
+      "dataset": "dsprites",
+      "latent_dim": 16,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "6d4566648a2a809df7ac9094e0e25065195a94dab5fd2d4eb9cfee6d11381f9d",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "e26ec19cd08ced9d22df3e6f0808d4164145e89a58dcf5c0f7a568223e931a74",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1785.450607249979
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z32_seed10",
+      "dataset": "dsprites",
+      "latent_dim": 32,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "db8a2d925a11fb6749a334467b3ebb2954a6b63fed5df0da20574458a820a72b",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "8905433582fed8ed1fce2b11275917309b53dd1170ad8e3a812273835d9e0c9a",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1858.0466310000047
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z8_seed11",
+      "dataset": "dsprites",
+      "latent_dim": 8,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "e52f16747c465a74014e1fcb236db3f2b12a2e1d3e3c1c6ba2eb68222a273593",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "3c0d20acb3e296ca9cab2485a4982b44de73a89955835e0eb0f293163f9eed9f",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1790.5690428328235
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z16_seed11",
+      "dataset": "dsprites",
+      "latent_dim": 16,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "3d855b651c8fabd4f55be01b177f9e7d6a3b219ec776df7e658f41a7aaf305c3",
+          "max_observed_logvar_clip": 0.1201171875
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "6315a9ada3ab33a3bc3502d4b780522558b30d76a37fde37a6d5faa77b86f121",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1816.968930042116
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z32_seed11",
+      "dataset": "dsprites",
+      "latent_dim": 32,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "0727cb38a4947a94ef989b3768a006013dbc67ff27fcf8e3ad3825a94b5f0231",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "ff4f656a1c2ae9cccb91ed909a6bd55119d955aab3ba647c9712d6179fb8cbf4",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1880.210470000049
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z8_seed12",
+      "dataset": "dsprites",
+      "latent_dim": 8,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "e764e73040a137bcab4822dee9c80bcf58faa037898e1a3dce2a8c558cd082b0",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "cd2e5d25c67b1e949ca9053fc05ecb11756d8593a1d37da1ea1c46dbc6cd7242",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1763.8695384589955
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z16_seed12",
+      "dataset": "dsprites",
+      "latent_dim": 16,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "a56ff1973ef3d96db23684d3ec5413b8d2361df50d4b25b4537d61364b7b90d8",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "af7b3da8121e3c5def26b0b9ae7d5544916a53ef9bf7f676a2b7ebd33471d501",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1809.299968375126
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z32_seed12",
+      "dataset": "dsprites",
+      "latent_dim": 32,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "changing_curve_end": 3000,
+      "stable_curve_end": 3000,
+      "prefix_exact_checks": 1000,
+      "reference0_causal": true,
+      "reference1000_model_exact": true,
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "21bec6ef0bd974946c88da0f377f3902d143e55bc54bd97b0c43c417ec09ccb6",
+          "max_observed_logvar_clip": 0.0
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "74356817f47363f3c596880e6bebb6b15777edb0732cba3644cee80c85fd0810",
+          "max_observed_logvar_clip": 0.0
+        }
+      ],
+      "signal_enters_loss": false,
+      "all_planned_seeds_retained": true,
+      "wall_seconds": 1866.770217792131
+    }
+  ],
+  "failures": []
+}

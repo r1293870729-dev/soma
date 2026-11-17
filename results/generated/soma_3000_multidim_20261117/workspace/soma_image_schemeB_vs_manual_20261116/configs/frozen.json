@@ -1,0 +1,25 @@
+{
+  "files": {
+    "src/observer.py": "173cc79e34e9130bae402f173a396af188b7424f62069ccde942bd729fdedc45",
+    "src/runtime.py": "4dccb8ff61dc909ce5cfcd500b7a813e28aadc2455fd99ae720a6b0d12a13c95",
+    "src/replay.py": "3c678830602a60bc6b47fcb3e21d134288223a5b0084a4ca499501d425096092",
+    "tests/test_observer.py": "56385b58674fe0638e97baac3178f3431d493fcf1fbd4615e1444b08babaa33a",
+    "configs/plan.json": "106cd0771add9ad93a6aa4501f9719ee1cd2572d4bad15e74782c21ea079c70f",
+    "vendor/report_scheme_B/utils.py": "770583fb0c4e7b1e6f89ddc91c4f1f83738296de734f57fb709ab6b5977fc4f8",
+    "vendor/report_scheme_B/losses_pw.py": "48c1bfbe243b24fc86635c56041233628a1ff33f096406b157a5c3b4ebfe9b0c",
+    "vendor/report_scheme_B/legacy_signal.py": "8ceaf2d0de5eb69670ee80700d5ef444ea1eb993329420bdbe3f079d1e1650e9",
+    "docs/COMPARISON_PROTOCOL.md": "8f5abb6e2288222083fad13f367991e12b26866ee415b5ebbdd06f81e04c396e",
+    "docs/source/scheme_ab_report.pdf": "5e0e2b8aed9839eba0730277e7f1894ab8e2db0651007d8ebef3dc307f76add7",
+    "docs/source/experiment_manual_v03.pdf": "f53649bd13de004c35e24a9f1b8e52c661d5b06fae05191c13000c10bfb4e24c",
+    "docs/rendered/manual-14.png": "0a315bac6e12b8458938c94c7565736ef344a82e912e267bab35b43b97256442",
+    "docs/rendered/manual-15.png": "93bcf2fd23fd5dda50f40405204899b00839ca2c10d7287b43902856a351464c"
+  },
+  "fixture_datasets": [
+    "dsprites",
+    "shapes3d",
+    "cifar"
+  ],
+  "fixture_steps": 100,
+  "original_parent_frozen_sha256": "3b281ef2a5667b955dddd13c413005c15da25f9c4c82f5383cee1c3aba5ef47e",
+  "no_outcome_retuning": true
+}

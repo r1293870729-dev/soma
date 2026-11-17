@@ -1,0 +1,149 @@
+{
+  "dataset": "cifar",
+  "seed": 11,
+  "S1_original_rows": 50000,
+  "S1_distinct_pixel_sources": 50000,
+  "S1_exact_role_counts": {
+    "white": 512,
+    "edge": 2048,
+    "edge-cover": 2048,
+    "probe-train": 1024,
+    "probe-val": 512,
+    "probe-test": 1024,
+    "train": 29982,
+    "validation": 12850
+  },
+  "role_assignment_sha256": "7b13657c8b9eacffcd767b35c3c40807ca1b6cf23f5860d7c0243285aeb602a3",
+  "S1_class_support_rejection_attempt": 0,
+  "stage_rows": [
+    50000,
+    10000,
+    10000
+  ],
+  "cross_role_physical_image_overlap": 0,
+  "stage_role_counts": [
+    {
+      "stage": 1,
+      "counts": {
+        "unused": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "white": {
+          "rows": 512,
+          "unique_pixel_sources": 512
+        },
+        "edge": {
+          "rows": 2048,
+          "unique_pixel_sources": 2048
+        },
+        "edge-cover": {
+          "rows": 2048,
+          "unique_pixel_sources": 2048
+        },
+        "train": {
+          "rows": 29982,
+          "unique_pixel_sources": 29982
+        },
+        "validation": {
+          "rows": 12850,
+          "unique_pixel_sources": 12850
+        },
+        "probe-train": {
+          "rows": 1024,
+          "unique_pixel_sources": 1024
+        },
+        "probe-val": {
+          "rows": 512,
+          "unique_pixel_sources": 512
+        },
+        "probe-test": {
+          "rows": 1024,
+          "unique_pixel_sources": 1024
+        }
+      }
+    },
+    {
+      "stage": 2,
+      "counts": {
+        "unused": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "white": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "edge": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "edge-cover": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "train": {
+          "rows": 4895,
+          "unique_pixel_sources": 4895
+        },
+        "validation": {
+          "rows": 1284,
+          "unique_pixel_sources": 1284
+        },
+        "probe-train": {
+          "rows": 1937,
+          "unique_pixel_sources": 1937
+        },
+        "probe-val": {
+          "rows": 950,
+          "unique_pixel_sources": 950
+        },
+        "probe-test": {
+          "rows": 934,
+          "unique_pixel_sources": 934
+        }
+      }
+    },
+    {
+      "stage": 3,
+      "counts": {
+        "unused": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "white": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "edge": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "edge-cover": {
+          "rows": 0,
+          "unique_pixel_sources": 0
+        },
+        "train": {
+          "rows": 4895,
+          "unique_pixel_sources": 4895
+        },
+        "validation": {
+          "rows": 1284,
+          "unique_pixel_sources": 1284
+        },
+        "probe-train": {
+          "rows": 1937,
+          "unique_pixel_sources": 1937
+        },
+        "probe-val": {
+          "rows": 950,
+          "unique_pixel_sources": 950
+        },
+        "probe-test": {
+          "rows": 934,
+          "unique_pixel_sources": 934
+        }
+      }
+    }
+  ]
+}
