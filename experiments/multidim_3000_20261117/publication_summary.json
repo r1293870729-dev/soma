@@ -21,6 +21,6 @@
   "asset_manifest": "results/generated/soma_3000_multidim_20261117/asset_manifest.json",
   "upload_status": "LFS_objects_uploaded_and_checked",
   "lfs_upload_exit_code": 0,
-  "artifact_commit": "5424d579b86e827b871eb0c7ed2a81cdd50369f4",
+  "artifact_commit": "e85c7e67b5eaffee93b9e8ce7b39f36930a26e81",
   "observed_default_head_before_push": "5776b67d87e5cd6f951614c490c400013272d057"
 }
