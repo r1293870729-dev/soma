@@ -42,5 +42,17 @@
   "artifact_commit": "7aca401067e36e58a606a6c03e77c1714ba0c967",
   "observed_default_head_before_push": "2d012be74ecdcf35b4f8ae99bc34e987bbe1bba9",
   "verified_payload_commit": "21ecf6d4a03caba56acd2d976f28835ed620f46c",
-  "upload_verification": "experiments/dense_switch_20261121/upload_verification.json"
+  "upload_verification": "experiments/dense_switch_20261121/upload_verification.json",
+  "legacy_signal_only_replot": {
+    "entry": "experiments/dense_switch_20261121/legacy_signal_only/README.md",
+    "validation": "experiments/dense_switch_20261121/legacy_signal_only/validation.json",
+    "manifest": "experiments/dense_switch_20261121/legacy_signal_only/manifest.json",
+    "conditions": 60,
+    "source_rows": 180000,
+    "dense_overlap_exact_rows": 7320,
+    "controlled_archived_overlap_exact_rows": 4545,
+    "pngs": 5,
+    "svgs": 5,
+    "new_training_updates": 0
+  }
 }

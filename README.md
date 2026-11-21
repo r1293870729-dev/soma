@@ -8,6 +8,8 @@
 
 直接查看：[controlled](experiments/dense_switch_20261121/figures/controlled_all_dimensions.png) · [dSprites](experiments/dense_switch_20261121/figures/dsprites_all_dimensions.png) · [Shapes3D](experiments/dense_switch_20261121/figures/shapes3d_all_dimensions.png) · [CIFAR](experiments/dense_switch_20261121/figures/cifar_all_dimensions.png)。
 
+[新增：仅旧信号Ξ的四数据集图册](experiments/dense_switch_20261121/legacy_signal_only/README.md)，包含完整3000步、两次切换前后各30步、全部维数和三个seed，以及原始数值和绘图源码。
+
 本次历史盘点包含30次被动检测运行（2026-09-29审计账本）、12个父训练组合的I1–I4结果、9次主动SOMA pilot。注意：2026-08-26 Xi-B汇总报告按表格配置和每组3 seeds推算为39个配置-seed组合，与30-run审计账本不一致，需逐run对账；不得混用两个计数。
 
 ## 最新核对（2026-11-08）

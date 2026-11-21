@@ -2,6 +2,12 @@
 
 本次归档补充图像数据集的18个低维训练条件，并对已有全部60个条件在结构切换前后逐步补测。包括全部新增代码、模型与探针快照、原始指标、分析报告和新可视化。此前42个条件及历史依赖保留在[上一批归档](../multidim_3000_20261117/README.md)。本次发布没有启动训练或修改原结果。
 
+## 仅旧信号Ξ：完整3000步与切换前后30步
+
+新增[仅旧信号图册](legacy_signal_only/README.md)，覆盖全部60条件和全部潜维数，不画新信号。每数据集五行×三列：每行一个潜维数，三列依次为1–3000、970–1030、1970–2030步；红线为3seed均值，阴影为最小–最大范围。逐步日志180,000行，7,320个窗口重叠点全部一致；预热无效值留空。
+
+[四数据集总览](legacy_signal_only/figures/all_four_datasets_old_xi_overview.png) · [controlled](legacy_signal_only/figures/controlled_old_xi_full_and_windows.png) · [dSprites](legacy_signal_only/figures/dsprites_old_xi_full_and_windows.png) · [Shapes3D](legacy_signal_only/figures/shapes3d_old_xi_full_and_windows.png) · [CIFAR](legacy_signal_only/figures/cifar_old_xi_full_and_windows.png) · [全部PNG/SVG、数值与代码下载包](legacy_signal_only/legacy_xi_four_datasets.zip)。
+
 | 数据集 | 潜维数 | seed | 完整条件 |
 |---|---|---|---:|
 | controlled | 2 / 4 / 8 / 16 / 32 | 0 / 1 / 2 | 15 |

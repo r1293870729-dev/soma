@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "files": {
+    "README.md": {
+      "bytes": 2256,
+      "sha256": "395096a07d56bae3f6461cd7de11434fd160b5023784627e7521eeb8baff6867"
+    },
+    "cifar_legacy_xi_by_seed.csv": {
+      "bytes": 1574020,
+      "sha256": "b37b8f3b66a15625f8b7ca7dbb54d860aed421b4b65763fb9a5c3c2847b74f38"
+    },
+    "controlled_legacy_xi_by_seed.csv": {
+      "bytes": 1548614,
+      "sha256": "91cb2f567f3da6c1bca6415c01d3fa13b797c597a4a93db5ad497b6921b77555"
+    },
+    "dsprites_legacy_xi_by_seed.csv": {
+      "bytes": 1692170,
+      "sha256": "b768e7300d253b7e169d625832f1f4112a52acb5a1f8662f322252bf7228415c"
+    },
+    "figures/all_four_datasets_old_xi_overview.png": {
+      "bytes": 1188455,
+      "sha256": "fa39e82cadf75af0cd5277a3e48ccf1e53c3c4c3d4b35a41c69c1a6748e0fe99"
+    },
+    "figures/all_four_datasets_old_xi_overview.svg": {
+      "bytes": 1152353,
+      "sha256": "6fed51bec78dc2911f967a00e05703a9facafd0ab7305ef32471fbba832e344f"
+    },
+    "figures/cifar_old_xi_full_and_windows.png": {
+      "bytes": 1161151,
+      "sha256": "f83bcbf5d557cd10d32584f447abb07d2cbda4789ad14f4ef4fcf9a61e13d839"
+    },
+    "figures/cifar_old_xi_full_and_windows.svg": {
+      "bytes": 1508915,
+      "sha256": "44c7caf5ec7a3f6848572603a982ded63e641f582d9cf9321c3d1a4f01c22296"
+    },
+    "figures/controlled_old_xi_full_and_windows.png": {
+      "bytes": 897202,
+      "sha256": "badf9b508c8d3dd65ee2d861739ad86f0c7cfa4450b4072a8bf643a45108ede6"
+    },
+    "figures/controlled_old_xi_full_and_windows.svg": {
+      "bytes": 1332070,
+      "sha256": "87d25f8dc06282495a84f80810e22d3abf9949cc0ce752eff88ce5b45cb2cc10"
+    },
+    "figures/dsprites_old_xi_full_and_windows.png": {
+      "bytes": 1078187,
+      "sha256": "b1489c6e9e5c2afb071d0da737f8fefef2f0251107012c3e10a46fb6806275f9"
+    },
+    "figures/dsprites_old_xi_full_and_windows.svg": {
+      "bytes": 1430601,
+      "sha256": "761505c701fdcd1755dac06c51bf998cfe4839dca2e2d7ed4411d47c1ebaeaf7"
+    },
+    "figures/shapes3d_old_xi_full_and_windows.png": {
+      "bytes": 976189,
+      "sha256": "9700045575cae9bd4c8e47876617ba976a658275ea573a76ef95debb611c4c06"
+    },
+    "figures/shapes3d_old_xi_full_and_windows.svg": {
+      "bytes": 1408000,
+      "sha256": "70ece2ebc4f5bd161330e99f96e3038d5891174dbaa5db7a73e4fcb66f61ce38"
+    },
+    "plot_aggregates.csv": {
+      "bytes": 2286227,
+      "sha256": "2982bf6e8041e0d2e40eee4d865159d2772d9fa25c9bc81f050bb89ad711508a"
+    },
+    "plot_legacy_xi.py": {
+      "bytes": 15043,
+      "sha256": "9ee30944be9a350d1feae0eb7395ae8cdd11e179c8baaf0cf6368a39aaca87d0"
+    },
+    "shapes3d_legacy_xi_by_seed.csv": {
+      "bytes": 1630434,
+      "sha256": "06422615f094281b9c4a3665f642c48aafd0ed921db5a44f3d96ab8b57a1ad36"
+    },
+    "validation.json": {
+      "bytes": 57028,
+      "sha256": "698ef332271c6bcd1022a13684c8bae81d0f89af73155722ad5823cf744929da"
+    }
+  },
+  "validation": "validation.json"
+}
