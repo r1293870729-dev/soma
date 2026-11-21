@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "repository": "https://github.com/r1293870729-dev/soma.git",
+  "branch": "experiment/lowdim-dense-results-20261121",
+  "archived_files": 3863,
+  "archived_bytes": 10243920790,
+  "remote_samples": [
+    {
+      "path": "results/generated/soma_dense_switch_20261121/workspace/soma_lowdim_switch_probe_20261117/results/lowdim_switch_001/shapes3d_z4_seed12/changing/checkpoint_final.pt",
+      "bytes": 17225482,
+      "sha256": "24521cbd79e0128c593f86005062d4947f07e6e753b8d32a0684be4ddb0d2950",
+      "remote_download_matches": true
+    },
+    {
+      "path": "results/generated/soma_dense_switch_20261121/workspace/soma_lowdim_switch_probe_20261117/results/lowdim_switch_001/dsprites_z2_seed10/ref1000/calibration_residuals.npz",
+      "bytes": 8692493,
+      "sha256": "ea1cb829d23d0b836eb11426b39ef1143a1190c1a06e49314f103aaaa2fdfc56",
+      "remote_download_matches": true
+    },
+    {
+      "path": "results/generated/soma_dense_switch_20261121/workspace/soma_dense_switch_windows_20261119/四数据集_逐步切换窗口图.zip",
+      "bytes": 42597363,
+      "sha256": "e3652277bb2109473b3ddd8015e36b47af5690b83fd26b50e213b8011ff02401",
+      "remote_download_matches": true
+    }
+  ],
+  "lfs_paths": 2458,
+  "unique_lfs_objects": 2362,
+  "all_remote_lfs_objects_present": true,
+  "lfs_bytes": 9915378603,
+  "remote_git_tree_verification": {
+    "status": "pass",
+    "all_3863_asset_paths_and_blob_ids_match": true,
+    "ordinary": 1405,
+    "lfs_pointers": 2458,
+    "figure_aliases": 10
+  },
+  "verified_payload_commit": "21ecf6d4a03caba56acd2d976f28835ed620f46c",
+  "verified_remote_payload_commit": "21ecf6d4a03caba56acd2d976f28835ed620f46c",
+  "local_byte_verification": "3863 source files and 10 figure aliases match SHA256",
+  "portable_replot": {
+    "status": "pass",
+    "conditions": 60,
+    "rows": 67680,
+    "all_point_keys_and_values_exact": true,
+    "csv_byte_identical": true,
+    "original_table_sha256": "599690923b6a0ab2e0e2e38343193b2d52c5d681e56deccb1e5ffc2ca237e354",
+    "output_table_sha256": "599690923b6a0ab2e0e2e38343193b2d52c5d681e56deccb1e5ffc2ca237e354",
+    "training_updates": 0,
+    "interpolation": false,
+    "points_only": false,
+    "pngs": 32,
+    "svgs": 32
+  },
+  "new_treatment_updates_during_publication": 0
+}
