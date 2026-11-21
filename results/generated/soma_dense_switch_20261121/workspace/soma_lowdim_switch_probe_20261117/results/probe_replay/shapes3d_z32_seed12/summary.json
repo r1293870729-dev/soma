@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "dataset": "shapes3d",
+  "seed": 12,
+  "latent_dim": 32,
+  "anchor": 900,
+  "causal_first_step": 900,
+  "head_sha256": "76eafa5d26a63e036feb796c47e8bb98d6314af80f7d7d5509056188ebdb336b",
+  "original_anchor_metrics_exact": 8,
+  "rows": 720,
+  "main_model_updates": 0,
+  "source_immutable": true,
+  "source_case": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/shapes3d_z32_seed12",
+  "wall_seconds": 159.29284487501718
+}

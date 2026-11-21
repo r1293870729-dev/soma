@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "steps": 100,
+  "every_training_row_identical_on_off": true,
+  "final_model_identical_on_off": true,
+  "own_ref0_fitted": true
+}

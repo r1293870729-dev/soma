@@ -1,0 +1,233 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "status": "complete",
+      "unit": "dsprites_z2_seed10",
+      "dataset": "dsprites",
+      "latent_dim": 2,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "c1e19353c1c88b6a10dcf6c54a2f69cfcbbec4048363aff9201df0307ede6ba9"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "3581fdaa2332382e6c8f47e379e16b832750899e36e1e68e7249017cc2311b6a"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "cc65f13fa3dfdd1e634db0b91efa52e775da765b515a132140155baae37af44c",
+      "initial_model_sha256": "8fb63510b1ab2ae9c5e41a6ec69b07e4602ce92e60780606121ec02cf1e59373",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 1865.158890832914
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z4_seed10",
+      "dataset": "dsprites",
+      "latent_dim": 4,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "ef1b30d244e1019dd1adc15ec77203e77259d7a2b0ba8c4695358b4d7e9cd1ea"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "ebd90778e4ad83d836a53691e700791d0659a662fd747b40c69f003087ec06a8"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "cc65f13fa3dfdd1e634db0b91efa52e775da765b515a132140155baae37af44c",
+      "initial_model_sha256": "900bdf6fd245ca177407dcd638f3cebee7c857466a4ae12b7614c029b5ee86e8",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 2120.684588291915
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z2_seed11",
+      "dataset": "dsprites",
+      "latent_dim": 2,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "c6db20c684921cbd3afd9b0e0a0c9300115f2bc9e5404d127f04ff3a62234536"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "c9779a2462190a6000bd40abf100d947cc27ffdbae4f2ecc2be7b7a4ae22ed24"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "5f2623792e9ac939aae046e41d168250acf2a61926b2b561ebe1c8a9f6e3afac",
+      "initial_model_sha256": "0b84c7aa02caca790e29c67236e9a32af58d5af49a5c80f0043e6aa7f1905a43",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 1850.985814082902
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z4_seed11",
+      "dataset": "dsprites",
+      "latent_dim": 4,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "c90222e81d6ce4af49aa41f574ba6789868f18866f449c7925997f567821a33d"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "c656d06403ecd1999162e5d2613e9f17f6bf065f27bb40d0c3ad13a705977a37"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "5f2623792e9ac939aae046e41d168250acf2a61926b2b561ebe1c8a9f6e3afac",
+      "initial_model_sha256": "c3a545b3bc679fcef5e181b6be6670b1f9d2e3d9b0790e5831b1d0375ae6804c",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 1918.3603559159674
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z2_seed12",
+      "dataset": "dsprites",
+      "latent_dim": 2,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "dc9d7048b91bf504ac9cdddc1f39a0de986d20ccaad7730a7d422dabb94efd6b"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "7b6dee0796a82108a09a7b1550d0e78a61976c81ccde80e3c6835b91d24c70cb"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "cc8a0080fa2e6464895f24c960735fe576f387cf9be7cb895656b5b628cdb98d",
+      "initial_model_sha256": "ff7ece1f9c993f05a8b8a982ea87a40031656dbab525b58965ed8c59adbc17f4",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 1824.5647665420547
+    },
+    {
+      "status": "complete",
+      "unit": "dsprites_z4_seed12",
+      "dataset": "dsprites",
+      "latent_dim": 4,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "4690d1c2f7ee245dec9180d6cc381d5feb0c750fbe78459681902f93fdc82417"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "806fda8d881430ab3081af7bb9913a6867610c9e0551211acb4a0ad6a50f9069"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "cc8a0080fa2e6464895f24c960735fe576f387cf9be7cb895656b5b628cdb98d",
+      "initial_model_sha256": "9211bd1ef676e42d734bf6e8212ac175f0c022a8cd8a2d33bae0a0a446f766e0",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 1887.3108028750867
+    }
+  ]
+}

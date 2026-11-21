@@ -1,0 +1,122 @@
+COMPLETE controlled_z2_seed1
+COMPLETE controlled_z2_seed2
+COMPLETE controlled_z4_seed0
+COMPLETE controlled_z4_seed1
+COMPLETE controlled_z4_seed2
+COMPLETE controlled_z8_seed0
+COMPLETE controlled_z8_seed1
+COMPLETE controlled_z8_seed2
+2026-11-19 23:34:54,559 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:35:37,580 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:36:07,053 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:36:30,982 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:37:04,662 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:37:15,440 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:37:26,379 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+COMPLETE controlled_z16_seed0
+2026-11-19 23:50:12,747 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:50:53,660 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:50:59,520 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-19 23:51:22,147 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+COMPLETE controlled_z16_seed1
+2026-11-20 00:03:55,402 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:04:19,628 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:05:05,073 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:05:15,950 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:06:20,931 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:08:44,230 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+COMPLETE controlled_z16_seed2
+2026-11-20 00:17:36,445 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:17:43,025 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:18:26,022 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:18:50,464 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:19:01,714 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:19:12,857 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:19:18,643 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:19:24,402 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:19:35,308 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:19:50,110 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:19:55,365 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:19:59,219 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:20:04,224 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:20:19,608 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:20:23,449 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:20:28,615 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:20:33,767 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:21:06,782 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:21:11,563 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:21:22,716 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:21:27,100 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:21:37,988 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:21:49,361 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:22:30,483 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:22:41,686 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:22:52,711 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:22:58,607 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:23:57,776 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:24:48,344 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:25:11,311 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:25:34,389 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:25:56,438 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:28:33,909 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:29:14,039 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:29:43,353 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:29:55,157 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+COMPLETE controlled_z32_seed0
+2026-11-20 00:31:42,524 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:31:58,505 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:32:11,313 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:32:33,255 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:32:44,428 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:33:05,866 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:33:21,406 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:33:25,929 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:33:30,607 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:33:40,710 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:33:44,989 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:33:49,194 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:33:54,839 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:34:12,622 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:34:17,925 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:34:34,285 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:34:39,232 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:35:51,149 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:36:11,857 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:41:31,972 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:41:42,709 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:41:59,830 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:42:22,122 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:42:27,696 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:43:56,180 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+COMPLETE controlled_z32_seed1
+2026-11-20 00:45:38,677 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:45:45,158 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:45:58,823 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:46:04,843 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:46:09,774 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:46:26,238 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:46:37,632 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:46:43,556 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:46:54,425 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:47:04,603 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:47:15,324 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:47:37,291 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:47:54,113 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:48:09,730 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:48:26,222 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:48:38,694 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:49:05,434 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:49:11,447 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:49:30,571 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:50:11,616 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:50:21,278 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:50:26,528 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:50:48,442 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:50:59,505 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:51:21,366 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:51:49,225 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:52:02,551 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:56:04,949 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:56:38,795 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+2026-11-20 00:56:56,049 ignite.handlers.early_stopping.EarlyStopping INFO: EarlyStopping: Stop training
+COMPLETE controlled_z32_seed2

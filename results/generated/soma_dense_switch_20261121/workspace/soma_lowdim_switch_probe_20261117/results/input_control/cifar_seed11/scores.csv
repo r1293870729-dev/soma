@@ -1,0 +1,2 @@
+dataset,seed,task,classes,chance,readout,accuracy,balanced_accuracy,macro_f1,cross_entropy,selected_l2,validation_cross_entropy,gradient_max
+cifar,11,class,10,0.1,supervised_pretrained_ResNet18_hx,0.798828125,0.7913440262233669,0.7917726110504867,0.6625406869027973,0.01,0.7576703544421338,4.541093913807662e-07

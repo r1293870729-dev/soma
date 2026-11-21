@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "final_probe_groups": 320,
+  "input_control_groups": 8,
+  "transition_groups": 160,
+  "training_conditions": 60
+}

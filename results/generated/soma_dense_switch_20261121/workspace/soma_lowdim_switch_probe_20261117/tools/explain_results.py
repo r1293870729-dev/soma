@@ -1,0 +1,67 @@
+"""Evidence-based Chinese explanation from finished results; never feeds training."""
+from collections import defaultdict
+import csv,json,sys
+from pathlib import Path
+import numpy as np
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'))
+from study_paths import rows,write
+def table(header,rr):return '\n'.join(['| '+' | '.join(header)+' |','| '+' | '.join(['---']*len(header))+' |']+['| '+' | '.join(map(str,r))+' |' for r in rr])
+def save_csv(file,rr):
+    if rr:
+        with file.open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(rr[0]));w.writeheader();w.writerows(rr)
+def aggregate(rr,keys,value):
+    groups=defaultdict(list)
+    for r in rr:groups[tuple(r[k] for k in keys)].append(float(r[value]))
+    return [dict(zip(keys,k),n=len(v),mean=float(np.mean(v)),min=float(min(v)),max=float(max(v))) for k,v in sorted(groups.items())]
+def main(cases):
+    import plots_switch as p
+    final=[];classes=set()
+    for c in cases:
+        if c['dataset']=='controlled':continue
+        for r in c['branches']['changing']['probes']:
+            classes.add((c['dataset'],r['task'],int(r['classes'])))
+            if int(r['step'])==3000:final.append(dict(dataset=c['dataset'],dim=c['dim'],seed=c['seed'],group=r['probe_group'],task=r['task'],readout=r['readout'],classes=int(r['classes']),chance=1/int(r['classes']),balanced_accuracy=float(r['balanced_accuracy'])))
+    summary=aggregate(final,['dataset','dim','group','task','readout','classes','chance'],'balanced_accuracy');save_csv(ROOT/'reports/final_probe_summary.csv',summary)
+    controls=[]
+    for file in (ROOT/'results/input_control').glob('*/scores.csv'):
+        if (file.parent/'summary.json').exists():controls.extend(rows(file))
+    positive=aggregate(controls,['dataset','task'],'balanced_accuracy');save_csv(ROOT/'reports/input_positive_control_summary.csv',positive)
+    transition=rows(ROOT/'reports/transition_effects.csv');eff=aggregate(transition,['dataset','dim','task','head_kind','cut'],'paired_increment_pp');save_csv(ROOT/'reports/transition_effects_summary.csv',eff)
+    status=json.loads((ROOT/'reports/figure_status.json').read_text());counts=f"新增低维已完整完成 {status['new_training_complete']}/18；原42个条件只读复用；冻结头重算 {status['frozen_replays']}/45。"
+    content=['# 2/4维补充、结构切换与探针低分解释','',counts,'','最新实际训练进度见 [LIVE_PROGRESS.md](LIVE_PROGRESS.md)；本报告只纳入完整条件，缺少的2/4维不会补零。','',
+    '新增 dSprites 2/4、Shapes3D 2/4、CIFAR 2/4，每种维数3个配对seed，共18个父条件。controlled已含2/4维，直接复用。仍为三个1000步阶段；每个图像父条件另有同一1000步模型/Adam分叉的2000步S1稳定对照。图从700步显示，完整3000步数据保留。',
+    '', '## 如何体现切换，同时不制造实验效果','',
+    '同一图片放新Ψ（ref0和ref1000）、旧Ξ、当前流MSE和探针。1000/2000步用竖线标出，并另画700–1300/1700–2300放大图。BA绝对图保留0–1轴；局部效应图以百分点展示变化流减稳定流、再减预窗口均差，完整逐seed逐任务数值见 transition_effects.csv。阴影是seed最小到最大，不是置信区间。',
+    '',table(['探针口径','固定什么','回答的问题','解释限制'],[
+      ['固定S1、重拟合头','S1测试图及划分','当前表示中的旧任务信息还可否被线性读出','每次重拟合可适应坐标变化'],
+      ['当前阶段、重拟合头','任务标签定义，测试图随阶段更换','模型适应当前数据分布的程度','分数下降可由任务支持变难引起，不能直接称遗忘'],
+      ['固定S1、900步冻结头','S1图、训练均值/标准差、权重和bias','原读出器在表示变化后是否仍可用','下降可能是可逆坐标漂移，不等于信息完全消失'],
+      ['S1稳定流对照','1000步分叉的模型和Adam状态','同等更新步数但不切换结构会怎样','对照支持始终S1；与变化流当前MSE不是同一输入分布']]),
+    '', '冻结900步不是老师手册规定，是本轮新增结果出来前固定的诊断选择，不倒填此前点。原重拟合探针保留。图像探针在当批更新前评估：1001步的模型刚完成1000次旧阶段更新，还没从新阶段学习；信号却已经看到新阶段输入。因此信号可立刻跳变，而固定S1探针通常要经过若干次新阶段训练才可能变化，不能要求两者同一步必然跳变。',
+    '', '老师希望看到的结构切换效应需要模型容量、输入变化与探针任务确实相互影响。低维2/4是有理由的容量对照，但若切换前就接近机会水平，也没有足够下降空间。高维保留旧信息、新因子对旧任务无干扰时，探针可以保持高分；不应靠更换标签、筛seed、任意加大KL或截纵轴制造下降。',
+    '', '## 平衡准确率是什么','',
+    '对K类任务，BA = (1/K) × Σ_c [该类预测正确数 / 该类实际样本数]。先算每个类别的召回率，再给每类相同权重；普通准确率则是全体预测正确数/总样本数。[scikit-learn 官方定义](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html)。',
+    '', '例如90张A、10张B，模型全部猜A：普通准确率90%，但A召回100%、B召回0%，BA=(100%+0%)/2=50%。所以BA避免多数类掩盖少数类。这里使用未作机会校正的BA；0.5表示50%平均类别召回，并不总是二分类随机水平。K类均匀随机猜测或与标签独立的预测，期望BA为1/K。',
+    '', '潜维数z=2/4说的是编码向量长度，不是2/4分类；例如CIFAR在2维表示上仍然是10分类、机会水平10%。不同任务的BA不能脱离类别数直接比较。实际类数如下：','',
+    table(['数据集','任务','类别数K','机会水平'],[(ds,p.old.TASKS.get(task,task),k,f'{100/k:.3f}%') for ds,task,k in sorted(classes)]),
+    '', '## 已完成旧结果中，为什么一些探针很低','',
+    '以下数值均来自原3000步完整轨迹的最后一个更新前检查点，按三个seed取均值；不是新低维尚未完成的结果：','',
+    table(['任务','读出与维数','BA均值','机会水平'],[
+      ['CIFAR固定S1类别','μ，32维','27.63%','10%'],
+      ['dSprites心形方向八分类','μ，32维','17.17%','12.5%'],
+      ['Shapes3D固定S1地面颜色','μ，64维','99.77%','10%'],
+      ['Shapes3D固定S1地面颜色','采样z，64维','57.77%','10%']]),
+    '', 'CIFAR：模型优化的是像素重构+0.0001KL，没有类别交叉熵；背景、颜色、纹理能帮助重构，却未必让语义类别在线性空间分开。这是待诊断的任务与目标不一致，不能从低分直接断言实现错误或完全没有类别信息。类别仅作旁路探针，不反向训练VAE。',
+    '', 'dSprites：位置有32类、尺度6类、形状3类、方向主任务8类，难度和机会水平不同。心形方向17.17%仅略高于12.5%，确实弱，不能仅用“分类数多”解释。方向只在S3引入，有限S3训练、压缩/线性可读性、有限探针样本都可能有影响；这些是机制假设，尚未逐项干预证明。低重构MSE也可能主要来自大量背景像素，并不保证细微方向被正确编码。',
+    '', 'Shapes3D：同一地面颜色任务，μ接近100%而采样z约58%。z=μ+exp(logvar/2)×ε，多了一次后验噪声；当前有限样本线性头的表现会受噪声、维数和拟合影响。这组对照说明均值表示具有颜色信息，不能把低z分数说成所有潜变量信息丢失。噪声、μ方差和logvar裁剪另有原始诊断记录。',
+    '', '像素对称性也不能随口解释低分。本轮对真实dSprites全部像素身份和标签做了离线审计：原40方向辅助任务的理想像素分类器BA上限约97.07%；心形方向八分类没有发现相同像素对应不同标签，上限为100%。因此17%左右的主任务BA不能归咎于它在数据上必然不可识别。此审计只用于解释，不反馈训练。',
+    '', '## 相同探针流程的阳性诊断','',
+    '使用相同原图角色、类别和线性头拟合器，输入换为冻结官方ImageNet监督预训练ResNet18的h(x)，检验头/标签流程是否有能力读出任务。它有外部监督预训练，不能与无监督VAE作为公平算法排名，也没有反馈主模型。当前完整结果：','',
+    table(['数据集','S1任务','完成seed数','BA均值','seed范围'],[(r['dataset'],r['task'],r['n'],f"{100*r['mean']:.2f}%",f"{100*r['min']:.2f}–{100*r['max']:.2f}%") for r in positive]) if positive else '阳性对照仍在计算。',
+    '', '若原图特征控制较高而VAE低，支持问题主要在表示或目标匹配，而非同一探针流程完全失效；仍不能完全排除特定表示条件下的头拟合限制。当前阶段分布变化、固定S1遗忘、冻结头漂移将分别报告，不合并成一个“符合预期”的结论。',
+    '', '## 文件','', '- [清晰图目录](GALLERY.md)：四数据集总览、各数据集全维数、每个因子任务与切换窗口，均含PNG/SVG。', '- final_probe_summary.csv：最终完整条件的各任务/读出/维数均值与范围。', '- transition_effects.csv / transition_effects_summary.csv：逐seed及聚合的真实切换效应，保留正向、负向和零附近结果。', '- input_positive_control_summary.csv：原图预训练特征控制。', '- dsprites_label_identifiability.json：真实像素标签一致性审计。', '- ../docs/PROTOCOL.md / ../configs/plot_protocol.json：冻结训练诊断方案与绘图口径。', '', '本轮为开发/探索实验。未解锁手册Q1–Q3最终测试，不声明统计显著性、确定因果或全部数据集必然发生遗忘。']
+    (ROOT/'reports/RESULTS_AND_EXPLANATION.md').write_text('\n'.join(content)+'\n')
+    write(ROOT/'reports/analysis_status.json',dict(status=status['status'],final_probe_groups=len(summary),input_control_groups=len(positive),transition_groups=len(eff),training_conditions=status['training_conditions']))
+if __name__=='__main__':
+    import plots_switch as p
+    main(p.load())

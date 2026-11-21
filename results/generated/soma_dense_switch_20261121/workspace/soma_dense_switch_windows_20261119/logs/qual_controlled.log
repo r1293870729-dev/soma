@@ -1,0 +1,4 @@
+mkdir -p failed for path /Users/rosyun/.matplotlib: [Errno 1] Operation not permitted: '/Users/rosyun/.matplotlib'
+Matplotlib created a temporary cache directory at /var/folders/h9/_dvlr32s3xq_5s5y7yktzdyr0000gn/T/matplotlib-7yp0cw99 because there was an issue with the default path (/Users/rosyun/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+COMPLETE controlled_z2_seed0

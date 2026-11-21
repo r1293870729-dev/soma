@@ -2,6 +2,14 @@
 
 **当前状态：已有探索性实验与部分工程验证，尚无按当前手册完整验收的 Q1–Q3 正式证据。**
 
+## 2026-11-21：60条件完整结果与新可视化
+
+[四数据集、多维数、2/4维补充与逐步切换图入口](experiments/dense_switch_20261121/README.md)：包含新增18个训练条件、全部60条件的切换前后逐步指标、全部代码和快照、分析报告，以及32张清晰PNG/SVG图。每个数据集五种潜维数、各三seed；变化流仍为3000步。原42条件归档保持不变，大文件使用Git LFS。
+
+直接查看：[controlled](experiments/dense_switch_20261121/figures/controlled_all_dimensions.png) · [dSprites](experiments/dense_switch_20261121/figures/dsprites_all_dimensions.png) · [Shapes3D](experiments/dense_switch_20261121/figures/shapes3d_all_dimensions.png) · [CIFAR](experiments/dense_switch_20261121/figures/cifar_all_dimensions.png)。
+
+[新增：仅旧信号Ξ的四数据集图册](experiments/dense_switch_20261121/legacy_signal_only/README.md)，包含完整3000步、两次切换前后各30步、全部维数和三个seed，以及原始数值和绘图源码。
+
 本次历史盘点包含30次被动检测运行（2026-09-29审计账本）、12个父训练组合的I1–I4结果、9次主动SOMA pilot。注意：2026-08-26 Xi-B汇总报告按表格配置和每组3 seeds推算为39个配置-seed组合，与30-run审计账本不一致，需逐run对账；不得混用两个计数。
 
 ## 最新核对（2026-11-08）
@@ -23,7 +31,7 @@
 
 Q1固定拓扑研究诊断增量；Q2只更换第二结构门研究恢复负担；Q3在CLEAR/CLOC独立主动流审计长期表现、保留与资源。未经作者冻结的AUTHOR INPUT、最高单位数量、终点、阈值、基线和停止规则不得自动补值。工程测试通过不等于论文任务accepted。
 
-仓库保持私有。大型原始包需在许可检查后通过Git LFS或外部数据存储迁移；本轮没有声称原始PDF、DOCX和大型ZIP已作为二进制文件上传。
+历史原始资料迁移范围见[交付状态](docs/DELIVERY_STATUS.md)；2026-11-17及本轮实验资产见各自实验入口。实验结果上传不代表全部历史原始PDF、DOCX和源码包都已迁移。
 
 
 ## Final B code (2026-10-24)

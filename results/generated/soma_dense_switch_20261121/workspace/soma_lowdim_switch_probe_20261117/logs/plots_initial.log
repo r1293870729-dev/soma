@@ -1,0 +1,4 @@
+Matplotlib is building the font cache; this may take a moment.
+/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_lowdim_switch_probe_20261117/tools/plots_switch.py:87: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  axes[4,j].set_ylabel(f'900步冻结S1头 BA · {ready}/{len(cs)}完成');decorate(axes[4,j],True);axes[4,j].legend(loc='lower left',fontsize=7,ncol=2)
+{"status": "rendered", "parents": 42, "frozen": 3, "pngs": 11}

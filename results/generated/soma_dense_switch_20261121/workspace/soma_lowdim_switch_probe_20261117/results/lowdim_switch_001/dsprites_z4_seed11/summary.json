@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "unit": "dsprites_z4_seed11",
+  "dataset": "dsprites",
+  "latent_dim": 4,
+  "seed": 11,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "actual_optimizer_updates": 5000,
+  "branches": [
+    {
+      "status": "complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 3000,
+      "actual_optimizer_updates": 3000,
+      "final_model_sha256": "c90222e81d6ce4af49aa41f574ba6789868f18866f449c7925997f567821a33d"
+    },
+    {
+      "status": "complete",
+      "branch": "stable",
+      "start": 1001,
+      "end": 3000,
+      "actual_optimizer_updates": 2000,
+      "final_model_sha256": "c656d06403ecd1999162e5d2613e9f17f6bf065f27bb40d0c3ad13a705977a37"
+    }
+  ],
+  "new_lowdim": true,
+  "source_IDs_match_existing": true,
+  "source_ID_file_sha256": "5f2623792e9ac939aae046e41d168250acf2a61926b2b561ebe1c8a9f6e3afac",
+  "initial_model_sha256": "c3a545b3bc679fcef5e181b6be6670b1f9d2e3d9b0790e5831b1d0375ae6804c",
+  "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+  "signal_enters_loss": false,
+  "wall_seconds": 1918.3603559159674
+}

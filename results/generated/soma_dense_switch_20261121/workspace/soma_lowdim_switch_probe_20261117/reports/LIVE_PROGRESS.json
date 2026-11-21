@@ -1,0 +1,181 @@
+{
+  "status": "complete",
+  "updated_at": "2026-11-18T03:13:05.895996+08:00",
+  "new_training_complete": 18,
+  "new_training_planned": 18,
+  "new_optimizer_updates": 90000,
+  "planned_optimizer_updates": 90000,
+  "update_fraction": 1.0,
+  "reused_parent_conditions": 42,
+  "complete_parent_conditions": 60,
+  "planned_parent_conditions": 60,
+  "frozen_replay_complete": 45,
+  "frozen_replay_planned": 45,
+  "input_controls": 9,
+  "input_controls_planned": 9,
+  "errors": [],
+  "cases": [
+    {
+      "dataset": "dsprites",
+      "dim": 2,
+      "seed": 10,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "dsprites",
+      "dim": 4,
+      "seed": 10,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "dsprites",
+      "dim": 2,
+      "seed": 11,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "dsprites",
+      "dim": 4,
+      "seed": 11,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "dsprites",
+      "dim": 2,
+      "seed": 12,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "dsprites",
+      "dim": 4,
+      "seed": 12,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "shapes3d",
+      "dim": 2,
+      "seed": 10,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "shapes3d",
+      "dim": 4,
+      "seed": 10,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "shapes3d",
+      "dim": 2,
+      "seed": 11,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "shapes3d",
+      "dim": 4,
+      "seed": 11,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "shapes3d",
+      "dim": 2,
+      "seed": 12,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "shapes3d",
+      "dim": 4,
+      "seed": 12,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "cifar",
+      "dim": 2,
+      "seed": 10,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "cifar",
+      "dim": 4,
+      "seed": 10,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "cifar",
+      "dim": 2,
+      "seed": 11,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "cifar",
+      "dim": 4,
+      "seed": 11,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "cifar",
+      "dim": 2,
+      "seed": 12,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    },
+    {
+      "dataset": "cifar",
+      "dim": 4,
+      "seed": 12,
+      "status": "complete",
+      "branch": "",
+      "step": "",
+      "updates": 5000
+    }
+  ]
+}

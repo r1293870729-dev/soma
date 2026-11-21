@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "branch": "changing",
+  "start": 1,
+  "end": 3000,
+  "actual_optimizer_updates": 3000,
+  "final_model_sha256": "c90222e81d6ce4af49aa41f574ba6789868f18866f449c7925997f567821a33d"
+}

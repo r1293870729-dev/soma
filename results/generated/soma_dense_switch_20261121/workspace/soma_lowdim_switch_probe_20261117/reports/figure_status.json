@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "training_conditions": 60,
+  "planned_conditions": 60,
+  "new_training_complete": 18,
+  "new_training_planned": 18,
+  "frozen_replays": 45,
+  "planned_frozen_replays": 45,
+  "figure_start": 700,
+  "plot_code_sha256": "bd812d6175b582d45b012f59c1490d39ea312f9356d99f40e3462ed2e9b314f2"
+}

@@ -1,0 +1,75 @@
+{
+  "restored_original": true,
+  "byte_identical_to_verified_archive": true,
+  "delivery_files": [
+    "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/downloads/controlled_all_dims.png",
+    "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/downloads/controlled_all_dims.svg",
+    "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/downloads/controlled_all_dimensions.zip"
+  ],
+  "figures": [
+    {
+      "file": "controlled_all_dims.png",
+      "size": [
+        5320,
+        3895
+      ],
+      "sha256": "7e6b5bc7456575145c63dd853a718b9c671572c28f5f688af087383a7c098fa0"
+    },
+    {
+      "file": "controlled_switch_1000.png",
+      "size": [
+        5320,
+        2185
+      ],
+      "sha256": "c7437c75df42de44ddc3551312840b29aab06bcf9e1b6c42ec6a1138646165b1"
+    },
+    {
+      "file": "controlled_switch_2000.png",
+      "size": [
+        5320,
+        2185
+      ],
+      "sha256": "4f8bccc05cdd3ac4af34029109dd70d8912da65f8be26ce4fa42b581e1893bb5"
+    },
+    {
+      "file": "controlled_z2.png",
+      "size": [
+        2660,
+        1957
+      ],
+      "sha256": "7d4f6e4b90604bfa6a1ffe27524ab0ecb17086949320343f2fe4a1790d467d2b"
+    },
+    {
+      "file": "controlled_z4.png",
+      "size": [
+        2660,
+        1957
+      ],
+      "sha256": "5c7a9b6089814b87052f3cee563924daa256b8649352cbe606331952466fbfe1"
+    },
+    {
+      "file": "controlled_z8.png",
+      "size": [
+        2660,
+        1957
+      ],
+      "sha256": "2c4cf69b2345817ad2515c065f6557f5d057009e0dfef71a88d731fcec198055"
+    },
+    {
+      "file": "controlled_z16.png",
+      "size": [
+        2660,
+        1957
+      ],
+      "sha256": "ae3e8d8016cfb35c0671ea45dcc6c258be67e295d37d19c1704d53c9c2540b15"
+    },
+    {
+      "file": "controlled_z32.png",
+      "size": [
+        2660,
+        1957
+      ],
+      "sha256": "37206c65ff6471dd870d48fb4f403fc15a1a27726a2a6d27c2e3a477967ef569"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "fixture_complete",
+  "branch": "changing",
+  "start": 1,
+  "end": 100,
+  "actual_optimizer_updates": 100,
+  "final_model_sha256": "eeed4fb194777db818a281da8137362bf9d1dd99df90663ade1778b86cec0012"
+}

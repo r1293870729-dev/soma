@@ -1,0 +1,30 @@
+{
+  "status": "fixture_complete",
+  "unit": "cifar_z2_seed10",
+  "dataset": "cifar",
+  "latent_dim": 2,
+  "seed": 10,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "actual_optimizer_updates": 100,
+  "branches": [
+    {
+      "status": "fixture_complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 100,
+      "actual_optimizer_updates": 100,
+      "final_model_sha256": "c5a7f83166fbc03b9da223f8de2ce2fbdc00239fb9a7176b6e050e3d962ef1bd"
+    }
+  ],
+  "new_lowdim": true,
+  "source_IDs_match_existing": true,
+  "source_ID_file_sha256": "498268a11d2ce0b9a787e4a62c077f187ee8939a3653018a823ff65c55ae0f10",
+  "initial_model_sha256": "5d31ec41d75d4db3d9735f56da0be6e513a8e58d2397150c498424ff3f6e6ccc",
+  "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+  "signal_enters_loss": false,
+  "wall_seconds": 95.59688695892692
+}

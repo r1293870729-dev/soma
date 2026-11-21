@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "conditions": 60,
+  "rows": 67680,
+  "all_point_keys_and_values_exact": true,
+  "csv_byte_identical": true,
+  "original_table_sha256": "599690923b6a0ab2e0e2e38343193b2d52c5d681e56deccb1e5ffc2ca237e354",
+  "output_table_sha256": "599690923b6a0ab2e0e2e38343193b2d52c5d681e56deccb1e5ffc2ca237e354",
+  "training_updates": 0,
+  "interpolation": false,
+  "points_only": false,
+  "pngs": 32,
+  "svgs": 32
+}

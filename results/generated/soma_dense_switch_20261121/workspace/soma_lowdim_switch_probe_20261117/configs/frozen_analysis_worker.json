@@ -1,0 +1,6 @@
+{
+  "files": {
+    "src/replay_frozen.py": "4efac080e104ed69b04c7974145f0d913145ce58e46c0a71e80da5a647d2f1d4"
+  },
+  "qualification": "exact original anchor BA and CE; no model or RNG updates"
+}

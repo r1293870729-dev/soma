@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "unit": "cifar_z2_seed12",
+  "dataset": "cifar",
+  "latent_dim": 2,
+  "seed": 12,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "actual_optimizer_updates": 5000,
+  "branches": [
+    {
+      "status": "complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 3000,
+      "actual_optimizer_updates": 3000,
+      "final_model_sha256": "98aafb8777baa0bbaa6a52722fd919456318567f5d3c4139aa3293f671ce6c51"
+    },
+    {
+      "status": "complete",
+      "branch": "stable",
+      "start": 1001,
+      "end": 3000,
+      "actual_optimizer_updates": 2000,
+      "final_model_sha256": "5b01e21712f511255d7fb5ef49b9448df116d4bd96d6d753c27be5db24f0dcef"
+    }
+  ],
+  "new_lowdim": true,
+  "source_IDs_match_existing": true,
+  "source_ID_file_sha256": "10a2f5e0a4decd8996e94f6c1d04c5901336fa9ed82598d4756d2fc2acb3e90e",
+  "initial_model_sha256": "50e6962642e056f54b8e64a48d4c07e8153ef8f155c2de7ee5a30d44b91bd2f6",
+  "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+  "signal_enters_loss": false,
+  "wall_seconds": 2176.1657033751253
+}

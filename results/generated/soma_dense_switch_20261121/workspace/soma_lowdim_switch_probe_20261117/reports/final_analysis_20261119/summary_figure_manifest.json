@@ -1,0 +1,31 @@
+{
+  "script_sha256": "82396144766aab2065583a6dd5507c2fbc39c14286ba6b7763a6a33cd5d99d55",
+  "inputs": {
+    "reports/final_analysis_20261119/transition_macro_by_dimension.csv": "9345a9ea2e942c2ac340e16b24489259e94f5b85100919ec031207858c8dc23f",
+    "reports/final_analysis_20261119/controlled_by_dimension.csv": "9856cf33f864124c1414ef98508129190aabcfd1252dcbab90064e989ccfec74",
+    "reports/final_analysis_20261119/numerical_diagnostics.csv": "a22069529484f8f19e92ee8df7ed7a14ab1c3f7c721718169c2353a91b51fdfd",
+    "reports/final_analysis_20261119/transition_macro_by_seed.csv": "417796a8b981a967e2b2ca6f3f9fe6fb960fc4a6a4f0f0f510ec31e758d37a59",
+    "reports/final_analysis_20261119/reference_coverage.csv": "e7abfc632bcd021d0ba36e585122829abd98434eec9052ee586848765ec6144b",
+    "reports/final_analysis_20261119/controlled_by_seed.csv": "ae0d70a3c7ebe0512d01ad8148185617c8fb3f7e6e7b587f561cadc9d3df0ed5",
+    "reports/final_analysis_20261119/S1_factor_by_dimension.csv": "7969461a73c67f4a77b0c2649e5e1ab6c592f044bb518bf11decde6fc0c53c2a",
+    "reports/final_analysis_20261119/final_by_dimension.csv": "b1444862524240bada09ecf77b025b21adb0620a77c1b9e6d92035dcc40eccdc",
+    "reports/final_analysis_20261119/final_by_seed.csv": "0cc87d5e8277837e951c270ee9daa52d824348b083a29d97a1ad35105d575b93",
+    "reports/final_analysis_20261119/signals_by_seed.csv": "c7d24fbfa6c53d7718ed86d4db2fe875f7bbb1fc0bb6b1eb10c90f3ddbffe48e",
+    "reports/final_analysis_20261119/legacy_stage_routing.csv": "77e3b0528249e9ed6370f26d9589c2a2020ab5af9f8fb73d47812c7900cb0797",
+    "reports/final_analysis_20261119/S1_validation_by_dimension.csv": "1c8a8148541f3460db234aa322d25717f7bd315a06de2eb337db17ec00816b0e",
+    "reports/final_analysis_20261119/S1_factor_by_seed.csv": "42392a4d1189dd7eed344e89c48e942551d27a791e660f42fdeaabee3921b149",
+    "reports/final_analysis_20261119/S1_validation_by_seed.csv": "ad5c51ad19d452e310989e347bc46611839294763c321baa25c1ab03d84f81a9",
+    "reports/final_analysis_20261119/signals_by_dimension.csv": "0819319258da5cff1589c0dd6bbd7c496402d6fcc903c888cce781a2ad42afce"
+  },
+  "final_task_table_sha256": "5f3dea7b92c649a3a967d16c4ba8dca72237502a53656c875a2eaf6a94bf1c5a",
+  "figures": {
+    "figures/final_analysis_20261119/04_新信号与固定S1探针变化.png": "71db91e0fc8e73e9aacc54958614fbf5f410c6e1738cf819b2e6992ebdf5029c",
+    "figures/final_analysis_20261119/01_四数据集_维数_探针_重构.svg": "a6b8784e08d96bbf2ca400cec0b5e3363bd8be39560f8eb52eeabf9c50e5a42a",
+    "figures/final_analysis_20261119/01_四数据集_维数_探针_重构.png": "13a58e524e5795ad92400d5ee93fa4abeb5e832174a51b29d030650a262b6e39",
+    "figures/final_analysis_20261119/04_新信号与固定S1探针变化.svg": "9ecec97a9c40b658ad1243b2fa040d98c0f986cd51051cf1f97e3effb54e7a77",
+    "figures/final_analysis_20261119/02_各维数_全部主任务_mu与z.svg": "8dd3186582e44481da39d9e1c21289f43364ad90f7a36f2bd5db0e8202b3ec1f",
+    "figures/final_analysis_20261119/03_两次切换_稳定流校正_探针变化.svg": "9feff899e6b406e92eeaf756cdcef327f890e5f3e802896380cdce8e42ad1766",
+    "figures/final_analysis_20261119/03_两次切换_稳定流校正_探针变化.png": "df6b7172c7d86ca79b7107e99ba62b5fe1bc97a9889d7cd959cf13724597d4a9",
+    "figures/final_analysis_20261119/02_各维数_全部主任务_mu与z.png": "aeee0c73acbbdc7851f41a12005c48d2e201cdc8baaa919eefa6f3d23d98cbe2"
+  }
+}

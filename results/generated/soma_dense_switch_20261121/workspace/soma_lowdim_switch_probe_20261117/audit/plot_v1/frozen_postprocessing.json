@@ -1,0 +1,9 @@
+{
+  "files": {
+    "tools/plots_switch.py": "c236be175b09f4d142f1db9b4177de9ea7c21ac672fdd342fbf1745fa86d2f4b",
+    "tools/explain_results.py": "297785695ad50f2cb03201d0cff739dfe0f0e89afb8760a36c1c793515c0ecab",
+    "tools/monitor.py": "8b6ce991761b16b3edb1f86a1584b79b5fcea9eb483f7e52b0f21e5628de01fd",
+    "configs/plot_protocol.json": "271f3d76dac3c0e395020c25bc42a09ecaaac0dbdda172d836c1ab88b047fd03"
+  },
+  "scope": "analysis only, never feeds training"
+}

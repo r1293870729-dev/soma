@@ -1,0 +1,10 @@
+{
+  "files": {
+    "src/dense_common.py": "e92e47cd10224fa8d4e8bc4aee9bd217540f699b1c9c889671ce3ac042e05efc",
+    "src/dense_images.py": "3f3ae99a1fa0c159dbd3577e97be6a911609328f85a9c350d54753d24c04db4d",
+    "src/dense_controlled.py": "1d868e1318a570d978a73a1b3eb9dec35dddb4f8e9fb0fb01607e801a8bb9e46",
+    "configs/plan.json": "5b0e04811377700c09efc837754270d743300853c1d166d4c98d23a14626c5de",
+    "docs/PROTOCOL.md": "dedd3f17d4b69e153dc0dc01952cb02b771be70dcf3996a1c8b3ac2fdcc4f63a"
+  },
+  "status": "qualification before full launch"
+}

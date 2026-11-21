@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "offline_full_dataset_label_identifiability_audit": true,
+  "no_training_feedback": true,
+  "results": [
+    {
+      "task": "raw40_all_shapes",
+      "rows": 737280,
+      "classes": 40,
+      "pixel_identity_groups": 715706,
+      "groups_with_conflicting_labels": 21262,
+      "ideal_pixel_classifier_BA_upper_bound": 0.9707383897569427,
+      "chance": 0.025
+    },
+    {
+      "task": "heart_bin8",
+      "rows": 245760,
+      "classes": 8,
+      "pixel_identity_groups": 239616,
+      "groups_with_conflicting_labels": 0,
+      "ideal_pixel_classifier_BA_upper_bound": 1.0,
+      "chance": 0.125
+    }
+  ]
+}

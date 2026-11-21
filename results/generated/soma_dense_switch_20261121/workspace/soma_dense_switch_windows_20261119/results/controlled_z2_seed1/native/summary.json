@@ -1,0 +1,15 @@
+{
+  "steps": 3000,
+  "phase_boundaries": [
+    1000,
+    2000
+  ],
+  "calibration": {
+    "tau_s1": 2.463712620735167,
+    "tau_t2": 1.924360543489456,
+    "tau_local_split": 1.8897117257118226
+  },
+  "history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/results/controlled_z2_seed1/native/train_history.csv",
+  "probe_history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/results/controlled_z2_seed1/native/probe_history.csv",
+  "probe_loss_history": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/results/controlled_z2_seed1/native/probe_loss_history.csv"
+}

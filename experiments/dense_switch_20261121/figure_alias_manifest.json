@@ -1,0 +1,52 @@
+{
+  "experiments/dense_switch_20261121/figures/controlled_all_dimensions.png": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/figures/controlled_逐步切换_全部维数.png",
+    "sha256": "7e6b5bc7456575145c63dd853a718b9c671572c28f5f688af087383a7c098fa0",
+    "bytes": 1545642
+  },
+  "experiments/dense_switch_20261121/figures/controlled_all_dimensions.svg": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/figures/controlled_逐步切换_全部维数.svg",
+    "sha256": "ae5218e9494c0a40d8a6516873822e7f80d06c4c8ea8b86616395999fdebc6e6",
+    "bytes": 1858143
+  },
+  "experiments/dense_switch_20261121/figures/dsprites_all_dimensions.png": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/figures/dsprites_逐步切换_全部维数.png",
+    "sha256": "6912b633b0fc84a21246fecfff057a5964d850c71eae14dfcfe35d7de01a6f81",
+    "bytes": 2660553
+  },
+  "experiments/dense_switch_20261121/figures/dsprites_all_dimensions.svg": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/figures/dsprites_逐步切换_全部维数.svg",
+    "sha256": "ed38ed1747c638f2881089552e22dbf2f6f5517862922061452e819e28de97e6",
+    "bytes": 2987282
+  },
+  "experiments/dense_switch_20261121/figures/shapes3d_all_dimensions.png": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/figures/shapes3d_逐步切换_全部维数.png",
+    "sha256": "34b6a7a45bac2b1de4f84bd201a52bdcc5dc44b4b7d9eea88e95706b611b5d67",
+    "bytes": 2600785
+  },
+  "experiments/dense_switch_20261121/figures/shapes3d_all_dimensions.svg": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/figures/shapes3d_逐步切换_全部维数.svg",
+    "sha256": "ad9885f45c85c9bf6d51ec3443e5c6e039622374a98abacaa6412f450af8784b",
+    "bytes": 2976850
+  },
+  "experiments/dense_switch_20261121/figures/cifar_all_dimensions.png": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/figures/cifar_逐步切换_全部维数.png",
+    "sha256": "e152cb055a25a4679efeecb1f7a786333cb0697d57d3dbd025914ae69ae236a1",
+    "bytes": 3015980
+  },
+  "experiments/dense_switch_20261121/figures/cifar_all_dimensions.svg": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/figures/cifar_逐步切换_全部维数.svg",
+    "sha256": "7f302ceb505208c5f116d851eeb9e38a2e26ff46f69d04398fec00c67be5f14f",
+    "bytes": 2994288
+  },
+  "experiments/dense_switch_20261121/figures/all_datasets_overview.png": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_lowdim_switch_probe_20261117/figures/总览_四数据集_全部维数_新旧信号_MSE_探针.png",
+    "sha256": "4e640ce109025729cc4d75dfe88d26395f425fa636ebb69f8fc46690e5ea4e19",
+    "bytes": 2913607
+  },
+  "experiments/dense_switch_20261121/figures/all_datasets_overview.svg": {
+    "source": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_lowdim_switch_probe_20261117/figures/总览_四数据集_全部维数_新旧信号_MSE_探针.svg",
+    "sha256": "cc0f116af05bcf5696f3bb5aafbc2f9a84ca3e76b148b1dfe962b35556c91ecd",
+    "bytes": 8690571
+  }
+}
