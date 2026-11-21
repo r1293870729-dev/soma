@@ -1,0 +1,155 @@
+{
+  "not_experiment_outputs": true,
+  "raw_datasets_are_separate_inputs": true,
+  "numeric_cache": {
+    "dsprites_images": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_vscode_mac_20261111/results/assets/numeric_cache/dsprites_imgs.npy",
+    "shapes3d_images": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_four_dataset_manual_v03_20261114/data_cache/shapes3d_imgs.npy"
+  },
+  "source_manifest": {
+    "schema": "frozen_delivery_training_inputs_v1",
+    "files": [
+      {
+        "path": "data/cifar10/cifar-10-batches-py/data_batch_1",
+        "bytes": 31035704,
+        "sha256": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd"
+      },
+      {
+        "path": "data/cifar10/cifar-10-batches-py/data_batch_2",
+        "bytes": 31035320,
+        "sha256": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8"
+      },
+      {
+        "path": "data/cifar10/cifar-10-batches-py/data_batch_3",
+        "bytes": 31035999,
+        "sha256": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9"
+      },
+      {
+        "path": "data/cifar10/cifar-10-batches-py/data_batch_4",
+        "bytes": 31035696,
+        "sha256": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b"
+      },
+      {
+        "path": "data/cifar10/cifar-10-batches-py/data_batch_5",
+        "bytes": 31035623,
+        "sha256": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154"
+      },
+      {
+        "path": "data/cifar10/cifar-10-batches-py/test_batch",
+        "bytes": 31035526,
+        "sha256": "f53d8d457504f7cff4ea9e021afcf0e0ad8e24a91f3fc42091b8adef61157831"
+      },
+      {
+        "path": "data/cifar10/cifar-10-batches-py/batches.meta",
+        "bytes": 158,
+        "sha256": "f962466ef690d46b226450fb9aadc74ba4bc64a76aa526b5827fe4bc5c7125cb"
+      },
+      {
+        "path": "data/CIFAR-C/motion_blur.npy",
+        "bytes": 153600128,
+        "sha256": "34baad18726fabefeb69b5cbedefda41ee7969dbed1562740ef9e1095d5dd954"
+      },
+      {
+        "path": "data/CIFAR-C/frost.npy",
+        "bytes": 153600128,
+        "sha256": "8be9ab8d9095b3fb3ebf4dd60f0a83651be115c3ac77c8adc5b3e0d3add5ad8c"
+      },
+      {
+        "path": "data/CIFAR-C/labels.npy",
+        "bytes": 50128,
+        "sha256": "e6d972b1238665d8ef54aae5affe8e292dda1eb88a6840bf0f5988cdb649da7b"
+      },
+      {
+        "path": "data/dsprites/dsprites_ndarray_co1sh3sc6or40x32y32_64x64.npz",
+        "bytes": 19318135,
+        "sha256": "857dc001287e8efa226e0025fac6b29e5745c621b380b0d3363e4e33f4e28fa2"
+      },
+      {
+        "path": "data/shapes3d/3dshapes.h5",
+        "bytes": 267573662,
+        "sha256": "0a0f6ed98baff276a50f3a081a7434d788da63cb135a98189b2a5b5769be1785"
+      }
+    ]
+  },
+  "numeric_cache_manifest": {
+    "cifar_hashes.npy": {
+      "bytes": 1920128,
+      "sha256": "782800aa4c5adafe01e98a03a440b719ca15d7dc493d1f83c68631b77fc373a2"
+    },
+    "cifar_labels.npy": {
+      "bytes": 60128,
+      "sha256": "aa20cee99d0aebb017bb1638beaa68cc8bb7b7e321bd268aecdbe1b694435a04"
+    },
+    "cifar_observation_hashes_0.npy": {
+      "bytes": 1600128,
+      "sha256": "3fff20858239cbfc674020b9d979d8930e56678286fc29bf665633ee1d651a33"
+    },
+    "cifar_observation_hashes_1.npy": {
+      "bytes": 320128,
+      "sha256": "1d79a9aa041585a9a385e7fe67cc496b71660793464b7ae95b2c83410aac0a17"
+    },
+    "cifar_observation_hashes_2.npy": {
+      "bytes": 320128,
+      "sha256": "1e3e2d50cf1162cd7ced7107607a44f061de3f3f222cd8bcd5b8ad41d4522d2f"
+    },
+    "cifar_seed10_roles.npy": {
+      "bytes": 60128,
+      "sha256": "238548e84ec1e9c2bbaebc9a35414d42c7d8ca4a4e4ba2ab28f3839de2a0e176"
+    },
+    "cifar_seed11_roles.npy": {
+      "bytes": 60128,
+      "sha256": "a6251682f499f07fe55912f982aa80a90a2b73273c4502d0213b1eeb8d4038b6"
+    },
+    "cifar_seed12_roles.npy": {
+      "bytes": 60128,
+      "sha256": "45101ddf48f6f78f9b791774405ea2377842a606ebf0fe73e6b6795ebf856838"
+    },
+    "dsprites_factors.npy": {
+      "bytes": 4423808,
+      "sha256": "7e3918228e00c029b0b49fad2b7704f2180ad3a426b9cd34261d4bca959dbc51"
+    },
+    "dsprites_hashes.npy": {
+      "bytes": 23593088,
+      "sha256": "385ff86c372c4da7be094523310e23c3bd1ae12e37fb6cf2b35cdd1082b77d1f"
+    },
+    "dsprites_labels.npy": {
+      "bytes": 4423808,
+      "sha256": "65ea389631fc74e77c2f06ba162ff5f39df38b4019dc92a4052dc0658fb3872a"
+    },
+    "dsprites_seed10_roles.npy": {
+      "bytes": 737408,
+      "sha256": "aa29d218c06e57da545727cdb7520f03aa0257f84b3fda774b0bf67245fe00c3"
+    },
+    "dsprites_seed11_roles.npy": {
+      "bytes": 737408,
+      "sha256": "5c0a5c0a9c98c6f076833b92418e6aa0ff2c659fb70afe9eca6d305d54a84b65"
+    },
+    "dsprites_seed12_roles.npy": {
+      "bytes": 737408,
+      "sha256": "9704a05a52843752b7ef7b0acaab99ba81a66c639310668b4e59ec95f22fd463"
+    },
+    "shapes3d_hashes.npy": {
+      "bytes": 15360128,
+      "sha256": "b05fa4f29b9a9dc1f1ea9833a5209af3feb3922a90d24ec5ebc6497a0df08c71"
+    },
+    "shapes3d_labels.npy": {
+      "bytes": 2880128,
+      "sha256": "17168c247ee60c3dfded2e6cdcf4c7c60a2315c1309ef413b7a6f566fe49696e"
+    },
+    "shapes3d_seed10_roles.npy": {
+      "bytes": 480128,
+      "sha256": "6790ff5b06cd0796619be89aef598210ffe76352be67093cd0def5718bdcdc7c"
+    },
+    "shapes3d_seed11_roles.npy": {
+      "bytes": 480128,
+      "sha256": "5eb0ce95d1341aaacf51bfedea741c2cdd247c04928e0b5af45a26b42f7af5a3"
+    },
+    "shapes3d_seed12_roles.npy": {
+      "bytes": 480128,
+      "sha256": "a5c9fe846a63bfbead6e5190cf71f1596e43d237721b678dce6431a35cf935d6"
+    },
+    "shapes3d_imgs.npy": {
+      "bytes": 5898240128,
+      "sha256": "0f7d497ff8ebabdc0ed0e49b33434173a8f3c79756df042dcda3ae691ee3003c"
+    }
+  }
+}

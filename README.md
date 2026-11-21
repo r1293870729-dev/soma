@@ -2,6 +2,12 @@
 
 **当前状态：已有探索性实验与部分工程验证，尚无按当前手册完整验收的 Q1–Q3 正式证据。**
 
+## 2026-11-21：60条件完整结果与新可视化
+
+[四数据集、多维数、2/4维补充与逐步切换图入口](experiments/dense_switch_20261121/README.md)：包含新增18个训练条件、全部60条件的切换前后逐步指标、全部代码和快照、分析报告，以及32张清晰PNG/SVG图。每个数据集五种潜维数、各三seed；变化流仍为3000步。原42条件归档保持不变，大文件使用Git LFS。
+
+直接查看：[controlled](experiments/dense_switch_20261121/figures/controlled_all_dimensions.png) · [dSprites](experiments/dense_switch_20261121/figures/dsprites_all_dimensions.png) · [Shapes3D](experiments/dense_switch_20261121/figures/shapes3d_all_dimensions.png) · [CIFAR](experiments/dense_switch_20261121/figures/cifar_all_dimensions.png)。
+
 本次历史盘点包含30次被动检测运行（2026-09-29审计账本）、12个父训练组合的I1–I4结果、9次主动SOMA pilot。注意：2026-08-26 Xi-B汇总报告按表格配置和每组3 seeds推算为39个配置-seed组合，与30-run审计账本不一致，需逐run对账；不得混用两个计数。
 
 ## 最新核对（2026-11-08）
