@@ -1,0 +1,6 @@
+{
+  "status": "pass",
+  "original_anchor_metrics_exact": true,
+  "causal_no_pre_anchor_points": true,
+  "no_model_or_rng_update": true
+}

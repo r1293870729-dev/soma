@@ -1,0 +1,11 @@
+{
+  "report_sha256": "a1e41c2cc72e6fe63ec7135a325fa3204d4903ac64b4812fc93d89919ada4604",
+  "source_files": {
+    "tools/analyze_completed.py": "0db2d82fd97cd045b1e08d15ca6f6b40e095c855ae794b487156318fe9477aeb",
+    "tools/plot_completed_analysis.py": "82396144766aab2065583a6dd5507c2fbc39c14286ba6b7763a6a33cd5d99d55",
+    "tools/write_completed_report.py": "c9e741017694638e3f5c204bde6a7a1dabf49c80f2c6a59724664c30769194a7"
+  },
+  "all_source_inputs_rechecked": true,
+  "training_updated": false,
+  "figures_visually_reviewed": true
+}

@@ -16,3 +16,6 @@ results/imported/interventions/**/*.csv filter=lfs diff=lfs merge=lfs -text
 *.jsonl filter=lfs diff=lfs merge=lfs -text
 "results/generated/soma_3000_multidim_20261117/workspace/soma_all_datasets_3000_multidim_20261116/reports/combined_20261117/plotted_values.csv" filter=lfs diff=lfs merge=lfs -text
 "results/generated/soma_3000_multidim_20261117/workspace/soma_all_datasets_3000_multidim_20261116/reports/plot_values.csv" filter=lfs diff=lfs merge=lfs -text
+
+# Low-dimensional results and dense switch-window publication, 2026-11-21
+"results/generated/soma_dense_switch_20261121/workspace/soma_dense_switch_windows_20261119/reports/plot_points_by_seed.csv" filter=lfs diff=lfs merge=lfs -text

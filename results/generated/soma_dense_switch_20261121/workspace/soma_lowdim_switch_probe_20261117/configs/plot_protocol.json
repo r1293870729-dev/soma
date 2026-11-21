@@ -1,0 +1,18 @@
+{
+  "version": "transition_display_v2",
+  "figure_start": 700,
+  "training_steps_unchanged": [1000, 1000, 1000],
+  "absolute_probe_axis": [0, 1.02],
+  "MSE_and_signal_y_limits": "matplotlib autoscale using actual points inside displayed x window only; no influence from hidden first-step values; numerical y ticks always shown",
+  "seed_summary": "all completed seeds, arithmetic mean with min-max band, not confidence interval",
+  "missing_policy": "NA; never zero-fill, extrapolate or mix partial runs into finished-condition means",
+  "fixed_S1": "original per-checkpoint refitted linear head, same original S1 test images",
+  "current_support": "same original S1 tasks only, evaluated on S1/S2/S3 probe group as each stage arrives; support changes so not a forgetting measure",
+  "frozen_S1": "original S1 head saved at arrival900/model899, including train mean/std, evaluated only from900 on same S1 images",
+  "stable": "same parent model and full Adam state forked after1000 updates; S1-only continuation",
+  "transition_pre_points": [[900,950,1000],[1900,1950,2000]],
+  "transition_post_points": [[1001,1050,1100],[2001,2050,2100]],
+  "paired_effect": "100 * ((changing_post-changing_pre)-(stable_post-stable_pre)), per seed, not significance or causal proof",
+  "old_results_previously_seen": true,
+  "purpose": "exploratory diagnosis, no outcome-based weights, seed selection, label changes or class merging"
+}

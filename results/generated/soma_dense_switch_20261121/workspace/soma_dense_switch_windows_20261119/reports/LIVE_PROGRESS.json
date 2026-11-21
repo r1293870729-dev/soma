@@ -1,0 +1,612 @@
+{
+  "status": "complete",
+  "updated_at": "2026-11-20T08:33:24.385243+08:00",
+  "complete_conditions": 60,
+  "planned_conditions": 60,
+  "replayed_updates": 227700,
+  "planned_replayed_updates": 227700,
+  "new_treatment_updates": 0,
+  "errors": [],
+  "cases": [
+    {
+      "case": "controlled_z2_seed0",
+      "dataset": "controlled",
+      "dim": 2,
+      "seed": 0,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z2_seed1",
+      "dataset": "controlled",
+      "dim": 2,
+      "seed": 1,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z2_seed2",
+      "dataset": "controlled",
+      "dim": 2,
+      "seed": 2,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z4_seed0",
+      "dataset": "controlled",
+      "dim": 4,
+      "seed": 0,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z4_seed1",
+      "dataset": "controlled",
+      "dim": 4,
+      "seed": 1,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z4_seed2",
+      "dataset": "controlled",
+      "dim": 4,
+      "seed": 2,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z8_seed0",
+      "dataset": "controlled",
+      "dim": 8,
+      "seed": 0,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z8_seed1",
+      "dataset": "controlled",
+      "dim": 8,
+      "seed": 1,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z8_seed2",
+      "dataset": "controlled",
+      "dim": 8,
+      "seed": 2,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z16_seed0",
+      "dataset": "controlled",
+      "dim": 16,
+      "seed": 0,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z16_seed1",
+      "dataset": "controlled",
+      "dim": 16,
+      "seed": 1,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z16_seed2",
+      "dataset": "controlled",
+      "dim": 16,
+      "seed": 2,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z32_seed0",
+      "dataset": "controlled",
+      "dim": 32,
+      "seed": 0,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z32_seed1",
+      "dataset": "controlled",
+      "dim": 32,
+      "seed": 1,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "controlled_z32_seed2",
+      "dataset": "controlled",
+      "dim": 32,
+      "seed": 2,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 6000
+    },
+    {
+      "case": "dsprites_z2_seed10",
+      "dataset": "dsprites",
+      "dim": 2,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z2_seed11",
+      "dataset": "dsprites",
+      "dim": 2,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z2_seed12",
+      "dataset": "dsprites",
+      "dim": 2,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z4_seed10",
+      "dataset": "dsprites",
+      "dim": 4,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z4_seed11",
+      "dataset": "dsprites",
+      "dim": 4,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z4_seed12",
+      "dataset": "dsprites",
+      "dim": 4,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z8_seed10",
+      "dataset": "dsprites",
+      "dim": 8,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z8_seed11",
+      "dataset": "dsprites",
+      "dim": 8,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z8_seed12",
+      "dataset": "dsprites",
+      "dim": 8,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z16_seed10",
+      "dataset": "dsprites",
+      "dim": 16,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z16_seed11",
+      "dataset": "dsprites",
+      "dim": 16,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z16_seed12",
+      "dataset": "dsprites",
+      "dim": 16,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z32_seed10",
+      "dataset": "dsprites",
+      "dim": 32,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z32_seed11",
+      "dataset": "dsprites",
+      "dim": 32,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "dsprites_z32_seed12",
+      "dataset": "dsprites",
+      "dim": 32,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z2_seed10",
+      "dataset": "shapes3d",
+      "dim": 2,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z2_seed11",
+      "dataset": "shapes3d",
+      "dim": 2,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z2_seed12",
+      "dataset": "shapes3d",
+      "dim": 2,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z4_seed10",
+      "dataset": "shapes3d",
+      "dim": 4,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z4_seed11",
+      "dataset": "shapes3d",
+      "dim": 4,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z4_seed12",
+      "dataset": "shapes3d",
+      "dim": 4,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z16_seed10",
+      "dataset": "shapes3d",
+      "dim": 16,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z16_seed11",
+      "dataset": "shapes3d",
+      "dim": 16,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z16_seed12",
+      "dataset": "shapes3d",
+      "dim": 16,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z32_seed10",
+      "dataset": "shapes3d",
+      "dim": 32,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z32_seed11",
+      "dataset": "shapes3d",
+      "dim": 32,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z32_seed12",
+      "dataset": "shapes3d",
+      "dim": 32,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z64_seed10",
+      "dataset": "shapes3d",
+      "dim": 64,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z64_seed11",
+      "dataset": "shapes3d",
+      "dim": 64,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "shapes3d_z64_seed12",
+      "dataset": "shapes3d",
+      "dim": 64,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z2_seed10",
+      "dataset": "cifar",
+      "dim": 2,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z2_seed11",
+      "dataset": "cifar",
+      "dim": 2,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z2_seed12",
+      "dataset": "cifar",
+      "dim": 2,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z4_seed10",
+      "dataset": "cifar",
+      "dim": 4,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z4_seed11",
+      "dataset": "cifar",
+      "dim": 4,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z4_seed12",
+      "dataset": "cifar",
+      "dim": 4,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z16_seed10",
+      "dataset": "cifar",
+      "dim": 16,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z16_seed11",
+      "dataset": "cifar",
+      "dim": 16,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z16_seed12",
+      "dataset": "cifar",
+      "dim": 16,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z32_seed10",
+      "dataset": "cifar",
+      "dim": 32,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z32_seed11",
+      "dataset": "cifar",
+      "dim": 32,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z32_seed12",
+      "dataset": "cifar",
+      "dim": 32,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z64_seed10",
+      "dataset": "cifar",
+      "dim": 64,
+      "seed": 10,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z64_seed11",
+      "dataset": "cifar",
+      "dim": 64,
+      "seed": 11,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    },
+    {
+      "case": "cifar_z64_seed12",
+      "dataset": "cifar",
+      "dim": 64,
+      "seed": 12,
+      "status": "complete",
+      "step": "",
+      "branch": "",
+      "replayed_updates": 3060
+    }
+  ]
+}

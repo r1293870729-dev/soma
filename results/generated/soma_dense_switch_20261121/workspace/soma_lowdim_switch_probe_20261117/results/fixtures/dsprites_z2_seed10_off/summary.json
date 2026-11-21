@@ -1,0 +1,30 @@
+{
+  "status": "fixture_complete",
+  "unit": "dsprites_z2_seed10",
+  "dataset": "dsprites",
+  "latent_dim": 2,
+  "seed": 10,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "actual_optimizer_updates": 100,
+  "branches": [
+    {
+      "status": "fixture_complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 100,
+      "actual_optimizer_updates": 100,
+      "final_model_sha256": "eeed4fb194777db818a281da8137362bf9d1dd99df90663ade1778b86cec0012"
+    }
+  ],
+  "new_lowdim": true,
+  "source_IDs_match_existing": true,
+  "source_ID_file_sha256": "cc65f13fa3dfdd1e634db0b91efa52e775da765b515a132140155baae37af44c",
+  "initial_model_sha256": "8fb63510b1ab2ae9c5e41a6ec69b07e4602ce92e60780606121ec02cf1e59373",
+  "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+  "signal_enters_loss": false,
+  "wall_seconds": 16.770362958079204
+}

@@ -1,0 +1,9 @@
+{
+  "files": {
+    "src/study_paths.py": "6cff7c20d81420368ee864931fe7d476d1bee84d282f9faf98528036a7d35d5c",
+    "src/train_lowdim.py": "e34482841cf2f117bd92e443f2149e8059520dfe3a02873e109b8195b0ef6a19",
+    "src/study_runtime.py": "b40f4e93e39d7c1292e807db742d29dc0ecf4aa23456ba1cb26b44c593f54662",
+    "configs/plan.json": "3fb10bb3985bf2ea9e6f1b5b1553d3e4f217c2fe99ca2cc50bbb40e37d670f7c",
+    "docs/PROTOCOL.md": "6a46855f06d15f638c165f28e5bb5f3cd15960508a689ab3260f32fa1bda5439"
+  }
+}

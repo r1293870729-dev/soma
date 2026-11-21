@@ -1,0 +1,16 @@
+{
+  "core_frozen": true,
+  "visualization_frozen": true,
+  "first_qual_sessions": {
+    "controlled": 53805,
+    "dsprites": 24995,
+    "shapes3d": 37603,
+    "cifar": 92207
+  },
+  "supervisor_session": 78882,
+  "monitor_session": 15060,
+  "awake_session": 47024,
+  "first_completed_condition": "controlled_z2_seed0",
+  "automatic_full_batch_after_qualification": true,
+  "not_a_full_completion_receipt": true
+}

@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "return_codes": {
+    "controlled": 0,
+    "dsprites": 0,
+    "shapes3d": 0,
+    "cifar": 0
+  }
+}

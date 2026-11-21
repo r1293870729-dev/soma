@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "dataset": "cifar",
+  "seed": 12,
+  "latent_dim": 2,
+  "anchor": 900,
+  "causal_first_step": 900,
+  "head_sha256": "8dc6703b11f3ce3f1a71fd9f0491701d29b6a0519862c8151464eb46e06dc0e5",
+  "original_anchor_metrics_exact": 2,
+  "rows": 180,
+  "main_model_updates": 0,
+  "source_immutable": true,
+  "source_case": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_lowdim_switch_probe_20261117/results/lowdim_switch_001/cifar_z2_seed12",
+  "wall_seconds": 126.88033012486994
+}

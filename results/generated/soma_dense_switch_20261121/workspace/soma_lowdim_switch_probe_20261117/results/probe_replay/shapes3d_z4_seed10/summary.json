@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "dataset": "shapes3d",
+  "seed": 10,
+  "latent_dim": 4,
+  "anchor": 900,
+  "causal_first_step": 900,
+  "head_sha256": "d91ad1f231753ecd8dccfee85d6ede1ac105b2e0794ef4ef9819ac4829880270",
+  "original_anchor_metrics_exact": 8,
+  "rows": 720,
+  "main_model_updates": 0,
+  "source_immutable": true,
+  "source_case": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_lowdim_switch_probe_20261117/results/lowdim_switch_001/shapes3d_z4_seed10",
+  "wall_seconds": 163.57426766701974
+}

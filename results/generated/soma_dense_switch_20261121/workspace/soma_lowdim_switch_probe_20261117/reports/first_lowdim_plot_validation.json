@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "case": "dsprites_z2_seed10",
+  "actual_rows_3000_and_2000": true,
+  "both_signals_and_probe_readouts": true,
+  "transition_analysis_defined": true,
+  "combined_complete_cases": 43
+}

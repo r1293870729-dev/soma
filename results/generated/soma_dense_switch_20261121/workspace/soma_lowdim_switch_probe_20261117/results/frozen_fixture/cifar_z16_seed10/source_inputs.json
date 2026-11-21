@@ -1,0 +1,13 @@
+{
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/changing/probe_history.csv": "08d4c2bd298fdc5345648d0ef64b94cab82ca7c6653f9eb29f3c67644d94e78e",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/changing/snapshots/pre_0900.pt": "83b246b9c095db56e186c2f13834c03f9504e851793330fa2a97b853afa546f3",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/changing/snapshots/pre_1000.pt": "75067fec7bb1a2b99ba469bf74fe1540f32135c8f7b748f8cf5c289dfcbb2399",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/changing/snapshots/pre_1001.pt": "838ebca1566c8be22cfb17e78ed786d7502f22d1498e9ba725c8de6f22b9a71b",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/changing/snapshots/pre_2000.pt": "ed0200488071ce107d8c145353dee06615c672505045e8abd344f728fd6c378e",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/changing/snapshots/pre_2001.pt": "0178f54ee3d6a9071dbbc833facf8b67dc020771bd96b32cae6443e453dddd9f",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/changing/snapshots/pre_3000.pt": "4c2bca78180e8544e02ac70e8c9a51e54f20fdcf456f6902c973c1ee02e6fb91",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/stable/snapshots/pre_1001.pt": "cbd371e3f4e785b8e2e764c18f7209ba59a2af902d5df18c4e2f13257405fbd9",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/stable/snapshots/pre_2000.pt": "acc4fc2bcbf1cdc4c113939b38c1fd5bf0d8b8d8c30f047412a7112e5cfcb24f",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/stable/snapshots/pre_2001.pt": "1b87de86a62db33bb8c873ad7165b68c481ea4bb7e5f9726608fc00989774edf",
+  "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z16_seed10/stable/snapshots/pre_3000.pt": "2226c9d360b77e92dcfd178cb9ed3f863f5b00c6e788454fd3dc60137e2b0062"
+}

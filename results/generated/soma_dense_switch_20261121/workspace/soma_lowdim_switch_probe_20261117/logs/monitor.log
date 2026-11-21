@@ -1,0 +1,9 @@
+{"status": "rendered", "parents": 42, "frozen": 7, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 0, "frozen_replay_complete": 7, "new_optimizer_updates": 7200}
+Traceback (most recent call last):
+  File "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_lowdim_switch_probe_20261117/tools/monitor.py", line 44, in <module>
+    try:main()
+        ^^^^^^
+  File "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_lowdim_switch_probe_20261117/tools/monitor.py", line 42, in main
+    time.sleep(20)
+KeyboardInterrupt

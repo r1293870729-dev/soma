@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "dataset": "shapes3d",
+  "seed": 11,
+  "diagnostic_only": true,
+  "pretrained_external_supervision": true,
+  "same_probe_roles_and_fitter": true,
+  "no_main_model_feedback": true,
+  "readout_model_sha256": "265e8731e35794cf541d09323b6c506ca37d5f1e6ed308644182bb37d24e4080"
+}

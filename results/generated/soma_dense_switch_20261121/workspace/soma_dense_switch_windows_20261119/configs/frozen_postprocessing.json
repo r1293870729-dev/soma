@@ -1,0 +1,9 @@
+{
+  "files": {
+    "src/render_dense.py": "c9ca86b61f280d8dd1269734635b27660a4571f807a702753d4864f3331fb10e",
+    "src/monitor_dense.py": "521f3d6dfb1f1fa72196758bc00b68bc3f65f15bab14685f24a6757efacc9f3e",
+    "src/supervise_dense.py": "a043bef81152a5a55470e22dd927875ac82a1e1d7c6f654f7da1c6aac16995fe",
+    "src/awake_dense.py": "646bedc0b88923c235e05b36aa8fd4bc7da0479c3deff515b7260cd600ba053b"
+  },
+  "scope": "visualization/supervision only, core replay frozen separately"
+}

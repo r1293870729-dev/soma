@@ -1,0 +1,5 @@
+{
+  "error": "KeyboardInterrupt()",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/src/monitor_dense.py\", line 46, in <module>\n    try:main()\n        ^^^^^^\n  File \"/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/src/monitor_dense.py\", line 44, in main\n    time.sleep(20)\nKeyboardInterrupt\n",
+  "intentional_restart": "Finish visual QA and add exact per-point CSV plus figure input manifests; replay sources unchanged"
+}

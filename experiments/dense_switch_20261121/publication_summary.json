@@ -1,0 +1,41 @@
+{
+  "status": "prepared",
+  "experiment_id": "soma_dense_switch_20261121",
+  "branch": "experiment/lowdim-dense-results-20261121",
+  "base_commit": "2d012be74ecdcf35b4f8ae99bc34e987bbe1bba9",
+  "archived_files": 3863,
+  "archived_bytes": 10243920790,
+  "archived_projects": {
+    "soma_lowdim_switch_probe_20261117": 2920,
+    "soma_dense_switch_windows_20261119": 940
+  },
+  "new_training_conditions": 18,
+  "reused_training_conditions": 42,
+  "total_conditions": 60,
+  "dataset_dimension_combinations": 20,
+  "frozen_probe_replays": 45,
+  "pretrained_input_controls": 9,
+  "new_training_updates": 90000,
+  "dense_replayed_updates": 227700,
+  "new_treatment_updates_in_dense_replay": 0,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "dense_windows": [
+    [
+      970,
+      1030
+    ],
+    [
+      1970,
+      2030
+    ]
+  ],
+  "dense_points_per_window": 61,
+  "raw_datasets_included": false,
+  "scientific_status": "exploratory_development_not_Q1_Q3_acceptance",
+  "upload_status": "not_yet_uploaded",
+  "asset_manifest": "results/generated/soma_dense_switch_20261121/asset_manifest.json"
+}

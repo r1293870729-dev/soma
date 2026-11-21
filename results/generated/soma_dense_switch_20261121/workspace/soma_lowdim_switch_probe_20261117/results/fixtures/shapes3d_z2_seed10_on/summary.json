@@ -1,0 +1,30 @@
+{
+  "status": "fixture_complete",
+  "unit": "shapes3d_z2_seed10",
+  "dataset": "shapes3d",
+  "latent_dim": 2,
+  "seed": 10,
+  "stage_steps": [
+    1000,
+    1000,
+    1000
+  ],
+  "actual_optimizer_updates": 100,
+  "branches": [
+    {
+      "status": "fixture_complete",
+      "branch": "changing",
+      "start": 1,
+      "end": 100,
+      "actual_optimizer_updates": 100,
+      "final_model_sha256": "3738552fa2c65fb6c3016243ea0e3e1db05d881b985acb12a37703fa88a75b20"
+    }
+  ],
+  "new_lowdim": true,
+  "source_IDs_match_existing": true,
+  "source_ID_file_sha256": "b9f7bdd9cc6e0301a504128635b18897114f619967dbc348c172699781ab9660",
+  "initial_model_sha256": "56f4d6cccd9feda2eb052f0940092ec41bca9926bc7e7463a08414b15c8b77a2",
+  "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+  "signal_enters_loss": false,
+  "wall_seconds": 109.2547406249214
+}

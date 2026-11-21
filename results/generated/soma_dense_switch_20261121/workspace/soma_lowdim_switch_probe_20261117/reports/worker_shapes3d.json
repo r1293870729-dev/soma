@@ -1,0 +1,233 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "status": "complete",
+      "unit": "shapes3d_z2_seed10",
+      "dataset": "shapes3d",
+      "latent_dim": 2,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "bcc5f36d78280647c95989fdac0de89f11df21f046bcb1422e14107e7592c4a7"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "02aab57adacee571a2a2314ed07a66b1fb7a275a5fe63c2648dac3481176f5a9"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "b9f7bdd9cc6e0301a504128635b18897114f619967dbc348c172699781ab9660",
+      "initial_model_sha256": "56f4d6cccd9feda2eb052f0940092ec41bca9926bc7e7463a08414b15c8b77a2",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 3468.9912746669725
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z4_seed10",
+      "dataset": "shapes3d",
+      "latent_dim": 4,
+      "seed": 10,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "a9749ea796e8c034324a54bbfce9edac761c5ce024798b37b6ea255015704c36"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "e2ec6291f150b38782b636add56c61f44ae729d38ba7bf1af00c6959c0590432"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "b9f7bdd9cc6e0301a504128635b18897114f619967dbc348c172699781ab9660",
+      "initial_model_sha256": "d6a5a775e1625b884017678b3016953671ce995da2ad23b06806017f3b9e5093",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 3368.897693292005
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z2_seed11",
+      "dataset": "shapes3d",
+      "latent_dim": 2,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "6a181c7f82efb8d14e82624fd607125e44ed3458eb4ff90e5f02e3b10abaaeb9"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "8585ff49d67c96373c9d22c04293aa46817978ccb4d0c8cb86b27cae13c3b376"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "1334dbe8d506c9794b532bdcef9f219216ab6e688f5b5634691bcace48fcc0f1",
+      "initial_model_sha256": "575bf6a858606e3cd7cff3f7ef82a152f73aad1739c48766dcf6a026e82f4ed0",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 3329.1324781249277
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z4_seed11",
+      "dataset": "shapes3d",
+      "latent_dim": 4,
+      "seed": 11,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "1d24ed40f5e8a07531af4a095db545af6959ba93f78633e55133c340dc856b27"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "cce5cf95bc25690c3527b7bdc298a0a208e51530c7df0d2bea1966cf050ef231"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "1334dbe8d506c9794b532bdcef9f219216ab6e688f5b5634691bcace48fcc0f1",
+      "initial_model_sha256": "4879521ce9781ded64469088e8791ff5d735389993d5a11f50a48b5e6a54c2b4",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 2617.4387245420367
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z2_seed12",
+      "dataset": "shapes3d",
+      "latent_dim": 2,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "4fb7afdfbb66bf187ca8c849cbb5b8f5a7d2cedef1eda13c67ae9addaca56278"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "05ac2d145b7251309fa4ea1a3167569cbcf648c809094d921b082c4f9d08f293"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "f770250772657f37dc9e1b0c67f07ed28a5bc97e2d835ddea281da42e0cb5490",
+      "initial_model_sha256": "c402a499fc36b281feec105743c7a8a537077ceb60a73fdbc94488c345619007",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 1412.5655222500209
+    },
+    {
+      "status": "complete",
+      "unit": "shapes3d_z4_seed12",
+      "dataset": "shapes3d",
+      "latent_dim": 4,
+      "seed": 12,
+      "stage_steps": [
+        1000,
+        1000,
+        1000
+      ],
+      "actual_optimizer_updates": 5000,
+      "branches": [
+        {
+          "status": "complete",
+          "branch": "changing",
+          "start": 1,
+          "end": 3000,
+          "actual_optimizer_updates": 3000,
+          "final_model_sha256": "9849a0f25475023509eb65fcdfb44e30b1c730b79e8b25959c80dcc80b7187c3"
+        },
+        {
+          "status": "complete",
+          "branch": "stable",
+          "start": 1001,
+          "end": 3000,
+          "actual_optimizer_updates": 2000,
+          "final_model_sha256": "a8e457a77be08b27a7d97a4e325d97cac742d04610b05d816d2cd38675ba29ad"
+        }
+      ],
+      "new_lowdim": true,
+      "source_IDs_match_existing": true,
+      "source_ID_file_sha256": "f770250772657f37dc9e1b0c67f07ed28a5bc97e2d835ddea281da42e0cb5490",
+      "initial_model_sha256": "6dcbd3e7d94e73f927461b4b0990c4f851b65925ab18522fe50e72726880c9eb",
+      "reference_fit": "own model at0 and1000, identical S1 roles; no highdim reference reused",
+      "signal_enters_loss": false,
+      "wall_seconds": 1431.8032874171622
+    }
+  ]
+}

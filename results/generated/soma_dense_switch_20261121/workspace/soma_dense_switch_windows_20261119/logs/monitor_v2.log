@@ -1,0 +1,9 @@
+Rendered dense figures, conditions=1
+{"event": "render", "conditions": 1, "status": "running"}
+Traceback (most recent call last):
+  File "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/src/monitor_dense.py", line 46, in <module>
+    try:main()
+        ^^^^^^
+  File "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_dense_switch_windows_20261119/src/monitor_dense.py", line 44, in main
+    time.sleep(20)
+KeyboardInterrupt

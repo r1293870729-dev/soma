@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "dataset": "cifar",
+  "seed": 10,
+  "latent_dim": 32,
+  "anchor": 900,
+  "causal_first_step": 900,
+  "head_sha256": "2955d6512b128d26b1a0eed84cbe048a569cbd51aa98545804b286fcd2aa39e6",
+  "original_anchor_metrics_exact": 2,
+  "rows": 180,
+  "main_model_updates": 0,
+  "source_immutable": true,
+  "source_case": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/cifar_z32_seed10",
+  "wall_seconds": 101.17838695808314
+}

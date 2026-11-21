@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-11-17T23:19:31.940795+08:00",
+  "training_sessions": {
+    "dsprites": 85885,
+    "shapes3d": 92197,
+    "cifar": 99288
+  },
+  "analysis_session": 75641,
+  "plot_monitor_session": 66485,
+  "protocol_frozen": "configs/frozen.json",
+  "frozen_analysis": "configs/frozen_analysis_worker.json",
+  "plot_analysis": "configs/frozen_postprocessing.json",
+  "raw_data_downloaded": false,
+  "original_results_modified": false,
+  "new_parent_conditions_planned": 18,
+  "new_model_updates_planned": 90000,
+  "final_results_automatic": true,
+  "not_a_completion_receipt": true
+}

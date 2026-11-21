@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "dataset": "dsprites",
+  "seed": 11,
+  "latent_dim": 16,
+  "anchor": 900,
+  "causal_first_step": 900,
+  "head_sha256": "ce0b67b8d1c6f88d7550723be8899ee83e6391976abe5894086e9ab7a523f8bd",
+  "original_anchor_metrics_exact": 6,
+  "rows": 540,
+  "main_model_updates": 0,
+  "source_immutable": true,
+  "source_case": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_all_datasets_3000_multidim_20261116/results/all_3000_001/dsprites_z16_seed11",
+  "wall_seconds": 58.03037124988623
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "previous": "audit/plot_v1/frozen_postprocessing.json",
+  "files": {
+    "tools/plots_switch.py": "bd812d6175b582d45b012f59c1490d39ea312f9356d99f40e3462ed2e9b314f2",
+    "tools/explain_results.py": "297785695ad50f2cb03201d0cff739dfe0f0e89afb8760a36c1c793515c0ecab",
+    "tools/monitor.py": "8b6ce991761b16b3edb1f86a1584b79b5fcea9eb483f7e52b0f21e5628de01fd",
+    "configs/plot_protocol.json": "bb489e388e1da99b9c85dc3f907fbf6a4db520bed94f58eeda1836e58da6b112"
+  },
+  "scope": "analysis only; visible-window y autoscale corrected after visual QA; no training changes"
+}

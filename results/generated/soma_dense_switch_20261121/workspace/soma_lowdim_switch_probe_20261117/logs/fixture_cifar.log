@@ -1,0 +1,4 @@
+{"status": "running", "unit": "cifar_z2_seed10", "branch": "changing", "step": 1, "updates": 1, "planned": 100, "wall_seconds": 75.04953949991614, "updated_at": 1794926967.708815}
+{"status": "running", "unit": "cifar_z2_seed10", "branch": "changing", "step": 100, "updates": 100, "planned": 100, "wall_seconds": 95.53984379186295, "updated_at": 1794926988.199142}
+{"status": "running", "unit": "cifar_z2_seed10", "branch": "changing", "step": 1, "updates": 1, "planned": 100, "wall_seconds": 0.2302128749433905, "updated_at": 1794926988.4872189}
+{"status": "running", "unit": "cifar_z2_seed10", "branch": "changing", "step": 100, "updates": 100, "planned": 100, "wall_seconds": 16.665289791999385, "updated_at": 1794927004.9223092}

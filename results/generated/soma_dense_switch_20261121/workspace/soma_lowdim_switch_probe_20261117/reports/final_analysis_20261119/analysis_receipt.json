@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "conditions": 60,
+  "image_conditions": 45,
+  "new_conditions": 18,
+  "new_updates": 90000,
+  "readouts": 2,
+  "cuts": [
+    1000,
+    2000
+  ],
+  "image_seeds": 3,
+  "signal_status_counts": {
+    "valid": 8505
+  },
+  "window_policy": "original pre/post 3 genuine points, no result-dependent window selection",
+  "same_model_support": "see original GALLERY; current pool changes are not temporal forgetting",
+  "exploratory": true,
+  "significance_claim": false,
+  "new_training_launched": false
+}

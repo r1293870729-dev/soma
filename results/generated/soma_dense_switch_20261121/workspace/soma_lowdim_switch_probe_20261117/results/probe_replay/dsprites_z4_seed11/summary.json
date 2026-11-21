@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "dataset": "dsprites",
+  "seed": 11,
+  "latent_dim": 4,
+  "anchor": 900,
+  "causal_first_step": 900,
+  "head_sha256": "67c710285283d097f3361003f8389980ade6d6eec16b23c7eb670f9b5d3a379f",
+  "original_anchor_metrics_exact": 6,
+  "rows": 540,
+  "main_model_updates": 0,
+  "source_immutable": true,
+  "source_case": "/Users/rosyun/Documents/Codex/2026-11-10/ze/outputs/soma_lowdim_switch_probe_20261117/results/lowdim_switch_001/dsprites_z4_seed11",
+  "wall_seconds": 62.17790062492713
+}

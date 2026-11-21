@@ -1,0 +1,78 @@
+{"status": "rendered", "parents": 42, "frozen": 10, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 0, "frozen_replay_complete": 10, "new_optimizer_updates": 8401}
+{"status": "rendered", "parents": 42, "frozen": 13, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 0, "frozen_replay_complete": 13, "new_optimizer_updates": 9700}
+{"status": "rendered", "parents": 42, "frozen": 16, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 0, "frozen_replay_complete": 16, "new_optimizer_updates": 11100}
+{"status": "rendered", "parents": 43, "frozen": 18, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 1, "frozen_replay_complete": 18, "new_optimizer_updates": 12001}
+{"status": "rendered", "parents": 43, "frozen": 19, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 1, "frozen_replay_complete": 19, "new_optimizer_updates": 13400}
+{"status": "rendered", "parents": 44, "frozen": 20, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 2, "frozen_replay_complete": 20, "new_optimizer_updates": 14100}
+{"status": "rendered", "parents": 44, "frozen": 22, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 2, "frozen_replay_complete": 22, "new_optimizer_updates": 15500}
+{"status": "rendered", "parents": 44, "frozen": 23, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 2, "frozen_replay_complete": 23, "new_optimizer_updates": 16600}
+{"status": "rendered", "parents": 44, "frozen": 24, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 2, "frozen_replay_complete": 24, "new_optimizer_updates": 17700}
+{"status": "rendered", "parents": 44, "frozen": 25, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 2, "frozen_replay_complete": 25, "new_optimizer_updates": 18900}
+{"status": "rendered", "parents": 44, "frozen": 26, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 2, "frozen_replay_complete": 26, "new_optimizer_updates": 20200}
+{"status": "rendered", "parents": 45, "frozen": 28, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 3, "frozen_replay_complete": 28, "new_optimizer_updates": 21301}
+{"status": "rendered", "parents": 45, "frozen": 30, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 3, "frozen_replay_complete": 30, "new_optimizer_updates": 22700}
+{"status": "rendered", "parents": 46, "frozen": 30, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 4, "frozen_replay_complete": 30, "new_optimizer_updates": 24100}
+{"status": "rendered", "parents": 46, "frozen": 31, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 4, "frozen_replay_complete": 31, "new_optimizer_updates": 25300}
+{"status": "rendered", "parents": 47, "frozen": 31, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 5, "frozen_replay_complete": 31, "new_optimizer_updates": 28100}
+{"status": "rendered", "parents": 47, "frozen": 32, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 5, "frozen_replay_complete": 32, "new_optimizer_updates": 29201}
+{"status": "rendered", "parents": 48, "frozen": 32, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 6, "frozen_replay_complete": 32, "new_optimizer_updates": 35600}
+{"status": "rendered", "parents": 48, "frozen": 33, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 6, "frozen_replay_complete": 33, "new_optimizer_updates": 36800}
+{"status": "rendered", "parents": 49, "frozen": 33, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 7, "frozen_replay_complete": 33, "new_optimizer_updates": 42200}
+{"status": "rendered", "parents": 50, "frozen": 34, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 8, "frozen_replay_complete": 34, "new_optimizer_updates": 42901}
+{"status": "rendered", "parents": 50, "frozen": 35, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 8, "frozen_replay_complete": 35, "new_optimizer_updates": 44300}
+{"status": "rendered", "parents": 51, "frozen": 35, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 9, "frozen_replay_complete": 35, "new_optimizer_updates": 48200}
+{"status": "rendered", "parents": 51, "frozen": 36, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 9, "frozen_replay_complete": 36, "new_optimizer_updates": 49300}
+{"status": "rendered", "parents": 52, "frozen": 36, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 10, "frozen_replay_complete": 36, "new_optimizer_updates": 55901}
+{"status": "rendered", "parents": 52, "frozen": 37, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 10, "frozen_replay_complete": 37, "new_optimizer_updates": 56900}
+{"status": "rendered", "parents": 53, "frozen": 37, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 11, "frozen_replay_complete": 37, "new_optimizer_updates": 60000}
+{"status": "rendered", "parents": 53, "frozen": 38, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 11, "frozen_replay_complete": 38, "new_optimizer_updates": 61300}
+{"status": "rendered", "parents": 54, "frozen": 38, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 12, "frozen_replay_complete": 38, "new_optimizer_updates": 63700}
+{"status": "rendered", "parents": 54, "frozen": 39, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 12, "frozen_replay_complete": 39, "new_optimizer_updates": 64800}
+{"status": "rendered", "parents": 55, "frozen": 39, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 13, "frozen_replay_complete": 39, "new_optimizer_updates": 70401}
+{"status": "rendered", "parents": 55, "frozen": 40, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 13, "frozen_replay_complete": 40, "new_optimizer_updates": 71800}
+{"status": "rendered", "parents": 56, "frozen": 41, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 14, "frozen_replay_complete": 41, "new_optimizer_updates": 72901}
+{"status": "rendered", "parents": 57, "frozen": 41, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 15, "frozen_replay_complete": 41, "new_optimizer_updates": 79700}
+{"status": "rendered", "parents": 58, "frozen": 43, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 16, "frozen_replay_complete": 43, "new_optimizer_updates": 80200}
+{"status": "rendered", "parents": 59, "frozen": 43, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 17, "frozen_replay_complete": 43, "new_optimizer_updates": 85000}
+{"status": "rendered", "parents": 59, "frozen": 44, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 17, "frozen_replay_complete": 44, "new_optimizer_updates": 85600}
+{"status": "rendered", "parents": 60, "frozen": 44, "pngs": 12}
+{"event": "rendered", "status": "running", "new_training_complete": 18, "frozen_replay_complete": 44, "new_optimizer_updates": 90000}
+{"status": "rendered", "parents": 60, "frozen": 45, "pngs": 12}
+{"event": "rendered", "status": "complete", "new_training_complete": 18, "frozen_replay_complete": 45, "new_optimizer_updates": 90000}
